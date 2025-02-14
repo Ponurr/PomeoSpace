@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "ponur";
+  src: url("../../design/fonts/PPObjectSans-Heavy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.navigation {
+  width: 18vw;
+  background-color: transparent;
+  height: 80vw;
+  position: relative;
+  left: 0;
+  margin-top: 0.05vw;
+  top: -0.1vw;
+  border-top: none;
+  border-right: 0.3vw solid rgb(255, 255, 255);
+}
+.navigation .navigation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 18vw;
+}
+.navigation .navigation-container .navigation__container-content {
+  display: flex;
+  flex-direction: column;
+}
+.navigation .navigation-container .navigation__container-content span {
+  font-family: "ponur", sans-serif;
+  text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0);
+  color: white;
+  font-weight: 650;
+  letter-spacing: 0.1vw;
+  font-size: 1.3vw;
+}
+
+/*# sourceMappingURL=navigation.css.map */

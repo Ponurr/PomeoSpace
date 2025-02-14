@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+main {
+  margin-left: 11vw;
+  margin-right: 11vw;
+}
+
+/*# sourceMappingURL=index.css.map */

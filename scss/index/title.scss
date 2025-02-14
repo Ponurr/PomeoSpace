@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "ponur";
+    src: url("../../design/fonts/PPObjectSans-Heavy.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+ 
+  
+  .title {
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vw;
+
+    h1 {
+        font-family: "ponur", sans-serif;
+        text-transform: uppercase;
+       
+        align-content: center;
+        letter-spacing: 0.1vw;
+        color: #f5f5f5;
+
+      
+      }
+      h1::first-letter{
+        color: #000000 ;
+        text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+        font-size: 1.5vw;
+
+    }
+    span{
+        color: #000000 ;
+        text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+        font-size: 1.5vw;
+    }
+    
+  }
+  
+ 
+  
