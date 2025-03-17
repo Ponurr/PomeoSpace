@@ -1,0 +1,27 @@
+/* ../css/index/overlay.css */
+.overlay {
+    width: 100%;
+    height: 44vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.dot {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #808080;
+    width: 0.2vw;
+    height: 0.2vw;
+    opacity: 0;
+
+   
+    
+}
+
+
+@keyframes fade {
+    0% { opacity: 0; }
+    20% { opacity: 0.5; }
+    80% { opacity: 0.5; }
+    100% { opacity: 0; }
+}
