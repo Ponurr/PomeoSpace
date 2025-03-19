@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/index/navigation.css">
     <link rel="stylesheet" href="../css/index/overlay.css">
     <link rel="stylesheet" href="../css/index/slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   </head>
   <body>
    
@@ -60,28 +61,19 @@
 
 
 
-    <section class="slider">
-      <div class="slider-containercenter">
-
-
-        <div class="slider__containercenter-content">
-
-          <h1>ANIMATIONS</h1>
-          <P>Projekt PomeoAnimations zakłada stworzenie przestrzeni w której użytkownik może prosto skopiować wybrane animacje</P>
-
-
-        </div>
-
-
+    <div class="slider-container">
+      <button class="arrow arrow-left"><i class="fas fa-chevron-left"></i></button>
+      <div class="slider">
+          <div class="slide"><img src="https://via.placeholder.com/400" alt="Image 1"><span class="text-overlay">Tekst 1</span></div>
+          <div class="slide"><img src="../design/g4.png" alt="Image 2"><span class="text-overlay">G4bypomeo</span></div>
+          <div class="slide middle-slide"><img src="../design/image.png" alt="Image 3"><span class="text-overlay">Pomeo.pl</span></div>
+          <div class="slide"><img src="../design/pomeoanimation.png" alt="Image 4"><span class="text-overlay">Pomeoanimation</span></div>
+          <div class="slide"><img src="https://via.placeholder.com/400" alt="Image 5"><span class="text-overlay">Tekst 5</span></div>
       </div>
-
-
-      
-    </section>
-
-    <script src="../js/overlay.js"></script>
+      <button class="arrow arrow-right"><i class="fas fa-chevron-right"></i></button>
+  </div>
   </body>
 
 
-
+<script src="../js/slider.js"></script>
 </html>
