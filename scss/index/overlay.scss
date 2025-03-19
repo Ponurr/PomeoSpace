@@ -1,10 +1,34 @@
-/* ../css/index/overlay.css */
+
 .overlay {
     width: 100%;
     height: 44vw;
     position: relative;
-    overflow: hidden;
+    
+
+
+    
+
+    .overlay-spaceship{
+
+        position: absolute;
+        right: 0;
+        bottom: 0;  
+
+        
+        animation: flyAcross 7s linear infinite; // 6s duration, linear timing, infinite loop
+        
+        img {
+            width: 2vw;
+            // Ensure the image rotates around its center
+            transform-origin: center center;
+            rotate: -45deg;
+        }
+
+    
+    }
 }
+
+
 
 .dot {
     position: absolute;
@@ -24,4 +48,25 @@
     20% { opacity: 0.5; }
     80% { opacity: 0.5; }
     100% { opacity: 0; }
+}
+
+@keyframes flyAcross {
+    0% {
+        transform: translate(0, 0) rotate(18deg);  // Start at bottom-right
+    }
+    25% {
+        transform: translate(-25vw, -5.5vw) rotate(14deg);  // Slight upward movement
+    }
+    50% {
+        transform: translate(-50vw, -11vw) rotate(10deg);  // Halfway up
+    }
+    70% {
+        transform: translate(-70vw, -14vw) rotate(5deg);  // Start slow descent
+    }
+    85% {
+        transform: translate(-85vw, -15vw) rotate(0deg);  // Gradual downward tilt
+    }
+    100% {
+        transform: translate(-100vw, -16vw) rotate(-5deg);  // Smooth end lower with gentle tilt
+    }
 }
