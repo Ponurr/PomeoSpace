@@ -13,11 +13,12 @@
 
 .navbar {
   width: 100%;
-  height: 3vw;
-  background: linear-gradient(to bottom, #41414127, #000000);
+  height: 3.5vw;
+  background: linear-gradient(to bottom, #41414133, #000000);
+  
 
   .navbar-container {
-    width: 50%;
+    width: 30%;
 
     margin-left: 10vw;
 
@@ -41,7 +42,7 @@
       }
 
       span {
-        color: rgb(201, 201, 201);
+        color: rgb(214, 214, 214);
         font-family: "ponur2";
         font-size: 1vw;
 

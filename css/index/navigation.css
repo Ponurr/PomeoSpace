@@ -12,11 +12,11 @@
 }
 .navbar {
   width: 100%;
-  height: 3vw;
-  background: linear-gradient(to bottom, rgba(65, 65, 65, 0.1529411765), #000000);
+  height: 3.5vw;
+  background: linear-gradient(to bottom, rgba(65, 65, 65, 0.2), #000000);
 }
 .navbar .navbar-container {
-  width: 50%;
+  width: 30%;
   margin-left: 10vw;
 }
 .navbar .navbar-container .navbar__container-content {
@@ -37,7 +37,7 @@
   filter: grayscale(0);
 }
 .navbar .navbar-container .navbar__container-content span {
-  color: rgb(201, 201, 201);
+  color: rgb(214, 214, 214);
   font-family: "ponur2";
   font-size: 1vw;
   border-radius: 0.5vw;
