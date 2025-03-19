@@ -13,6 +13,7 @@
 .slider {
   width: 50vw;
   height: 30vw;
+  border-radius: 0.2vw;
   position: relative;
   top: -40vw;
   left: 50%;
@@ -22,16 +23,32 @@
   align-items: center;
   border: 0.2vw solid #EBEBEB;
 }
-.slider .slider-container1 {
+.slider .slider-containercenter {
+  border-radius: 0.1vw;
   width: 20vw;
   height: 25vw;
-  background-color: yellow;
-  border: 0.1vw solid #EBEBEB;
+  box-shadow: 0 0 0 0.01vw #EBEBEB;
 }
-.slider .slider-container1 .slider__container1-content {
+.slider .slider-containercenter .slider__containercenter-content {
+  margin-top: 0.5vw;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.slider .slider-containercenter .slider__containercenter-content h1 {
+  font-family: "ponur";
+  letter-spacing: 0.3vw;
+  font-weight: 3650;
+  color: #EBEBEB;
+}
+.slider .slider-containercenter .slider__containercenter-content p {
+  width: 17vw;
+  text-align: center;
+  font-family: "ponur2";
+  font-weight: 200;
+  letter-spacing: 0.1vw;
+  text-align: center;
+  color: #EBEBEB;
 }
 
 /*# sourceMappingURL=slider.css.map */
