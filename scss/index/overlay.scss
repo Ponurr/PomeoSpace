@@ -13,6 +13,7 @@
         position: absolute;
         right: 0;
         bottom: 0;  
+        z-index: 10;
 
         
         animation: flyAcross 7s linear infinite; // 6s duration, linear timing, infinite loop
@@ -52,21 +53,21 @@
 
 @keyframes flyAcross {
     0% {
-        transform: translate(0, 0) rotate(18deg);  // Start at bottom-right
+        transform: translate(0, 0) rotate(18deg);  
     }
     25% {
-        transform: translate(-25vw, -5.5vw) rotate(14deg);  // Slight upward movement
+        transform: translate(-25vw, -5.5vw) rotate(14deg);  
     }
     50% {
-        transform: translate(-50vw, -11vw) rotate(10deg);  // Halfway up
+        transform: translate(-50vw, -11vw) rotate(10deg);  
     }
     70% {
-        transform: translate(-70vw, -14vw) rotate(5deg);  // Start slow descent
+        transform: translate(-70vw, -14vw) rotate(5deg);  
     }
     85% {
-        transform: translate(-85vw, -15vw) rotate(0deg);  // Gradual downward tilt
+        transform: translate(-85vw, -15vw) rotate(0deg);  
     }
     100% {
-        transform: translate(-100vw, -16vw) rotate(-5deg);  // Smooth end lower with gentle tilt
+        transform: translate(-100vw, -16vw) rotate(-5deg);  
     }
 }
