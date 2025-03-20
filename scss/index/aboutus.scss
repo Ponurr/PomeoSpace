@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "ponur";
+    src: url("../../design/fonts/PPObjectSans-Heavy.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "ponur2";
+    src: url("../../design/fonts/Aceh-Light.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .about_us{
+   
+
+    .about_us-title{
+        margin-top: 2vw;
+        margin-left: 8vw;
+        
+
+        span{
+            color: white;
+            font-size: 3.5vw;
+            font-family: 'ponur';
+
+
+        }
+
+        p{
+            font-family: ponur2;
+            font-weight: 550;
+            width: 25vw;
+            color: white;
+            font-size: 1vw;
+        }
+    }
+
+  }
