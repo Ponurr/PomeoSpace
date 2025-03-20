@@ -42,7 +42,7 @@
 }
 @keyframes flyAcross {
   0% {
-    transform: translate(0, 0) rotate(18deg);
+    transform: translate(0, 0) rotate(17deg);
   }
   25% {
     transform: translate(-25vw, -5.5vw) rotate(14deg);
@@ -57,7 +57,7 @@
     transform: translate(-85vw, -15vw) rotate(0deg);
   }
   100% {
-    transform: translate(-100vw, -16vw) rotate(-5deg);
+    transform: translate(-100vw, -16vw) rotate(4deg);
   }
 }
 
