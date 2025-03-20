@@ -10,6 +10,7 @@
   bottom: 0;
   z-index: 10;
   animation: flyAcross 7s linear infinite;
+  filter: grayscale(20);
 }
 .overlay .overlay-spaceship img {
   width: 2vw;
@@ -20,7 +21,7 @@
 .dot {
   position: absolute;
   border-radius: 50%;
-  background-color: #808080;
+  background-color: #ffffff;
   width: 0.2vw;
   height: 0.2vw;
   opacity: 0;

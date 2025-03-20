@@ -16,11 +16,12 @@
         z-index: 10;
 
         
-        animation: flyAcross 7s linear infinite; // 6s duration, linear timing, infinite loop
+        animation: flyAcross 7s linear infinite; 
+        filter: grayscale(20);
         
         img {
             width: 2vw;
-            // Ensure the image rotates around its center
+          
             transform-origin: center center;
             rotate: -45deg;
         }
@@ -34,7 +35,7 @@
 .dot {
     position: absolute;
     border-radius: 50%;
-    background-color: #808080;
+    background-color: #ffffff;
     width: 0.2vw;
     height: 0.2vw;
     opacity: 0;
