@@ -55,18 +55,31 @@
     z-index: 1; 
 
     img {
-        width: 100%;
-        height: 100%;
+        margin-top: 6vw;
+        width: 20vw;
+        height: 15vw;
         object-fit: cover;
         border-radius: 1vw;
+        padding: 0.2vw;
+        
+    }
+    i{  
+        cursor: pointer; 
+        font-size: 1.5vw;
+        position: absolute;
+        bottom: 1vw;
+        right: 1vw;
+        
     }
 
     .text-overlay {
         position: absolute;
-        bottom: 70%;
-        font-size: 2rem;
-        background: rgba(0, 0, 0, 0.5);
-        padding: 1vw;
+        bottom: 80%;
+        font-size: 2vw;
+        text-shadow: 2.1vw  ;
+        text-transform: uppercase;
+        letter-spacing: 0.1vw;
+      
         border-radius: 1vw;
         opacity: 1;
         transition: opacity 0.5s ease-in-out;

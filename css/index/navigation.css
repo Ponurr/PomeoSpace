@@ -13,7 +13,7 @@
 .navbar {
   width: 100%;
   height: 3.5vw;
-  background: linear-gradient(to bottom, rgba(65, 65, 65, 0.2), #000000);
+  background: linear-gradient(to bottom, rgba(250, 250, 250, 0), #000000);
 }
 .navbar .navbar-container {
   width: 30%;
