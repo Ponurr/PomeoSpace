@@ -17,7 +17,7 @@
 }
 .navbar .navbar-container {
   width: 30%;
-  margin-left: 10vw;
+  margin-left: 10.8vw;
 }
 .navbar .navbar-container .navbar__container-content {
   height: 3vw;
@@ -28,7 +28,7 @@
 .navbar .navbar-container .navbar__container-content img {
   width: 2.7vw;
   position: absolute;
-  right: 20vw;
+  right: 13vw;
   filter: grayscale(5);
   transition: all 0.4s;
   cursor: pointer;
