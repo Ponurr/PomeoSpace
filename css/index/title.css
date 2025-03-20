@@ -17,6 +17,7 @@
   display: flex;
   justify-content: center;
   top: -40vw;
+  z-index: 20;
 }
 .title .title-content {
   position: relative;
