@@ -35,5 +35,45 @@
             font-size: 1vw;
         }
     }
+   .about-us-seperator{
+    display: flex;
+   width: 100%;
+   
+    
+    .about_us__seperator-line{
+      margin-top: 2vw;
+      margin-left: 5vw;
+      width: 90%;
+      height: 0.01vw;
+      transform: scaleY(0.1);
+     
+      background-color: black;
+
+      
+    }
+    .about-us__seperator-img{
+
+      width: 7vw;
+      height: 2vw;
+      background-color: rgb(255, 255, 255);
+      z-index: 10;
+      position: absolute;
+      transform: translateX(-50%);
+      margin-top: 0.7vw;
+      
+      left: 50%; 
+    img{
+      
+      position: absolute;
+      width: 4.5vw;
+      margin-top: -1.3vw;
+      left: 50%;              
+    transform: translateX(-50%);
+    
+    filter: grayscale(10);
+    
+    }
+  }
+  }
 
   }
