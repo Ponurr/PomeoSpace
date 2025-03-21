@@ -15,7 +15,7 @@
   z-index: 10;
   width: 100%;
   height: 3.5vw;
-  background-color: black;
+  background-color: #EBEBEB;
 }
 .navbar .navbar-container {
   width: 30%;
@@ -39,7 +39,7 @@
   filter: grayscale(0);
 }
 .navbar .navbar-container .navbar__container-content span {
-  color: rgb(214, 214, 214);
+  color: rgb(0, 0, 0);
   font-family: "ponur2";
   font-size: 1vw;
   border-radius: 0.5vw;

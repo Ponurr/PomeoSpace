@@ -40,7 +40,7 @@
 .slide {
     width: 20vw;
     height: 30vw;
-    background: #ccc;
+    background: #EBEBEB;
     border-radius: 2vw;
     margin: 0 1vw;
     display: flex;
@@ -110,7 +110,7 @@
         transition: opacity 0.5s ease-in-out;
     }
     &:not(.middle-slide) {
-        filter: blur(0.5vw) brightness(70%);
+        filter: blur(0.3vw) brightness(70%);
     }
 }
 
