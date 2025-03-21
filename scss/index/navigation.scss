@@ -46,7 +46,7 @@
 
       span {
         color: rgb(0, 0, 0);
-        font-family: "ponur2";
+        font-family: 'Roboto', sans-serif;
         font-size: 1vw;
 
         border-radius: 0.5vw;
@@ -57,7 +57,7 @@
         letter-spacing: 0.05vw;
 
         &:hover {
-          color: white;
+          color: rgb(74, 0, 104);
         }
       }
     }

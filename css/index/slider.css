@@ -86,6 +86,13 @@
   bottom: 1vw;
   right: 1vw;
 }
+.slide p {
+  color: BLACK;
+  font-size: 0.9vw;
+  position: absolute;
+  bottom: 75%;
+  font-family: "Ponur2";
+}
 .slide .text-overlay {
   position: absolute;
   bottom: 80%;
@@ -94,7 +101,7 @@
   text-transform: uppercase;
   letter-spacing: 0.1vw;
   color: black;
-  font-family: "ponur2";
+  font-family: "Roboto", sans-serif;
   font-weight: 1000;
   border-radius: 1vw;
   opacity: 1;
