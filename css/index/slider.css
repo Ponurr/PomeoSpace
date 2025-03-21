@@ -40,7 +40,7 @@
 .slide {
   width: 20vw;
   height: 30vw;
-  background: #ccc;
+  background: #ffffff;
   border-radius: 2vw;
   margin: 0 1vw;
   display: flex;
@@ -55,7 +55,7 @@
   z-index: 1;
 }
 .slide .slider-container-laptop {
-  margin-top: 6vw;
+  margin-top: 4vw;
   width: 25vw;
   height: 15vw;
   object-fit: cover;
@@ -63,7 +63,7 @@
   padding: 0.2vw;
 }
 .slide .slider-container-laptop-pomeo {
-  margin-top: 6vw;
+  margin-top: 3vw;
   margin-left: -1.5vw;
   width: 24vw;
   height: 15vw;
@@ -72,7 +72,7 @@
   padding: 0.2vw;
 }
 .slide .slider-container-iphone {
-  margin-top: 4.2vw;
+  margin-top: 1.8vw;
   margin-left: -2vw;
   width: 6vw;
   height: 11.5vw;
@@ -80,25 +80,57 @@
   padding: 0.2vw;
 }
 .slide i {
+  position: absolute;
+  color: black;
+  margin-top: 23vw;
+  margin-left: 26vw;
   cursor: pointer;
   font-size: 1.5vw;
   position: absolute;
-  bottom: 1vw;
-  right: 1vw;
 }
 .slide .text-overlay {
   position: absolute;
-  bottom: 80%;
-  font-size: 2vw;
+  margin-top: -21vw;
+  font-size: 1.3vw;
   text-shadow: 2.1vw;
   text-transform: uppercase;
   letter-spacing: 0.1vw;
   color: black;
-  font-family: "ponur2";
-  font-weight: 1000;
+  font-family: "ponur";
   border-radius: 1vw;
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
+}
+.slide .text-overlay2 {
+  position: absolute;
+  margin-top: -17vw;
+  font-size: 0.7vw;
+  text-shadow: 2.1vw;
+  text-transform: uppercase;
+  letter-spacing: 0.1vw;
+  color: black;
+  font-family: "ponur";
+  border-radius: 1vw;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+.slide .button-portfolio {
+  cursor: pointer;
+  position: absolute;
+  height: 2vw;
+  width: 9vw;
+  margin-top: 23vw;
+  border-radius: 1vw;
+  background-color: #fff;
+  border-color: #49006E;
+  font-size: 0.65vw;
+  font-family: "ponur";
+  transition: all 0.3s;
+}
+.slide button:hover {
+  border-color: #49006E;
+  border-bottom-color: #49006E;
+  background-color: rgba(247, 240, 240, 0.726);
 }
 .slide:not(.middle-slide) {
   filter: blur(0.5vw) brightness(70%);
@@ -125,8 +157,8 @@
   top: 50%;
   transform: translateY(-50%);
   font-size: 2vw;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  background: rgba(41, 41, 41, 0.5);
   border: none;
   cursor: pointer;
   padding: 1vw;
@@ -134,10 +166,10 @@
   transition: background 0.3s ease;
   z-index: 10;
   pointer-events: auto;
-  width: 4vw;
+  width: 4.3vw;
 }
 .arrow:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(0, 0, 0, 0.3);
 }
 .arrow i {
   font-size: 2vw;
