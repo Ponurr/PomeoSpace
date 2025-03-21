@@ -54,11 +54,28 @@
   overflow: hidden;
   z-index: 1;
 }
-.slide img {
+.slide .slider-container-laptop {
   margin-top: 6vw;
   width: 25vw;
   height: 15vw;
   object-fit: cover;
+  border-radius: 1vw;
+  padding: 0.2vw;
+}
+.slide .slider-container-laptop-pomeo {
+  margin-top: 6vw;
+  margin-left: -1.5vw;
+  width: 24vw;
+  height: 14vw;
+  object-fit: cover;
+  border-radius: 1vw;
+  padding: 0.2vw;
+}
+.slide .slider-container-iphone {
+  margin-top: 4.2vw;
+  margin-left: -2vw;
+  width: 6vw;
+  height: 11.5vw;
   border-radius: 1vw;
   padding: 0.2vw;
 }
