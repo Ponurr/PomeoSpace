@@ -12,10 +12,11 @@
 }
 .slider-container {
   position: absolute;
-  top: 30vw;
+  top: 48vw;
   left: 50%;
+  margin-left: 0.82vw;
   transform: translate(-50%, -50%);
-  width: 72.4vw;
+  width: 76vw;
   height: 36vw;
   display: flex;
   align-items: center;
@@ -162,7 +163,7 @@
 }
 
 .slide:not(.middle-slide) .text-overlay {
-  opacity: 0;
+  opacity: 0.9;
 }
 
 .arrow {

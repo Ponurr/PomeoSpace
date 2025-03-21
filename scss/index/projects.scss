@@ -11,11 +11,11 @@
     font-style: normal;
   }
 
-  .about_us{
-   
-  margin-top: 46vw;
+  .projects{
 
-    .about_us-title{
+    margin-top: -38vw;
+
+    .projects-title{
         margin-top: 2vw;
         margin-left: 8vw;
         
@@ -36,12 +36,12 @@
             font-size: 1vw;
         }
     }
-   .about-us-seperator{
+   .projects-seperator{
     display: flex;
    width: 100%;
    
     
-    .about_us__seperator-line{
+    .projects__seperator-line{
       margin-top: 2vw;
       margin-left: 5vw;
       width: 90%;
@@ -52,7 +52,7 @@
 
       
     }
-    .about-us__seperator-img{
+    .projects__seperator-img{
 
       width: 7vw;
       height: 2vw;
@@ -66,7 +66,7 @@
     img{
       
       position: absolute;
-      width: 4vw;
+      width: 4.5vw;
       margin-top: -1.5vw;
       left: 50%;              
     transform: translateX(-50%);

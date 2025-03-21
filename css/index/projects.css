@@ -10,30 +10,30 @@
   font-weight: normal;
   font-style: normal;
 }
-.about_us {
-  margin-top: 46vw;
+.projects {
+  margin-top: -38vw;
 }
-.about_us .about_us-title {
+.projects .projects-title {
   margin-top: 2vw;
   margin-left: 8vw;
 }
-.about_us .about_us-title span {
+.projects .projects-title span {
   color: rgb(0, 0, 0);
   font-size: 3.5vw;
   font-family: "ponur";
 }
-.about_us .about_us-title p {
+.projects .projects-title p {
   font-family: ponur2;
   font-weight: 550;
   width: 25vw;
   color: rgb(0, 0, 0);
   font-size: 1vw;
 }
-.about_us .about-us-seperator {
+.projects .projects-seperator {
   display: flex;
   width: 100%;
 }
-.about_us .about-us-seperator .about_us__seperator-line {
+.projects .projects-seperator .projects__seperator-line {
   margin-top: 2vw;
   margin-left: 5vw;
   width: 90%;
@@ -41,7 +41,7 @@
   transform: scaleY(0.1);
   background-color: black;
 }
-.about_us .about-us-seperator .about-us__seperator-img {
+.projects .projects-seperator .projects__seperator-img {
   width: 7vw;
   height: 2vw;
   background-color: rgb(255, 255, 255);
@@ -51,13 +51,13 @@
   margin-top: 0.7vw;
   left: 50%;
 }
-.about_us .about-us-seperator .about-us__seperator-img img {
+.projects .projects-seperator .projects__seperator-img img {
   position: absolute;
-  width: 4vw;
+  width: 4.5vw;
   margin-top: -1.5vw;
   left: 50%;
   transform: translateX(-50%);
   filter: grayscale(10);
 }
 
-/*# sourceMappingURL=aboutus.css.map */
+/*# sourceMappingURL=projects.css.map */

@@ -2,31 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>POMEOSPACE - Poznaj Naszą Przestrzeń</title>
-    <link rel="icon" type="image/x-icon" href="/design/POMEO-rat.png" />
-    <link rel="stylesheet" href="../css/index/index.css" />
-    <link rel="stylesheet" href="../css/index/title.css" />
-    <link rel="stylesheet" href="../css/index/navigation.css" />
-    <link rel="stylesheet" href="../css/index/overlay.css" />
-    <link rel="stylesheet" href="../css/index/slider.css" />
-    <link rel="stylesheet" href="../css/index/aboutus.css" />
+    <link rel="icon" type="image/x-icon" href="/design/POMEO-rat.png"/>
+    <link rel="stylesheet" href="../css/index/index.css"/>
+    <link rel="stylesheet" href="../css/index/title.css"/>
+    <link rel="stylesheet" href="../css/index/navigation.css"/>
+    <link rel="stylesheet" href="../css/index/overlay.css"/>
+    <link rel="stylesheet" href="../css/index/projects.css"/>
+    <link rel="stylesheet" href="../css/index/slider.css"/>
+    <link rel="stylesheet" href="../css/index/aboutus.css"/>
+    <link rel="stylesheet" href="../css/index/anchor.css"/>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
   </head>
   <body>
-    <section class="navbar">
-      <div class="navbar-container">
-        <div class="navbar__container-content">
-          <span> PROJEKTY</span>
+    <section class="navigation">
+      <div class="navigation-container">
+        <div class="navigation__container-content">
 
-          <span> WIĘCEJ O NAS</span>
+          <div class="navigation__container-content-logo"><a href="index.html"><img src="../design/POMEO-BLACK.png"></a></div>
 
-          <span> INNE STRONY</span>
+          <div class="navigation__container-content-subpages">
 
-          <img src="../design/POMEO-rat.png" />
+         <a href="#PROJEKTY"> <span>PROJEKTY</span></a><p class="subpages_seperator">|</p>
+         <a href="#ONAS"> <span>O NAS</span></a><p class="subpages_seperator">|</p>
+         <a href="./html/subpages/shape.html"> <span>....</span></a><p class="subpages_seperator">|</p>
+
+         <div class="navigation__container-content-subpages-icons">
+         <a href="https://pomeo.pl/" target="_blank"><div class="navigation__container-content-subpages-icons-website"><i class="fa-solid fa-globe"></i></div></a>
+         <a href="https://www.instagram.com/pomeo.pl/" target="_blank"><div class="navigation__container-content-subpages-icons-instagram"><i class="fa-brands fa-instagram"></i></div></a>
+         </div>
+
+        </div>
         </div>
       </div>
     </section>
@@ -43,7 +53,21 @@
       </div>
     </section>
 
+    <section class="projects">
+      <div class="projects-title">
+        <span id="PROJEKTY">PROJEKTY</span>
+        <p>
+          Nasze projekty to połączenie kreatywności i precyzji. Zobacz, jak pomagamy klientom osiągać ich cele.
+        </p>
+      </div>
 
+      <div class="projects-seperator">
+        <div class="projects__seperator-line">
+        
+        </div>
+      </div>
+      </div>
+      </section>
 
     <section class="slider-container">
       <button class="arrow arrow-left">
@@ -103,10 +127,11 @@
 
     <section class="about_us">
       <div class="about_us-title">
-        <span>O NAS</span>
+        <span id="ONAS">O NAS</span>
         <p>
-          Projekt POMEOSPACE zakłada stworzenie przestrzeni projektow bla bla
-          bla tutaj cos z ai dopiszemy fajnego
+          Projekt POMEOSPACE – zakłada stworzenie przestrzeni dla kreatywnych i innowacyjnych rozwiązań. 
+          To miejsce, gdzie prezentujemy nasze pomysły, testujemy nowe technologie i dzielimy się inspiracjami. 
+          Tworzymy, eksperymentujemy i rozwijamy projekty, aby dostarczać najlepsze rozwiązania.
         </p>
       </div>
 
@@ -122,6 +147,14 @@
     </div>
     </section>
 
+    <a href="#top" class="scroll-to-top" id="scrollToTop">
+      <path d="M12 8L16 12H8L12 8Z" fill="white"/>
+      <i class="fa-solid fa-chevron-up"></i>
+      <script src="/js/anchor.js"></script>
+    </a>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
     <script src="../js/overlay.js"></script>
     <script src="../js/slider.js"></script>
   </body>
