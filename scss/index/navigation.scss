@@ -16,7 +16,7 @@
   z-index: 10;
   width: 100%;
   height: 3.5vw;
-  background-color: black;
+  background-color: #EBEBEB;
   // background: linear-gradient(to bottom,  #000000, #000000);
   
 
@@ -45,8 +45,8 @@
       }
 
       span {
-        color: rgb(214, 214, 214);
-        font-family: "ponur2";
+        color: rgb(0, 0, 0);
+        font-family: 'Roboto', sans-serif;
         font-size: 1vw;
 
         border-radius: 0.5vw;
@@ -57,7 +57,7 @@
         letter-spacing: 0.05vw;
 
         &:hover {
-          color: white;
+          color: rgb(74, 0, 104);
         }
       }
     }

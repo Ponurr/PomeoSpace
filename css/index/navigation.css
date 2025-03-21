@@ -15,7 +15,7 @@
   z-index: 10;
   width: 100%;
   height: 3.5vw;
-  background-color: black;
+  background-color: #EBEBEB;
 }
 .navbar .navbar-container {
   width: 30%;
@@ -39,8 +39,8 @@
   filter: grayscale(0);
 }
 .navbar .navbar-container .navbar__container-content span {
-  color: rgb(214, 214, 214);
-  font-family: "ponur2";
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
   font-size: 1vw;
   border-radius: 0.5vw;
   padding: 0.2vw;
@@ -50,7 +50,7 @@
   letter-spacing: 0.05vw;
 }
 .navbar .navbar-container .navbar__container-content span:hover {
-  color: white;
+  color: rgb(74, 0, 104);
 }
 
 /*# sourceMappingURL=navigation.css.map */

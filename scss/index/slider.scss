@@ -40,7 +40,7 @@
 .slide {
     width: 20vw;
     height: 30vw;
-    background: #ffffff;
+    background: #EBEBEB;
     border-radius: 2vw;
     margin: 0 1vw;
     display: flex;
@@ -96,6 +96,14 @@
         
     }
 
+    p{
+        color: BLACK;
+        font-size: 0.9vw;
+        position: absolute;
+        bottom: 75%;
+        font-family: 'Ponur2', ;
+    }
+
     .text-overlay {
         position: absolute;
         margin-top: -21vw;
@@ -149,7 +157,7 @@
 
 
     &:not(.middle-slide) {
-        filter: blur(0.5vw) brightness(70%);
+        filter: blur(0.3vw) brightness(70%);
     }
 }
 
