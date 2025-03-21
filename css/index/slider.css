@@ -40,10 +40,11 @@
 .slide {
   width: 20vw;
   height: 30vw;
-  background: #EBEBEB;
+  background: #ffffff;
   border-radius: 2vw;
   margin: 0 1vw;
   display: flex;
+  border: 0.1vw solid black;
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
