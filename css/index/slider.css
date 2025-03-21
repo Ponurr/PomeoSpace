@@ -40,10 +40,16 @@
 .slide {
   width: 20vw;
   height: 30vw;
-  background: #EBEBEB;
+  aspect-ratio: 960/540;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position: center -2.5vw;
+  background-image: url(../../design/slider-background.png);
   border-radius: 2vw;
   margin: 0 1vw;
   display: flex;
+  border: 0.1vw solid black;
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
@@ -97,12 +103,12 @@
 }
 .slide .text-overlay {
   position: absolute;
-  margin-top: -21vw;
+  margin-top: -23vw;
   font-size: 1.3vw;
   text-shadow: 2.1vw;
   text-transform: uppercase;
   letter-spacing: 0.1vw;
-  color: black;
+  color: rgb(255, 255, 255);
   font-family: "ponur";
   border-radius: 1vw;
   opacity: 1;
@@ -110,12 +116,12 @@
 }
 .slide .text-overlay2 {
   position: absolute;
-  margin-top: -17vw;
+  margin-top: -19.5vw;
   font-size: 0.7vw;
   text-shadow: 2.1vw;
   text-transform: uppercase;
   letter-spacing: 0.1vw;
-  color: black;
+  color: rgb(255, 255, 255);
   font-family: "ponur";
   border-radius: 1vw;
   opacity: 1;
