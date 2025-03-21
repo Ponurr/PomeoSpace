@@ -1,0 +1,210 @@
+.menu {
+  width: 96.5vw, 97vw, 97.5vw;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+.menu .menu__logo {
+  position: absolute;
+  margin-left: 0.4vw;
+  max-width: 1clamp 2vw, 2vw, 2vw;
+  margin-top: 0.8vw;
+  margin-bottom: 0.8vw;
+  display: flex;
+  align-items: center;
+}
+.menu .menu__logo .menu__logo-img {
+  width: clamp(80px, 30vw, 15vw);
+  height: auto;
+}
+.menu .menu__phone {
+  position: absolute;
+  left: 27vw;
+  right: 0.521vw;
+  display: flex;
+  align-items: center;
+  gap: 0.521vw;
+  margin-left: 27.188vw;
+}
+.menu .menu__phone .icon-phone {
+  font-size: 1.3vw;
+}
+.menu .menu__phone span {
+  width: 3.49vw;
+  height: 0.729vw;
+  text-align: left;
+  font-size: clamp(0.1rem, 0.8vw, 7.5rem);
+  letter-spacing: -0.015vw;
+  display: flex;
+  color: #111111;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-left: 0.893vw;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+}
+.menu .menu__star {
+  position: absolute;
+  left: 64vw;
+  display: flex;
+  align-items: center;
+  gap: 0.521vw;
+}
+.menu .menu__star .icon-star {
+  font-size: 1.3vw;
+}
+.menu .menu__star span {
+  margin-left: 0.893vw;
+  width: 3.75vw;
+  height: 0.729vw;
+  text-align: left;
+  font-size: clamp(0.1rem, 0.8vw, 7.5rem);
+  letter-spacing: -0.015vw;
+  display: flex;
+  color: #111111;
+  text-transform: uppercase;
+  opacity: 1;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+}
+.menu .menu__person {
+  display: flex;
+  align-items: center;
+  gap: 0.521vw;
+}
+.menu .menu__person .icon-person {
+  position: absolute;
+  left: 74vw;
+  top: 2.8vw;
+  font-size: 1.3vw;
+}
+.menu .menu__person span {
+  position: absolute;
+  left: 75vw;
+  top: 3.1vw;
+  font-size: clamp(0.1rem, 0.8vw, 7.5rem);
+  margin-left: 0.972vw;
+  max-width: 19.792vw;
+  height: 0.729vw;
+  text-align: left;
+  display: flex;
+  letter-spacing: -0.015vw;
+  color: #111111;
+  text-transform: uppercase;
+  opacity: 1;
+  display: flex;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+}
+.menu .cart {
+  margin-top: 0.833vw;
+  margin-bottom: 0.833vw;
+  margin-right: 0.4vw;
+  border: 0.052vw solid #e1e2e8;
+  display: flex;
+  width: 20vw;
+  max-width: 13vw;
+  height: 3vw;
+}
+.menu .cart .icon-cart {
+  margin-left: 0.4vw;
+  font-size: 1.7vw;
+  margin-right: 0.4vw;
+  margin-top: 1vw;
+}
+.menu .cart .cart__info {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 0.521vw;
+}
+.menu .cart .cart__info .cart__info-wrapper {
+  position: relative;
+}
+.menu .cart .cart__info .cart__info-wrapper .cart__info-amount {
+  font-size: clamp(0.05rem, 0.6vw, 2.5rem);
+  color: #ffffff;
+  background: #9bcb3b;
+  border-radius: 0.104vw;
+  width: 1.3vw;
+  height: 0.8vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -0.833vw;
+  margin-left: -0.9vw;
+}
+.menu .cart .cart__info .cart__info-line {
+  width: 0.052vw;
+  height: 2.135vw;
+  background: #e1e2e8;
+}
+.menu .cart .cart__info .cart__info__price {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.104vw;
+}
+.menu .cart .cart__info .cart__info__price .cart__info__price-name {
+  font-size: clamp(0.1rem, 0.8vw, 7.5rem);
+  font-family: "Metropolis", sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  letter-spacing: -0.015vw;
+  color: #111111;
+}
+.menu .cart .cart__info .cart__info__price .cart__info__price-price {
+  font-size: clamp(0.1rem, 0.8vw, 7.5rem);
+  font-family: "Metropolis-regular", sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+  color: #111111;
+}
+.menu .cart__green-box {
+  width: 2.4vw;
+  height: 3.05vw;
+  background: #9bcb3b;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vw;
+    background-color: #ffffff;
+  }
+  .menu .menu__phone,
+  .menu .menu__star,
+  .menu .menu__person,
+  .menu .cart {
+    display: none;
+  }
+  .menu .menu__logo-img {
+    width: 28vw !important;
+    height: auto;
+  }
+}
+@media screen and (min-width: 769px) {
+  .menu__phone,
+  .menu__star,
+  .menu__person,
+  .cart {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=menu1.css.map */

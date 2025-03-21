@@ -1,0 +1,24 @@
+@use "_variables";
+.technical__support {
+    position: fixed;
+    bottom: 0; 
+    right: 1vw; 
+    background: linear-gradient(90deg, #6c2cff, #8b47ff); 
+    color: #ffffff; 
+    font-size: 0.69vw; 
+    font-weight: bold;
+    padding: 0.7vw 1.3vw; 
+    border-radius: 0.4vw 0.4vw 0 0; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    z-index: 999; 
+    cursor: pointer;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+    font-family: Exo\ 2, sans-serif;
+  
+    
+    &:hover {
+      transform: scale(1.0); 
+
+      background: linear-gradient(90deg,  #6e3ae9, #8f68d1); 
+    }
+  }

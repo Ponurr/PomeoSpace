@@ -1,0 +1,210 @@
+@font-face {
+  font-family: "ponur";
+  src: url("../design/fonts/Fontspring-DEMO-billie-bold.otf") format("otf") font-weight normal;
+  font-style: normal;
+}
+.menu4 {
+  border-top: 0.15vw solid rgba(97, 108, 135, 0.1450980392);
+  border-bottom: 0.15vw solid rgba(97, 108, 135, 0.1450980392);
+  align-items: center;
+  display: flex;
+  height: 2.5vw;
+  width: 100%;
+  background-color: #161921;
+}
+.menu4 .menu4__part1 {
+  height: 2.5vw;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25vw;
+  position: relative;
+}
+.menu4 .menu4__part1::after {
+  content: "";
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  right: 0;
+  height: 2.3vw;
+  width: 0.6vw;
+  background-color: rgba(97, 108, 135, 0.1450980392);
+  transform: scaleX(0.1);
+  transform-origin: right;
+}
+.menu4 .menu4__part1 .menu4__part1-top {
+  display: flex;
+  justify-content: center;
+}
+.menu4 .menu4__part1 .menu4__part1-icon {
+  margin-right: 0.3vw;
+}
+.menu4 .menu4__part1 .menu4__part1-icon span {
+  position: relative;
+  top: 0.15vw;
+  display: flex;
+  font-size: 0.7vw;
+  color: #b854fc;
+}
+.menu4 .menu4__part1 .menu4__part1-amount {
+  display: inline-block;
+  bottom: 0.2vw;
+}
+.menu4 .menu4__part1 .menu4__part1-amount p {
+  font-family: "ponur", sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 0.96vw;
+}
+.menu4 .menu4__part1 .menu4__part1-online {
+  position: relative;
+}
+.menu4 .menu4__part1 .menu4__part1-online p {
+  letter-spacing: 0.01vw;
+  color: #616c87;
+  font-family: "ponur", sans-serif;
+  font-size: 0.5vw;
+}
+.menu4 .menu4__part2 {
+  position: relative;
+  height: 2.5vw;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25vw;
+}
+.menu4 .menu4__part2::after {
+  content: "";
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  right: 0;
+  height: 2.3vw;
+  width: 0.6vw;
+  background-color: rgba(97, 108, 135, 0.1450980392);
+  transform: scaleX(0.1);
+  transform-origin: right;
+}
+.menu4 .menu4__part2 .menu4__part2-top {
+  display: flex;
+  justify-content: center;
+}
+.menu4 .menu4__part2 .menu4__part2-icon {
+  margin-right: 0.3vw;
+}
+.menu4 .menu4__part2 .menu4__part2-icon span {
+  position: relative;
+  top: 0.15vw;
+  display: flex;
+  font-size: 0.7vw;
+  color: #b854fc;
+}
+.menu4 .menu4__part2 .menu4__part2-amount {
+  display: inline-block;
+  bottom: 0.2vw;
+}
+.menu4 .menu4__part2 .menu4__part2-amount p {
+  font-family: "ponur", sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 0.96vw;
+}
+.menu4 .menu4__part2 .menu4__part2-players p {
+  letter-spacing: 0.01vw;
+  color: #616c87;
+  font-family: "ponur", sans-serif;
+  font-size: 0.5vw;
+}
+.menu4 .menu4__part3 {
+  position: relative;
+  height: 2.5vw;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25vw;
+}
+.menu4 .menu4__part3::after {
+  content: "";
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  right: 0;
+  height: 2.3vw;
+  width: 0.6vw;
+  background-color: rgba(97, 108, 135, 0.1450980392);
+  transform: scaleX(0.1);
+  transform-origin: right;
+}
+.menu4 .menu4__part3 .menu4__part3-top {
+  display: flex;
+  justify-content: center;
+}
+.menu4 .menu4__part3 .menu4__part3-icon {
+  margin-right: 0.3vw;
+}
+.menu4 .menu4__part3 .menu4__part3-icon span {
+  position: relative;
+  top: 0.15vw;
+  display: flex;
+  font-size: 0.7vw;
+  color: #b854fc;
+}
+.menu4 .menu4__part3 .menu4__part3-amount {
+  display: inline-block;
+  bottom: 0.2vw;
+}
+.menu4 .menu4__part3 .menu4__part3-amount p {
+  font-family: "ponur", sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 0.96vw;
+}
+.menu4 .menu4__part3 .menu4__part3-cases p {
+  letter-spacing: 0.01vw;
+  color: #616c87;
+  font-family: "ponur", sans-serif;
+  font-size: 0.5vw;
+}
+.menu4 .menu4__part4 {
+  height: 2.5vw;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25vw;
+}
+.menu4 .menu4__part4 .menu4__part4-top {
+  display: flex;
+  justify-content: center;
+}
+.menu4 .menu4__part4 .menu4__part4-icon {
+  margin-right: 0.3vw;
+}
+.menu4 .menu4__part4 .menu4__part4-icon span {
+  position: relative;
+  top: 0.15vw;
+  display: flex;
+  font-size: 0.7vw;
+  color: #b854fc;
+}
+.menu4 .menu4__part4 .menu4__part4-amount {
+  display: inline-block;
+  bottom: 0.2vw;
+}
+.menu4 .menu4__part4 .menu4__part4-amount p {
+  font-family: "ponur", sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 0.96vw;
+}
+.menu4 .menu4__part4 .menu4__part4-contract p {
+  letter-spacing: 0.01vw;
+  color: #616c87;
+  font-family: "ponur", sans-serif;
+  font-size: 0.5vw;
+}
+
+/*# sourceMappingURL=menu4.css.map */

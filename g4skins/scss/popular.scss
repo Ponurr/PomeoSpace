@@ -1,0 +1,293 @@
+.main__popular{
+
+    background: linear-gradient(#191a214d,#1f1b22,#291e22, #3b2225);
+    width: 78vw;
+    height: 18.5vw;
+    margin-bottom: 5vw; // do wyjebania
+    margin-top: 2vw;
+    border-radius: 1.5vw;
+}
+
+.main__populartop{
+
+    display: flex;
+    position: relative;
+    gap: 59.2vw;
+    
+}
+
+.main__populartop-text{
+
+    margin-left: 1.4vw;
+    margin-top: 1.2vw;
+    gap: 0.8vw;
+    display: flex;
+
+p{
+
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 1.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+span{
+    font-size: 1.2vw;
+    color: rgb(255, 94, 0);
+}
+
+}
+
+
+.main__populartop-button{
+
+    width: 8.2vw;
+    height: 2.3vw;
+    border-radius: 0.4vw;
+    margin-top: 0.6vw;
+    background-color: #101319;
+    border: #101319;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6vw;
+    cursor: pointer;
+    transition: background-color 0.35s ease, color 0.35s ease;
+    p{
+        font-weight: bold;
+        color: #FFFF;
+        font-size: 0.75vw;
+    }
+
+    i{
+
+        font-weight: bold;
+        color: #ffffff;
+        font-size: 0.8vw;
+    }
+}
+
+    .main__populartop-button:hover{
+    border-radius: 0.35vw;
+    background-color: #13151b; 
+    }
+
+
+.main__popularweapons{
+
+
+    display: flex;
+    gap: 0.8vw;
+    margin-left: 1.3vw;
+    margin-top: 0.8vw;
+    position: relative;
+  
+}
+
+
+.main__popularweapons-div-buy{
+
+    background-color: #5cd971;
+    width: 10.5vw;
+    height: 2.2vw;
+    border-radius: 0.4vw;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.7vw;
+    text-align: center;
+    position: absolute;
+    margin-top: 0.7vw;
+    display: flex;
+    gap: 0.6vw;
+
+    span{
+
+        font-size: 0.8vw;
+    }
+
+}
+
+.main__popularweapons-div-buy-text{
+
+    display: flex;
+    color: black;
+    font-weight: bold;
+    font-size: 0.7vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__popularweapons-wear{
+
+    position: absolute;
+    margin-top: -3vw;
+    margin-left: 10vw;
+    color: #7a8395;
+    font-weight: bold;
+    font-size: 0.6vw;
+}
+
+
+    .main__popularweapons-1{
+        background: url('../design/photos/weapon1.png') no-repeat;
+        border: #1a1d22;
+        height: 13.5vw;
+        width: 11.9vw;
+        position: relative;
+        background-size: 9vw;
+        background-position: 1.5vw 1vw;
+        cursor: pointer;
+    }
+
+    .main__popularweapons-1div{
+
+        background: linear-gradient(#14171d, #1f2126);
+        border-radius: 1vw;
+    }
+
+    .main__popularweapons-2{
+        background: url('../design/photos/weapon2.png') no-repeat;
+        border: #1c1830;
+        height: 13.5vw;
+        width: 11.9vw;
+        position: relative;
+        background-size: 9vw;
+        background-position: 1.5vw 1vw;
+        cursor: pointer;
+    }
+
+    .main__popularweapons-2div{
+
+        background: linear-gradient(#0f0c1a, #221b3a);
+        border-radius: 1vw;
+    }
+
+    .main__popularweapons-3{
+        background: url('../design/photos/weapon3.png') no-repeat;
+        border: #25162f;
+        height: 13.5vw;
+        width: 11.9vw;
+        position: relative;
+        background-size: 9vw;
+        background-position: 1.5vw 1vw;
+        cursor: pointer;
+    }
+
+    .main__popularweapons-3div{
+
+        background: linear-gradient(#16131f, #2d1636);
+        border-radius: 1vw;
+    }
+    .main__popularweapons-4{
+        background: url('../design/photos/weapon4.png') no-repeat;
+        border: #25162f;
+        height: 13.5vw;
+        width: 11.9vw;
+        position: relative;
+        background-size: 9vw;
+        background-position: 1.5vw 1vw;
+        cursor: pointer;
+    }
+
+    .main__popularweapons-4div{
+
+        background: linear-gradient(#16131f, #2d1636);
+        border-radius: 1vw;
+    }
+    .main__popularweapons-5{
+        background: url('../design/photos/weapon5.png') no-repeat;
+        border: #25162f;
+        height: 13.5vw;
+        width: 11.9vw;
+        position: relative;
+        background-size: 9vw;
+        background-position: 1.5vw 1vw;
+        cursor: pointer;
+    }
+
+    .main__popularweapons-5div{
+
+        background: linear-gradient(#16131f, #2d1636);
+        border-radius: 1vw;
+    }
+
+    .main__popularweapons-6{
+        background: url('../design/photos/weapon6.png') no-repeat;
+        border: #292816;
+        height: 13.5vw;
+        width: 11.9vw;
+        position: relative;
+        background-size: 9vw;
+        background-position: 1.5vw 1vw;
+        cursor: pointer;
+    }
+
+    .main__popularweapons-6div{
+
+        background: linear-gradient(#181918, #332f15);
+        border-radius: 1vw;
+    }
+
+
+    .main__popularweapons-text{
+
+        margin-left: 0.7vw;
+        margin-top: 3vw;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 0.12vw;
+        
+    }
+
+    .main__popularweapons-text-stattrak{
+
+        display: flex;
+        gap: 0.12vw
+    }
+
+    .main__popularweapons-money{
+        color: #ffffff;
+        font-size: 1vw;
+        font-weight: bold;
+    }
+
+    .main__popularweapons-name{
+        color: #a7a5a9;
+        font-size: 0.67vw;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .main__popularweapons-stattrak{
+
+        color: #f85239;
+        font-size: 0.67vw;
+        font-weight: bold;
+    }
+
+    .main__popularweapons-grey{
+        color: #6f6f6f;
+        font-size: 0.7vw;
+        font-weight: 750;
+    }
+
+    .main__popularweapons-purple{
+        color: #743eda;
+        font-size: 0.7vw;
+        font-weight: 750;
+    }
+
+    .main__popularweapons-pink{
+        color: #af29c0;
+        font-size: 0.7vw;
+        font-weight: 750;
+    }
+
+    .main__popularweapons-gold{
+        color: #fad200;
+        font-size: 0.7vw;
+        font-weight: 750;
+    }
+

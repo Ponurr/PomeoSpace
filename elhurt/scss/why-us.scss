@@ -1,0 +1,508 @@
+.hero_section {
+  position: relative;
+  width: 100%;
+  height: 40vw;
+  background-image: url("../IMG/photos/img_07.jpg");
+  background-size: cover;
+  background-position: center;
+  top: 3vw;
+}
+
+.hero_section-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    position: absolute;
+    margin-top: -28.667vw;
+    color: white;
+    text-align: center;
+    font-family: "Metropolis", sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 2.3vw;
+  }
+
+  p {
+    position: absolute;
+    top: 7vw;
+
+    text-align: center;
+    color: white;
+    letter-spacing: -0.019vw;
+    opacity: 1;
+    font-family: "Metropolis-regular", sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 1.3vw;
+    line-height: 1.5vw;
+
+    width: 83.333vw;
+    max-width: 90vw;
+  }
+
+  span {
+    text-align: center;
+    color: white;
+    letter-spacing: -0.019vw;
+    opacity: 1;
+    font-family: "Metropolis";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 0.9vw;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+}
+
+.hero-section__icons {
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  white-space: nowrap;
+
+  .hero-section__icon-wrapper {
+    margin: 6.7vw;
+
+    text-align: center;
+    opacity: 1;
+    position: relative;
+
+    &::before {
+    }
+    .hero-section__border1 {
+      position: absolute;
+      left: -10vw;
+
+      padding-bottom: 7vw;
+      padding-right: 15vw;
+      padding-top: 1vw;
+
+      opacity: 30%;
+
+      border: 0.104vw solid white;
+    }
+
+    .hero-section__border2 {
+      position: absolute;
+
+      left: -7.5vw;
+
+      padding-bottom: 7vw;
+      padding-right: 15vw;
+      padding-top: 1vw;
+      opacity: 30%;
+
+      border: 0.104vw solid white;
+    }
+    .hero-section__border3 {
+      position: absolute;
+      left: -5vw;
+
+      padding-bottom: 7vw;
+      padding-right: 15vw;
+      padding-top: 1vw;
+
+      opacity: 30%;
+
+      border: 0.104vw solid white;
+    }
+  }
+
+  .hero-section__text-icons1 {
+    position: absolute;
+
+    top: 5.5vw;
+    left: -6.5vw;
+
+    font-family: "Metropolis", sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 0.9vw;
+    margin: 0;
+    letter-spacing: -0.015vw;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .hero-section__text-icons2 {
+    position: absolute;
+
+    top: 5.5vw;
+    left: -5vw;
+
+    font-family: "Metropolis", sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 0.9vw;
+    margin: 0;
+    letter-spacing: -0.015vw;
+    text-transform: uppercase;
+    color: white;
+  }
+  .hero-section__text-icons3 {
+    position: absolute;
+
+    top: 5.5vw;
+    left: -2.5vw;
+
+    font-family: "Metropolis", sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 0.9vw;
+    margin: 0;
+    letter-spacing: -0.015vw;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .hero-section__icon {
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  .hero-section__icon-image1 {
+    padding-top: 2.083vw;
+    width: 2.083vw;
+    height: 1.406vw;
+    position: absolute;
+    left: -3.1vw;
+  }
+
+  .hero-section__icon-image2 {
+    padding-top: 2.083vw;
+    width: 2.083vw;
+    height: 1.406vw;
+    position: absolute;
+    left: -0.5vw;
+  }
+
+  .hero-section__icon-image3 {
+    padding-top: 2.083vw;
+    width: 2.083vw;
+    height: 1.406vw;
+    position: absolute;
+    left: 1.5vw;
+  }
+}
+
+.hero-section__red-line {
+  width: 5vw;
+  height: 0.2vw;
+  background: #f74137 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  align-items: center;
+  margin-top: -25.667vw;
+}
+
+.hero-section__border-line {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 0.05;
+  width: 100%;
+  height: 0.1vw;
+  position: absolute;
+  margin-top: -25.667vw;
+}
+
+.hero-section__button-wrapper {
+  position: absolute;
+  top: 34vw;
+}
+
+.hero-section__button {
+  width: 100%;
+  text-decoration: none;
+  padding: 1vw;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-size: 0.8vw;
+  line-height: 17px;
+
+  background: #f74137 0% 0% no-repeat padding-box;
+  opacity: 1;
+  text-align: center;
+  font-family: "Metropolis", sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  letter-spacing: -0.28px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .hero_section {
+    position: relative;
+    width: 100%;
+    height: 45vw !important;
+    background-image: url("../IMG/photos/img_07.jpg");
+    background-size: cover;
+    background-position: center;
+    top: 3vw;
+  }
+
+  .hero_section-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      position: absolute;
+      margin-top: -31.667vw !important;
+      color: white;
+      text-align: center;
+      font-family: "Metropolis", sans-serif;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: bold;
+      font-size: 4vw !important;
+    }
+
+    p {
+      position: absolute;
+      top: 9vw !important;
+
+      text-align: center;
+      color: white;
+      letter-spacing: -0.019vw;
+      opacity: 1;
+      font-family: "Metropolis-regular", sans-serif;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      font-size: 2vw !important;
+      line-height: 2.8vw !important;
+
+      width: 83.333vw;
+      max-width: 90vw;
+    }
+
+    span {
+      text-align: center;
+      color: white;
+      letter-spacing: -0.019vw;
+      opacity: 1;
+      font-family: "Metropolis";
+      font-style: normal;
+      font-variant: normal;
+      font-weight: bold;
+      font-size: 2vw;
+
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+    }
+  }
+
+  .hero-section__icons {
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    white-space: nowrap;
+
+    .hero-section__icon-wrapper {
+      margin: 8vw !important;
+
+      text-align: center;
+      opacity: 1;
+      position: relative;
+
+      &::before {
+      }
+      .hero-section__border1 {
+        position: absolute;
+        left: -10vw;
+
+        padding-bottom: 8vw;
+        padding-right: 16vw !important;
+        padding-top: 2vw !important;
+
+        opacity: 30%;
+
+        border: 0.104vw solid white;
+      }
+
+      .hero-section__border2 {
+        position: absolute;
+
+        left: -7.5vw;
+
+        padding-bottom: 8vw;
+        padding-right: 16vw !important;
+        padding-top: 2vw !important;
+
+        opacity: 30%;
+
+        border: 0.104vw solid white;
+      }
+      .hero-section__border3 {
+        position: absolute;
+        left: -6vw;
+
+        padding-bottom: 8vw;
+        padding-right: 16vw !important;
+        padding-top: 2vw !important;
+
+        opacity: 30%;
+
+        border: 0.104vw solid white;
+      }
+    }
+
+    .hero-section__text-icons1 {
+      position: absolute;
+
+      top: 6.5vw !important;
+      left: -7.6vw !important;
+
+      font-family: "Metropolis", sans-serif;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: bold;
+      font-size: 1.2vw !important;
+      margin: 0;
+      letter-spacing: -0.015vw;
+      text-transform: uppercase;
+      color: white;
+    }
+
+    .hero-section__text-icons2 {
+      position: absolute;
+
+      top: 6.5vw !important;
+      left: -6.5vw !important;
+
+      font-family: "Metropolis", sans-serif;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: bold;
+      font-size: 1.2vw !important;
+      margin: 0;
+      letter-spacing: -0.015vw;
+      text-transform: uppercase;
+      color: white;
+    }
+    .hero-section__text-icons3 {
+      position: absolute;
+
+      top: 6.5vw !important;
+      left: -4.4vw !important;
+
+      font-family: "Metropolis", sans-serif;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: bold;
+      font-size: 1.2vw !important;
+      margin: 0;
+      letter-spacing: -0.015vw;
+      text-transform: uppercase;
+      color: white;
+    }
+
+    .hero-section__icon {
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+
+    .hero-section__icon-image1 {
+      padding-top: 2.083vw !important;
+      width: 3.583vw !important;
+      height: 2.406vw !important;
+      position: absolute;
+      left: -3.5vw !important;
+    }
+
+    .hero-section__icon-image2 {
+      padding-top: 2.083vw !important;
+      width: 3.083vw !important;
+      height: 2.406vw !important;
+      position: absolute;
+      left: -0.8vw !important;
+    }
+
+    .hero-section__icon-image3 {
+      padding-top: 2.083vw !important;
+      width: 3.083vw !important;
+      height: 2.606vw !important;
+      position: absolute;
+      left: 0.6vw !important;
+    }
+  }
+
+  .hero-section__red-line {
+    width: 5vw;
+    height: 0.3vw !important;
+    background: #f74137 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    align-items: center;
+    margin-top: -25.667vw;
+  }
+
+  .hero-section__border-line {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 0.05;
+    width: 100%;
+    height: 0.2vw !important;
+    position: absolute;
+    margin-top: -25.667vw;
+  }
+
+  .hero-section__button-wrapper {
+    position: absolute;
+    top: 37vw !important;
+  }
+
+  .hero-section__button {
+    width: 100%;
+    text-decoration: none;
+    padding: 2vw !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+    font-size: 1.2vw !important;
+    line-height: 1.2vw !important;
+
+    background: #f74137 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    font-family: "Metropolis", sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    letter-spacing: -0.28px;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+}

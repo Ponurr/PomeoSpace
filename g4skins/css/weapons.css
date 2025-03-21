@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "ponur";
+  src: url("../design/fonts/Fontspring-DEMO-billie-bold.otf") format("otf") font-weight normal;
+  font-style: normal;
+}
+.main__weapons .main__weapons-title {
+  display: flex;
+  align-items: center;
+}
+.main__weapons .main__weapons-title .main__weapons__title-line1 {
+  cursor: pointer;
+  width: 78vw;
+  height: 0.1vw;
+  background: linear-gradient(to right, #3a4355, rgba(58, 67, 85, 0));
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.main__weapons .main__weapons-title .main__weapons__title-icon1 {
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+  width: 3vw;
+  height: 3vw;
+  background-color: #161921;
+  left: 13vw;
+}
+.main__weapons .main__weapons-title .main__weapons__title-icon1 img {
+  width: 2vw;
+  position: relative;
+  top: 0.6vw;
+  left: 0.6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__weapons .main__weapons-title .main__weapons__title-text {
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+  width: 7vw;
+  height: 1.5vw;
+  background-color: #161921;
+  left: 16vw;
+  font-size: 1.2vw;
+}
+.main__weapons .main__weapons-title .main__weapons__title-text span {
+  font-size: 1.2vw;
+  color: white;
+  font-family: "ponur", sans-serif;
+  font-weight: 600;
+}
+.main__weapons .main__weapons-title .main__weapons__title-icon2 {
+  font-size: 1.2vw;
+}
+.main__weapons .main__weapons-title .main__weapons__title-icon2 i {
+  font-size: 1.2vw;
+  cursor: pointer;
+  color: #f1f1f1;
+}
+.main__weapons .main__weapons-chests-line1 {
+  width: 78vw;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.main__weapons .main__weapons-chests-line1 .main__weapons__chests-milspec {
+  cursor: pointer;
+  margin-top: 2.5vw;
+  width: 12vw;
+  height: 12vw;
+  border-radius: 1vw;
+  border: 0.1vw solid #3a4355;
+  position: relative;
+}
+.main__weapons .main__weapons-chests-line1 .main__weapons__chests-milspec:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0.2vw solid;
+  border-color: rgba(91, 159, 254, 0.8);
+  border-radius: 10px;
+  box-sizing: border-box;
+  animation: move-border 4s linear infinite;
+  clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%);
+  animation: none;
+  pointer-events: none;
+  transition: clip-path 0s;
+}
+.main__weapons .main__weapons-chests-line1 .main__weapons__chests-milspec:hover:before {
+  animation: move-border 4s linear infinite;
+}
+@keyframes move-border {
+  0% {
+    clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
+  }
+  25% {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+  }
+  50% {
+    clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%);
+  }
+  75% {
+    clip-path: polygon(0% 0%, 0% 0%, 100% 100%, 0% 100%);
+  }
+  100% {
+    clip-path: polygon(0% 0%, 0% 0%, 100% 100%, 0% 0%);
+  }
+}
+.main__weapons .main__weapons-chests-line1 .main__weapons__chests-milspec .main__weapons__chests__milspec-png {
+  position: absolute;
+  left: -2vw;
+  top: -0.8vw;
+}
+.main__weapons .main__weapons-chests-line1 .main__weapons__chests-milspec .main__weapons__chests__milspec-png img {
+  width: 16vw;
+  height: auto;
+}
+.main__weapons .main__weapons-chests-line1 .main__weapons__chests-milspec .main__weapons__chests__milspec-name {
+  position: absolute;
+  align-items: center;
+  left: 1vw;
+  top: 10vw;
+  font-size: 0.8vw;
+}
+.main__weapons .main__weapons-chests-line1 .main__weapons__chests-milspec .main__weapons__chests__milspec-name span {
+  letter-spacing: 0.05vw;
+  color: white;
+  font-family: "ponur", sans-serif;
+  font-weight: 600;
+  font-size: 0.8vw;
+}
+.main__weapons .main__weapons-chests-line1 .main__weapons__chests-milspec .main__weapons__chests__milspec-price {
+  position: absolute;
+  align-items: center;
+  left: 8vw;
+  top: 10vw;
+  font-size: 0.8vw;
+}
+.main__weapons .main__weapons-chests-line1 .main__weapons__chests-milspec .main__weapons__chests__milspec-price span {
+  letter-spacing: 0.05vw;
+  color: #5dd871;
+  font-family: "ponur", sans-serif;
+  font-weight: 600;
+  font-size: 0.8vw;
+}
+
+/*# sourceMappingURL=weapons.css.map */

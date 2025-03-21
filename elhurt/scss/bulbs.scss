@@ -1,0 +1,607 @@
+.produkty {
+  margin-bottom: 5vw;
+}
+.recommended-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h2 {
+    font-size: 1.25vw;
+    font-weight: bold;
+    margin-bottom: 1vw;
+    position: relative;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 2.6vw;
+      height: 0.15vw;
+      background-color: #f00;
+      margin: 0.5vw auto 0;
+    }
+  }
+
+  .recommended-products__container {
+    display: flex;
+    gap: 1vw;
+    margin: 0 auto;
+    overflow-x: auto;
+
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    button.prev,
+    button.next {
+      background-color: #ccc;
+      border: none;
+
+      font-size: 0.73vw;
+      font-weight: bold;
+      cursor: pointer;
+      padding: 0.26vw;
+      width: 2.6vw;
+      height: 2.6vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 0.2vw;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #aaa;
+      }
+    }
+
+    .prev {
+      color: #f2f3f4;
+      z-index: 1;
+      position: absolute;
+      margin-left: -92.23vw;
+      margin-top: 13vw;
+    }
+    .next {
+      color: #f2f3f4;
+      z-index: 1;
+      margin-left: 92.23vw;
+      position: absolute;
+      margin-top: 13vw;
+    }
+
+    .recommended-products__carousel {
+      scrollbar-width: none;
+      scroll-snap-type: x mandatory;
+
+      overflow: hidden;
+      padding: 0.52vw;
+      width: clamp(93.75vw, 80vw, 302.08vw);
+
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+
+      .recommended-products__carousel-item {
+        flex: 0 0 17.19vw;
+
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        scroll-snap-align: start;
+
+        display: flex;
+      }
+
+      .product-card {
+        background: #fff;
+        border: 0.052vw solid #ddd;
+        border-radius: 0.42vw;
+        box-shadow: 0 0.1vw 0.42vw rgba(0, 0, 0, 0.1);
+        padding: 0.78vw;
+        text-align: center;
+        width: clamp(16.88vw, 14.2vw, 18.96vw);
+        height: 26.56vw;
+        position: relative;
+        overflow: hidden;
+        margin-right: 1vw;
+
+        &:hover {
+          .product-card__description,
+          .product-card__code,
+          .product-card__old-price,
+          .product-card__price {
+            transform: translateY(-1.04vw);
+            transition: transform 0.3s ease;
+          }
+        }
+
+        img.zarowka_1 {
+          margin-bottom: 0.52vw;
+          margin-top: 4.8vw;
+          width: 100%;
+          height: auto;
+
+          .product-card__hover-overlay {
+            display: none;
+          }
+
+          .product-card:hover .product-card__hover-overlay {
+            display: block;
+          }
+        }
+
+        .product-card__description {
+          font-size: 0.73vw;
+          color: #333;
+          margin: 0.52vw 0;
+          line-height: 0.73vw;
+          font-family: "Metropolis", sans-serif;
+
+          text-transform: uppercase;
+          font-style: normal;
+          font-variant: normal;
+          font-weight: bold;
+          letter-spacing: -0.0146vw;
+        }
+
+        .product-card__code {
+          margin-top: -0.52vw;
+          font-family: "Metropolis-regular";
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          letter-spacing: -0.0146vw;
+          color: #111111;
+          opacity: 1;
+          font-size: 0.73vw;
+          line-height: 1.04vw;
+        }
+
+        .product-card__price {
+          text-align: center;
+          font: normal normal bold 0.73vw/0.73vw Metropolis;
+          letter-spacing: -0.0146vw;
+          color: #111111;
+          opacity: 1;
+          display: block;
+        }
+
+        .product-card__hover-overlay {
+          position: absolute;
+          bottom: -4.17vw;
+          left: 0;
+          width: 100%;
+          height: 4.17vw;
+
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 0.78vw;
+          margin-left: 2vw;
+
+          transition: bottom 0.3s ease;
+
+          .product-card__quantity-controls {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            margin-left: 2vw;
+
+            button {
+              width: 1.2vw;
+              height: 2.6vw;
+              background: #f2f2f2;
+              border: 0.052vw solid #ccc;
+              border-radius: 0.21vw;
+              font-size: 0.94vw;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              cursor: pointer;
+
+              &:hover {
+                background: #e1e1e1;
+              }
+            }
+
+            .product-card__quantity-input {
+              width: 2.08vw;
+              height: 2.4vw;
+              text-align: center;
+              border: 0.052vw solid #ccc;
+              font-size: 0.8vw;
+
+              border-radius: 0.21vw;
+            }
+          }
+
+          .product-card__add-to-cart {
+            color: white;
+            width: 2.6vw;
+            height: 2.6vw;
+            display: flex;
+            position: absolute;
+            margin-left: 9.5vw;
+            background: #9bcb3b 0% 0% no-repeat padding-box;
+
+            align-items: center;
+            justify-content: center;
+            border-radius: 0.21vw;
+            cursor: pointer;
+
+            img {
+              width: 1.56vw;
+              filter: invert(1);
+            }
+
+            &:hover {
+              background: #7cb342;
+            }
+          }
+        }
+
+        &:hover .product-card__hover-overlay {
+          bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+img.zarowka_1 {
+  height: auto;
+  width: 100%;
+  max-width: 12.5vw;
+  margin-bottom: 0.52vw;
+  margin-top: 5.2vw;
+}
+
+.product-card__old-price {
+  font-family: "Metropolis-regular";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  letter-spacing: -0.0146vw;
+  color: #a3a3a3;
+  opacity: 1;
+  font-size: 0.73vw;
+  line-height: 1.04vw;
+  display: block;
+}
+
+.recommended-products__button-overlay {
+  position: absolute;
+
+  left: 38.5vw;
+  margin-top: 1.667vw;
+  margin-bottom: 1vw;
+
+  .recommended-products__cta-button {
+    text-decoration: none;
+    padding: clamp(0.083vw, 1.8vw, 3.5vw);
+    margin-left: -0.6vw !important;
+    padding-left: 2.2vw;
+    padding-right: 2.2vw;
+    font-size: 1.2vw;
+    line-height: 0.885vw;
+
+    background: #f74137 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    font-family: "Metropolis", sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    letter-spacing: -0.28px;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .produkty {
+    margin-bottom: 5vw;
+  }
+  .recommended-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+      font-size: 1.5vw;
+      font-weight: bold;
+      margin-bottom: 1vw;
+      position: relative;
+
+      &::after {
+        content: "";
+        display: block;
+        width: 2.6vw;
+        height: 0.15vw;
+        background-color: #f00;
+        margin: 0.5vw auto 0;
+      }
+    }
+
+    .recommended-products__container {
+      display: flex;
+      gap: 1vw;
+      margin: 0 auto;
+      overflow-x: auto;
+
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+
+      button.prev,
+      button.next {
+        background-color: #ccc;
+        border: none;
+
+        font-size: 1.5vw;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 0.26vw;
+        width: 4vw;
+        height: 4vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.2vw;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: #aaa;
+        }
+      }
+
+      .prev {
+        color: #f2f3f4;
+        z-index: 1;
+        position: absolute;
+        margin-left: -90.23vw;
+        margin-top: 14vw;
+      }
+      .next {
+        color: #f2f3f4;
+        z-index: 1;
+        margin-left: 90.23vw;
+        position: absolute;
+        margin-top: 14vw;
+      }
+
+      .recommended-products__carousel {
+        scrollbar-width: none;
+        scroll-snap-type: x mandatory;
+
+        overflow: hidden;
+        padding: 0.52vw;
+        width: clamp(93.75vw, 80vw, 302.08vw);
+
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        padding-left: 1vw;
+
+        .recommended-products__carousel-item {
+          flex: 0 0 30.19vw;
+
+          justify-content: center;
+          align-items: center;
+          flex-shrink: 0;
+          scroll-snap-align: start;
+
+          display: flex;
+        }
+
+        .product-card {
+          background: #fff;
+          border: 0.052vw solid #ddd;
+          border-radius: 0.42vw;
+          box-shadow: 0 0.1vw 0.42vw rgba(0, 0, 0, 0.1);
+          padding: 1vw;
+          text-align: center;
+          width: clamp(20vw, 28vw, 30vw);
+          height: 35.56vw;
+          position: relative;
+          overflow: hidden;
+          padding-right: 4vw;
+
+          &:hover {
+            .product-card__description,
+            .product-card__code,
+            .product-card__old-price,
+            .product-card__price {
+              transform: translateY(-1.04vw);
+              transition: transform 0.3s ease;
+            }
+          }
+
+          img.zarowka_1 {
+            margin-bottom: 0.52vw;
+            width: 100%;
+            height: auto;
+            margin-top: -1vw;
+
+            .product-card__hover-overlay {
+              display: none;
+            }
+
+            .product-card:hover .product-card__hover-overlay {
+              display: block;
+            }
+          }
+
+          .product-card__description {
+            font-size: 1.4vw;
+            color: #333;
+            margin: 0.52vw 0;
+            line-height: 1vw;
+            font-family: "Metropolis", sans-serif;
+
+            text-transform: uppercase;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: bold;
+            letter-spacing: -0.0146vw;
+            padding-bottom: -5vw;
+            margin-left: 2vw;
+          }
+
+          .product-card__code {
+            margin-top: 0.52vw;
+            font-family: "Metropolis-regular";
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            letter-spacing: -0.0146vw;
+            color: #111111;
+            opacity: 1;
+            font-size: 1.4vw;
+            line-height: 1.04vw;
+            margin-left: 2vw;
+          }
+
+          .product-card__price {
+            text-align: center;
+            font: normal normal bold 1.4vw/1.4vw Metropolis;
+            letter-spacing: -0.0146vw;
+            color: #111111;
+            opacity: 1;
+            display: block;
+            margin-top: 0.5vw;
+            margin-left: 2vw;
+          }
+
+          .product-card__hover-overlay {
+            position: absolute;
+            bottom: 0vw;
+            left: 0;
+            width: 100%;
+            height: 4.17vw;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 0.78vw;
+
+            transition: bottom 0.3s ease;
+
+            .product-card__quantity-controls {
+              position: absolute;
+              display: flex;
+              align-items: center;
+              margin-left: 6vw;
+              bottom: 0.8vw;
+              button {
+                width: 2vw;
+                height: 3.95vw;
+                background: #f2f2f2;
+                border: 0.052vw solid #ccc;
+                border-radius: 0.21vw;
+                font-size: 1.8vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+
+                &:hover {
+                  background: #e1e1e1;
+                }
+              }
+
+              .product-card__quantity-input {
+                width: 3vw;
+                height: 3.5vw;
+                text-align: center;
+                border: 0.052vw solid #ccc;
+                font-size: 1.8vw;
+
+                border-radius: 0.21vw;
+              }
+            }
+
+            .product-card__add-to-cart {
+              color: white;
+              width: 3.5vw;
+              height: 3.5vw;
+              display: flex;
+              position: absolute;
+              margin-left: 19.5vw;
+              background: #9bcb3b 0% 0% no-repeat padding-box;
+              bottom: 1.2vw;
+              align-items: center;
+              justify-content: center;
+              border-radius: 0.21vw;
+              cursor: pointer;
+
+              img {
+                width: 2.5vw;
+                filter: invert(1);
+              }
+
+              &:hover {
+                background: #7cb342;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  img.zarowka_1 {
+    height: auto;
+    width: 100%;
+    max-width: 20vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+  }
+
+  .product-card__old-price {
+    font-family: "Metropolis-regular";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: -0.0146vw;
+    color: #a3a3a3;
+    opacity: 1;
+    font-size: 1.4vw;
+    line-height: 1.04vw;
+    display: block;
+    margin-left: 2vw;
+  }
+
+  .recommended-products__button-overlay {
+    position: absolute;
+
+    left: 38.5vw;
+    margin-top: 1.667vw;
+    margin-bottom: 1vw;
+
+    .recommended-products__cta-button {
+      text-decoration: none;
+      padding: clamp(0.083vw, 2vw, 3.5vw);
+      margin-left: -1.9vw;
+      padding-left: 2vw;
+      padding-right: 2vw;
+      font-size: clamp(0.1rem, 1.2vw, 7.5rem);
+      line-height: 0.885vw;
+
+      background: #f74137 0% 0% no-repeat padding-box;
+      opacity: 1;
+      text-align: center;
+      font-family: "Metropolis", sans-serif;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: bold;
+      letter-spacing: -0.28px;
+      color: #ffffff;
+      text-transform: uppercase;
+      opacity: 1;
+    }
+  }
+}

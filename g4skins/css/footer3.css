@@ -1,0 +1,60 @@
+.footer3__socials {
+  height: 5vw;
+  width: 50vw;
+  margin-left: 11.7vw;
+  position: relative;
+  top: -2.8vw;
+  align-items: center;
+  display: flex;
+  gap: 1vw;
+  font-size: 1vw;
+}
+.footer3__socials-bar {
+  background-color: #8892a5;
+  height: 0.05vw;
+  margin: 0 1vw 0 1vw;
+  width: 5vw;
+  margin-top: 0.4vw;
+}
+.footer3__socials span {
+  font-size: 0.7vw;
+  color: #8892a5;
+  flex-wrap: nowrap;
+}
+.footer3__socials-photo {
+  width: 3.5vw;
+  height: 3.6vw;
+}
+.footer3__socials-photo2 {
+  width: 6vw;
+  height: 6vw;
+}
+.footer3__socials-photo3 {
+  width: 4.5vw;
+  height: 4.5vw;
+}
+
+.footer3__socials-elements {
+  scrollbar-color: rgba(92, 158, 224, 0.3) rgba(92, 158, 224, 0.1);
+  scrollbar-width: thin;
+  text-decoration: none;
+  text-rendering: geometricPrecision;
+  filter: grayscale(1);
+}
+.footer3__socials-elements:hover {
+  filter: grayscale(0);
+  transition: filter 0.35s ease, color 0.35s ease;
+}
+
+.footer3__separator {
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  grid-area: bar;
+  height: 0.1vw;
+  margin-top: -3vw;
+  margin-bottom: 12vw;
+  width: 78vw;
+  text-align: center;
+  margin-left: 11vw;
+}
+
+/*# sourceMappingURL=footer3.css.map */

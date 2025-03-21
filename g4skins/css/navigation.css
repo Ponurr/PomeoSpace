@@ -1,0 +1,117 @@
+.main__navigation {
+  display: flex;
+  gap: 0.9vw;
+  justify-content: center;
+  margin-top: 1.7vw;
+}
+
+.main__navigation-gemscase button {
+  background: url("..//design/icons/gemscase.png") no-repeat center;
+  background-color: rgba(35, 40, 51, 0.431372549);
+  background-size: 7vw;
+  border: none;
+  width: 25.3vw;
+  height: 4.4vw;
+  cursor: pointer;
+  background-position: right;
+  border-radius: 0.9vw;
+  padding: 1.2vw;
+  display: flex;
+  align-items: center;
+  gap: 0.6vw;
+  transition: filter 0.4s ease, color 0.4s ease, background-color 0.4s ease, color 0.4s ease;
+  filter: grayscale(65%);
+}
+.main__navigation-gemscase button:hover {
+  background-color: #222736;
+  filter: grayscale(0%);
+}
+.main__navigation-gemscase .main__navigation-gemscase-button-login {
+  width: 4.8vw;
+  height: 1.55vw;
+  border-radius: 0.25vw;
+  background-color: #263f38;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-color: #263f38;
+}
+.main__navigation-gemscase .main__navigation-gemscase-button-login p {
+  font-weight: bold;
+  font-size: 0.6vw;
+  color: #3dad50;
+}
+.main__navigation-gemscase p {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 0.9vw;
+}
+
+.main__navigation-destinycase button {
+  background: url("..//design/icons/destinycase.png") no-repeat center;
+  background-color: rgba(35, 40, 51, 0.431372549);
+  background-size: 7vw;
+  border: none;
+  width: 25.4vw;
+  height: 4.4vw;
+  cursor: pointer;
+  background-position: right;
+  border-radius: 0.9vw;
+  padding: 1.2vw;
+  display: flex;
+  align-items: center;
+  gap: 0.6vw;
+  transition: filter 0.4s ease, color 0.4s ease, background-color 0.4s ease, color 0.4s ease;
+  filter: grayscale(65%);
+}
+.main__navigation-destinycase button:hover {
+  background-color: #222736;
+  filter: grayscale(0%);
+}
+.main__navigation-destinycase .main__navigation-gemscase-button-login {
+  width: 4.8vw;
+  height: 1.55vw;
+  border-radius: 0.25vw;
+  background-color: #263f38;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-color: #263f38;
+}
+.main__navigation-destinycase .main__navigation-gemscase-button-login p {
+  font-weight: bold;
+  font-size: 0.6vw;
+  color: #3dad50;
+}
+.main__navigation-destinycase p {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 0.9vw;
+}
+
+.main__navigation-ranking button {
+  background: url("..//design/icons/ranking.png") no-repeat;
+  background-color: #1b212f;
+  background-size: 7vw;
+  border: none;
+  width: 25.3vw;
+  height: 4.4vw;
+  cursor: pointer;
+  background-position: right;
+  border-radius: 0.9vw;
+  padding: 1.2vw;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+.main__navigation-ranking button:hover {
+  background-color: #222736;
+}
+.main__navigation-ranking p {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 0.9vw;
+  text-align: left;
+}
+
+/*# sourceMappingURL=navigation.css.map */

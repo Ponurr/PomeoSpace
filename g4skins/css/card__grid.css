@@ -1,0 +1,77 @@
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1vw;
+  padding: 1vw;
+  margin-left: 10vw;
+  margin-right: 1vw;
+}
+.card-grid .card {
+  position: relative;
+  width: 14.8vw;
+  aspect-ratio: 4/3;
+  background-color: #1b2433;
+  border-radius: 0.5vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-image: url("../design/photos/Ratsy/ratsyblue.png");
+  background-size: cover;
+  background-position: center;
+}
+.card-grid .card-background::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+  z-index: -1;
+}
+.card-grid .card__image {
+  position: absolute;
+  top: 1vw;
+  left: 2vw;
+  width: 12vw;
+  height: 8vw;
+  object-fit: cover;
+  opacity: 1;
+}
+.card-grid .card__drop-rate {
+  position: absolute;
+  top: 0.5vw;
+  right: 0.5vw;
+  font-size: 0.6vw;
+  font-weight: bold;
+  color: #8892a5;
+  padding: 0.2vw 0.4vw;
+  border-radius: 0.3vw;
+  opacity: 0.9vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card-grid .card .card__text {
+  padding: 0.5vw;
+  text-align: left;
+}
+.card-grid .card .card__text-title {
+  font-size: 0.8vw;
+  color: #bfbfbf;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+}
+.card-grid .card .card__text-subtitle {
+  font-size: 0.7vw;
+  color: #4b69ff;
+  font-family: "Arial", sans-serif;
+  font-weight: normal;
+}
+
+/*# sourceMappingURL=card__grid.css.map */

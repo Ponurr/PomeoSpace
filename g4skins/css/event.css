@@ -1,0 +1,456 @@
+@font-face {
+  font-family: "ponur";
+  src: url("../design/fonts/Fontspring-DEMO-billie-bold.otf") format("otf") font-weight normal;
+  font-style: normal;
+}
+.main__event {
+  margin-top: 1vw;
+}
+.main__event .main__event-baner {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.main__event .main__event-baner .main__event__baner-baner {
+  align-items: center;
+  display: flex;
+}
+.main__event .main__event-baner .main__event__baner-baner img {
+  border-radius: 1vw 1vw 0 0;
+  width: 78vw;
+}
+.main__event .main__event-baner .main__event__baner-render1 {
+  position: absolute;
+  width: 15vw;
+  height: auto;
+  top: -1vw;
+}
+.main__event .main__event-baner .main__event__baner-render1 img {
+  width: 21vw;
+  height: 14vw;
+}
+.main__event .main__event-baner .main__event__baner-logo {
+  position: absolute;
+  left: 50%;
+  top: 5vw;
+  transform: translate(-50%, -50%);
+}
+.main__event .main__event-baner .main__event__baner-logo img {
+  width: 20vw;
+  height: 4vw;
+}
+.main__event .main__event-baner .main__event__baner-render2 {
+  position: absolute;
+  right: 1vw;
+  top: -1vw;
+}
+.main__event .main__event-baner .main__event__baner-render2 img {
+  width: 21vw;
+  height: 14vw;
+}
+.main__event .main__event-baner .main__event__baner-countdown .main__event__baner__countdown-days {
+  position: absolute;
+  width: 2.8vw;
+  height: 2.8vw;
+  border-radius: 0.5vw;
+  background-color: rgba(2, 2, 2, 0.527);
+  left: 27vw;
+  top: 8vw;
+}
+.main__event .main__event-baner .main__event__baner-countdown .main__event__baner__countdown-days span {
+  font-family: "ponur", sans-serif;
+  font-weight: 600;
+  position: relative;
+  top: 0.3vw;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1.3vw;
+}
+.main__event .main__event-baner .main__event__baner-countdown .main__event__baner__countdown-days p {
+  font-family: "ponur", sans-serif;
+  color: #b4a8a8;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 0.7vw;
+}
+.main__event .main__event-baner .main__event__baner-countdown .main__event__baner__countdown-hrs {
+  position: absolute;
+  width: 2.8vw;
+  height: 2.8vw;
+  border-radius: 0.5vw;
+  background-color: rgba(2, 2, 2, 0.527);
+  left: 30.5vw;
+  top: 8vw;
+}
+.main__event .main__event-baner .main__event__baner-countdown .main__event__baner__countdown-hrs span {
+  font-weight: 600;
+  font-family: "ponur", sans-serif;
+  position: relative;
+  top: 0.3vw;
+  font-size: 1.3vw;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.main__event .main__event-baner .main__event__baner-countdown .main__event__baner__countdown-hrs p {
+  font-family: "ponur", sans-serif;
+  color: #b4a8a8;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 0.7vw;
+}
+.main__event .main__event-baner .main__event__baner-countdown .main__event__baner__countdown-min {
+  position: absolute;
+  width: 2.8vw;
+  height: 2.8vw;
+  border-radius: 0.5vw;
+  background-color: rgba(2, 2, 2, 0.527);
+  left: 34vw;
+  top: 8vw;
+}
+.main__event .main__event-baner .main__event__baner-countdown .main__event__baner__countdown-min span {
+  font-weight: 600;
+  font-family: "ponur", sans-serif;
+  position: relative;
+  top: 0.3vw;
+  font-size: 1.3vw;
+  color: white;
+  justify-content: center;
+  display: flex;
+}
+.main__event .main__event-baner .main__event__baner-countdown .main__event__baner__countdown-min p {
+  font-family: "ponur", sans-serif;
+  color: #b4a8a8;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 0.7vw;
+}
+.main__event .main__event-baner .main__event__baner-countdown .main__event__baner__countdown-sec {
+  position: absolute;
+  width: 2.8vw;
+  height: 2.8vw;
+  border-radius: 0.5vw;
+  background-color: rgba(2, 2, 2, 0.527);
+  left: 37.5vw;
+  top: 8vw;
+}
+.main__event .main__event-baner .main__event__baner-countdown .main__event__baner__countdown-sec span {
+  font-weight: 600;
+  font-family: "ponur", sans-serif;
+  position: relative;
+  top: 0.3vw;
+  font-size: 1.3vw;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.main__event .main__event-baner .main__event__baner-countdown .main__event__baner__countdown-sec p {
+  font-family: "ponur", sans-serif;
+  color: #b4a8a8;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 0.7vw;
+}
+.main__event .main__event-baner .main__event__baner-button {
+  cursor: pointer;
+  width: 10vw;
+  height: 2.8vw;
+  position: absolute;
+  margin-left: 1vw;
+  border-radius: 0.5vw;
+  background-color: #ff1434;
+  left: 40.5vw;
+  top: 8vw;
+}
+.main__event .main__event-baner .main__event__baner-button span {
+  letter-spacing: 0.05vw;
+  font-weight: 600;
+  font-family: "ponur", sans-serif;
+  color: #ffffff;
+  top: 0.95vw;
+  right: 0.6vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 0.7vw;
+}
+.main__event .main__event-baner .main__event__baner-button i {
+  font-weight: 600;
+  color: #ffffff;
+  top: 0.05vw;
+  left: 3.5vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 1vw;
+}
+.main__event .main__event-baner .main__event__baner-button:hover {
+  background-color: #ff253f;
+}
+.main__event .main__event-sorting {
+  background-color: #1a1e2b;
+  width: 78vw;
+  height: 5vw;
+  border-radius: 0 0 1vw 1vw;
+  position: static;
+  display: flex;
+  align-items: center;
+}
+.main__event .main__event-sorting .main__event__sorting-categories {
+  position: static;
+  display: flex;
+  border-radius: 0.7vw;
+  width: 23vw;
+  height: 2.5vw;
+  margin-left: 1vw;
+}
+.main__event .main__event-sorting .main__event__sorting-categories .main__event__sorting-categories-official {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11.5vw;
+  height: 2.4vw;
+  background-color: #28344c;
+  border-top: 0.1vw solid #5a9ffe;
+  border-bottom: 0.1vw solid #5a9ffe;
+  border-left: 0.1vw solid #5a9ffe;
+  border-radius: 0.5vw 0 0 0.5vw;
+}
+.main__event .main__event-sorting .main__event__sorting-categories .main__event__sorting-categories-official span {
+  color: #5a9ffe;
+  font-size: 1vw;
+}
+.main__event .main__event-sorting .main__event__sorting-categories .main__event__sorting-categories-official p {
+  margin-left: 0.6vw;
+  color: #5a9ffe;
+  font-weight: 600;
+  font-family: "ponur", sans-serif;
+  font-size: 0.7vw;
+  letter-spacing: 0.01vw;
+}
+.main__event .main__event-sorting .main__event__sorting-categories .main__event__sorting-categories-users {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11.5vw;
+  height: 2.4vw;
+  border-top: 0.1vw solid #5a9ffe;
+  border-bottom: 0.1vw solid #5a9ffe;
+  border-right: 0.1vw solid #5a9ffe;
+  border-radius: 0 0.5vw 0.5vw 0;
+  transition: background-color 1.3s ease, border-color 1.3s ease, color 1.3s ease;
+}
+.main__event .main__event-sorting .main__event__sorting-categories .main__event__sorting-categories-users span {
+  color: #ffffff;
+  transition: color 0.3s ease;
+  font-size: 1vw;
+}
+.main__event .main__event-sorting .main__event__sorting-categories .main__event__sorting-categories-users p {
+  transition: color 0.3s ease;
+  margin-left: 0.6vw;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "ponur", sans-serif;
+  font-size: 0.7vw;
+  letter-spacing: 0.01vw;
+}
+.main__event .main__event-sorting .main__event__sorting-categories .main__event__sorting-categories-users:hover p {
+  color: #5a9ffe;
+}
+.main__event .main__event-sorting .main__event__sorting-categories .main__event__sorting-categories-users:hover span {
+  color: #5a9ffe;
+}
+.main__event .main__event-sorting .main__event__sorting-favorites {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.4vw;
+  width: 2.4vw;
+  background-color: #222634;
+  margin-left: 0.8vw;
+  border-radius: 0.5vw;
+  border: 0.1vw solid #616d86;
+  transition: background-color 1s ease, border-color 1s ease;
+}
+.main__event .main__event-sorting .main__event__sorting-favorites span {
+  transition: color 1s ease;
+  color: #616d86;
+  font-size: 1vw;
+}
+.main__event .main__event-sorting .main__event__sorting-favorites:hover {
+  background-color: #615a3f;
+  border-color: #ffe56c;
+}
+.main__event .main__event-sorting .main__event__sorting-favorites:hover span {
+  color: #ffe56c;
+}
+.main__event .main__event-sorting .main__event__sorting-sort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 11vw;
+  height: 2.4vw;
+  background-color: #181c24;
+  margin-left: 0.8vw;
+  border: 0.1vw solid #2f394e;
+  border-radius: 0.5vw;
+}
+.main__event .main__event-sorting .main__event__sorting-sort p {
+  text-align: start;
+  margin-left: 0.7vw;
+  color: #2f394e;
+  font-weight: 600;
+  font-family: "ponur", sans-serif;
+  font-size: 0.8vw;
+  letter-spacing: -0.031vw;
+}
+.main__event .main__event-sorting .main__event__sorting-sort i {
+  cursor: pointer;
+  color: #3f4c68;
+  margin-right: 0.7vw;
+  font-size: 0.7vw;
+}
+.main__event .main__event-sorting .main__event__sorting-sort:hover {
+  background-color: #13141c;
+  border-color: #616d86;
+}
+.main__event .main__event-sorting .main__event__sorting-sort:hover i {
+  color: #4e86d9;
+}
+.main__event .main__event-sorting .main__event__sorting-minprice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 5.5vw;
+  height: 2.4vw;
+  background-color: #181c24;
+  margin-left: 0.8vw;
+  border: 0.1vw solid #2f394e;
+  border-radius: 0.5vw;
+}
+.main__event .main__event-sorting .main__event__sorting-minprice p {
+  text-align: start;
+  margin-left: 0.7vw;
+  color: #2f394e;
+  font-weight: 600;
+  font-family: "ponur", sans-serif;
+  font-size: 0.8vw;
+  letter-spacing: -0.031vw;
+}
+.main__event .main__event-sorting .main__event__sorting-minprice i {
+  color: #3f4c68;
+  margin-right: 0.7vw;
+  font-size: 1vw;
+  cursor: pointer;
+}
+.main__event .main__event-sorting .main__event__sorting-minprice:hover {
+  background-color: #13141c;
+  border-color: #616d86;
+}
+.main__event .main__event-sorting .main__event__sorting-minprice:hover i {
+  color: #4e86d9;
+}
+.main__event .main__event-sorting .main__event__sorting-distributor {
+  width: 1.2vw;
+  height: 2.4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__event .main__event-sorting .main__event__sorting-distributor p {
+  color: #2f394e;
+  font-weight: 600;
+  font-size: 1.4vw;
+}
+.main__event .main__event-sorting .main__event__sorting-maxprice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 5.5vw;
+  height: 2.4vw;
+  background-color: #181c24;
+  border: 0.1vw solid #2f394e;
+  border-radius: 0.5vw;
+}
+.main__event .main__event-sorting .main__event__sorting-maxprice p {
+  text-align: start;
+  margin-left: 0.7vw;
+  color: #2f394e;
+  font-weight: 600;
+  font-family: "ponur", sans-serif;
+  font-size: 0.8vw;
+  letter-spacing: -0.031vw;
+}
+.main__event .main__event-sorting .main__event__sorting-maxprice i {
+  color: #3f4c68;
+  margin-right: 0.7vw;
+  font-size: 1vw;
+  cursor: pointer;
+}
+.main__event .main__event-sorting .main__event__sorting-maxprice:hover {
+  background-color: #13141c;
+  border-color: #616d86;
+}
+.main__event .main__event-sorting .main__event__sorting-maxprice:hover i {
+  color: #4e86d9;
+}
+.main__event .main__event-sorting .main__event__sorting-casename {
+  display: flex;
+  align-items: center;
+  width: 13.5vw;
+  height: 2.4vw;
+  background-color: #181c24;
+  margin-left: 0.8vw;
+  border: 0.1vw solid #2f394e;
+  border-radius: 0.5vw;
+  font-size: 0.8vw;
+}
+.main__event .main__event-sorting .main__event__sorting-casename p {
+  margin-left: 0.7vw;
+  color: #2f394e;
+  font-weight: 600;
+  font-family: "ponur", sans-serif;
+  font-size: 0.8vw;
+  letter-spacing: -0.031vw;
+}
+.main__event .main__event-sorting .main__event__sorting-casename i {
+  color: #3f4c68;
+  margin-top: 0.2vw;
+  font-size: 1vw;
+  cursor: pointer;
+}
+.main__event .main__event-sorting .main__event__sorting-casename .main__event__sorting__casename-icon1 {
+  margin-left: 0.8vw;
+}
+.main__event .main__event-sorting .main__event__sorting-casename .main__event__sorting__casename-icon2 {
+  margin-left: 5.6vw;
+}
+.main__event .main__event-sorting .main__event__sorting-casename:hover {
+  background-color: #13141c;
+  border-color: #616d86;
+}
+.main__event .main__event-sorting .main__event__sorting-casename:hover i {
+  color: #4e86d9;
+}
+.main__event .main__event-sorting .main__event__sorting-rubbericon {
+  cursor: pointer;
+  color: #3f4c68;
+  margin-left: 9.5vw;
+  font-size: 1.2vw;
+}
+.main__event .main__event-sorting .main__event__sorting-rubbericon:hover i {
+  color: #4e86d9;
+}
+
+/*# sourceMappingURL=event.css.map */

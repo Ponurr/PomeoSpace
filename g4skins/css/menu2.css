@@ -1,0 +1,199 @@
+@font-face {
+  font-family: "ponur";
+  src: url("../design/fonts/Fontspring-DEMO-billie-bold.otf") format("otf") font-weight normal;
+  font-style: normal;
+}
+.menu2__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3.4vw;
+  width: 100%;
+  background-color: #1b1f2b;
+}
+.menu2__navbar::before {
+  content: "";
+  position: absolute;
+  top: 3.51vw;
+  width: 99.42%;
+  height: 0.65vw;
+  background: linear-gradient(to bottom, #191c27 13%, #1b1f2b 100%);
+}
+
+.menu2__navbar-item {
+  padding: 0.3vw 0.6vw;
+  display: flex;
+  gap: 0.8vw;
+  margin-left: 0.7vw;
+}
+
+.menu2__navbar-itemdaily button {
+  cursor: pointer;
+  width: 6.5vw;
+  height: 1.9vw;
+  justify-content: center;
+  border-radius: 0.4vw;
+  background-color: #1f2536;
+  align-items: center;
+  border: 1vw;
+  border-color: rgba(63, 146, 255, 0.192);
+  display: flex;
+  gap: 0.4vw;
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+.menu2__navbar-itemdaily button:hover {
+  background-color: #212c40;
+}
+
+.menu2__navbar-itemdaily p {
+  font-weight: bold;
+  color: #599bf9;
+  display: flex;
+  font-size: 0.6vw;
+}
+
+.menu2__navbar-itemdaily span {
+  fill: #599bf9;
+  display: flex;
+  font-size: 0.7vw;
+  color: #599bf9;
+}
+
+.menu2__navbar-itemdaily:hover {
+  border-radius: 0.35vw;
+  background-color: rgba(63, 146, 255, 0.062);
+}
+
+.menu2__navbar-itempromo button {
+  cursor: pointer;
+  width: 7vw;
+  height: 1.9vw;
+  border-radius: 0.4vw;
+  justify-content: center;
+  background-color: #27292f;
+  align-items: center;
+  border-color: rgba(251, 255, 0, 0.144);
+  animation: border-blink 2s infinite;
+  display: flex;
+  gap: 0.4vw;
+  border-width: 0.105vw;
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+.menu2__navbar-itempromo button:hover {
+  background-color: #323332;
+}
+
+.menu2__navbar-itempromo p {
+  font-weight: bold;
+  color: #f9df6b;
+  font-size: 0.6vw;
+  display: flex;
+}
+
+.menu2__navbar-itempromo span {
+  fill: #f9df6b;
+  display: flex;
+  font-size: 0.6vw;
+  color: #f9df6b;
+}
+
+.menu2__navbar-itempromo:hover {
+  border-radius: 0.35vw;
+  background-color: rgba(251, 255, 0, 0.048);
+}
+
+@keyframes border-blink {
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(251, 255, 0, 0.637);
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+.menu2__navbar-itemexp button {
+  cursor: pointer;
+  border-color: #1f282f;
+  width: 6.25vw;
+  height: 1.9vw;
+  justify-content: center;
+  border-radius: 0.4vw;
+  border: 1vw;
+  background-color: #1f282f;
+  align-items: center;
+  display: flex;
+  gap: 0.4vw;
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+.menu2__navbar-itemexp button:hover {
+  background-color: #213233;
+}
+
+.menu2__navbar-itemexp p {
+  display: flex;
+  font-weight: bold;
+  color: #56c76b;
+  font-size: 0.6vw;
+}
+
+.menu2__navbar-itemexp span {
+  fill: #56c76b;
+  display: flex;
+  font-size: 0.6vw;
+  color: #56c76b;
+}
+
+.menu2__navbar-itemexp:hover {
+  border-radius: 0.35vw;
+  background-color: rgba(16, 255, 36, 0.041);
+}
+
+.menu2__navbar-socialmedia {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.2vw;
+  font-size: 1.2vw;
+}
+.menu2__navbar-socialmedia i {
+  color: #616d86;
+  font-size: 1.2vw;
+}
+.menu2__navbar-socialmedia i:hover {
+  color: #1da1f2;
+  transform: scale(1);
+}
+
+.menu2__navbar-socialmedia-facebook {
+  height: 1.1vw;
+}
+
+.menu2__navbar-socialmedia-instagram {
+  height: 1.1vw;
+}
+
+.menu2__navbar-socialmedia-x {
+  height: 1.1vw;
+}
+
+.menu2__navbar-socialmedia-tiktok {
+  height: 1.1vw;
+}
+
+.menu2__navbar-socialmedia-discord {
+  height: 1.1vw;
+}
+
+.menu2__seperator {
+  border: none;
+  height: 0.03vw;
+  background-color: #000000;
+}
+
+/*# sourceMappingURL=menu2.css.map */

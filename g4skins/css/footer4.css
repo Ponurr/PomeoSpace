@@ -1,0 +1,63 @@
+.footer4 {
+  font-size: 0.9vw;
+  margin-top: -12vw;
+  margin-left: 7vw;
+  margin-right: 6vw;
+}
+.footer4__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2vw;
+}
+.footer4__left {
+  max-width: 40vw;
+  line-height: 1.5;
+}
+.footer4__left-first {
+  font-size: 0.8vw;
+  font-weight: 550;
+  color: rgb(131, 131, 131);
+  margin-bottom: 1vw;
+  margin-top: -2vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer4__left-second {
+  font-size: 0.9vw;
+  font-weight: 530;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer4__right {
+  text-align: right;
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  font-size: 0.67vw;
+  color: #2e394f;
+  margin-top: -1vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer4__right p {
+  margin: 0 0 0.5vw 0;
+}
+.footer4__right-logo {
+  width: 3vw;
+  height: 1vw;
+  margin-top: -1vw;
+  margin-right: 2.3vw;
+}
+.footer4__right-logo img {
+  max-height: 5vw;
+  width: 5vw;
+  margin-top: -1.1vw;
+  margin-left: 0.2vw;
+  filter: grayscale(1);
+}
+.footer4__right-logo img:hover {
+  filter: grayscale(0);
+  transition: filter 0.35s ease, color 0.35s ease;
+}
+
+/*# sourceMappingURL=footer4.css.map */

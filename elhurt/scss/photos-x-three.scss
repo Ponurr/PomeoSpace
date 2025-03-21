@@ -1,0 +1,629 @@
+.pictures__box {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1.563vw;
+  width: calc(100% - 3.125vw);
+  height: auto;
+  gap: 1.563vw;
+
+  .pictures__box-wrapper {
+    flex: 1 1 calc(33.333% - 1.563vw);
+    max-width: calc(33.333% - 1.563vw);
+    position: relative;
+    overflow: hidden;
+
+    &:hover img {
+      transform: scale(1.1);
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0)
+      );
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .pictures__box-text1 {
+      position: absolute;
+      top: 17%;
+      left: 8%;
+      text-align: left;
+      color: #ffffff;
+      z-index: 2;
+      pointer-events: none;
+
+      p {
+        font-size: clamp(0.5rem, 2.3vw, 10.5rem);
+        line-height: 1.2vw;
+        font-family: "Metropolis", sans-serif;
+        font-weight: bold;
+      }
+    }
+
+    .pictures__box-text2 {
+      position: absolute;
+      top: 27%;
+      left: 8%;
+      text-align: left;
+      color: #ffffff;
+      z-index: 2;
+      pointer-events: none;
+
+      p {
+        font-size: clamp(0.5rem, 2.3vw, 10.5rem);
+
+        font-family: "Metropolis-Light", sans-serif;
+        font-weight: 300;
+      }
+    }
+    .pictures__box-button {
+      width: clamp(30%, 40%, 60%);
+      position: absolute;
+      top: 60%;
+      left: 8%;
+      z-index: 3;
+      pointer-events: auto;
+    }
+
+    .pictures__box__button-text {
+      padding-left: clamp(0.1vw, 2vw, 3vw);
+      padding-right: clamp(0.1vw, 2vw, 3vw);
+      padding-top: clamp(0.1vw, 1vw, 2vw);
+      padding-bottom: clamp(0.1vw, 1vw, 2vw);
+
+      font-size: clamp(0.1rem, 0.8vw, 7.5rem);
+      text-decoration: none;
+
+      background: transparent;
+      border: 0.052vw solid #ffffff;
+      color: #ffffff;
+      font-family: "Metropolis";
+      font-weight: bold;
+
+      letter-spacing: -0.015vw;
+      transition: background-color 0.3s, color 0.3s;
+
+      &:hover {
+        background: #ffffff;
+        color: #f74137;
+      }
+    }
+  }
+
+  .pictures__box2-wrapper {
+    flex: 1 1 calc(33.333% - 1.563vw);
+    max-width: calc(33.333% - 1.563vw);
+    position: relative;
+    overflow: hidden;
+
+    &:hover img {
+      transform: scale(1.1);
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0)
+      );
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .pictures__box2-text1 {
+      position: absolute;
+      top: 17%;
+      left: 8%;
+      text-align: left;
+      color: #ffffff;
+      z-index: 2;
+      pointer-events: none;
+
+      p {
+        font-size: clamp(0.5rem, 2.3vw, 10.5rem);
+        line-height: 1.2vw;
+        font-family: "Metropolis", sans-serif;
+        font-weight: bold;
+      }
+    }
+
+    .pictures__box2-text2 {
+      position: absolute;
+      top: 27%;
+      left: 8%;
+      text-align: left;
+      color: #ffffff;
+      z-index: 2;
+      pointer-events: none;
+
+      p {
+        font-size: clamp(0.5rem, 2.3vw, 10.5rem);
+        font-family: "Metropolis-Light", sans-serif;
+        font-weight: 300;
+      }
+    }
+
+    /* Przycisk */
+    .pictures__box2-button {
+      width: clamp(30%, 40%, 60%);
+      position: absolute;
+      top: 60%;
+      left: 8%;
+      z-index: 3;
+      pointer-events: auto;
+    }
+
+    .pictures__box2__button-text {
+      padding-left: clamp(0.1vw, 2vw, 3vw);
+      padding-right: clamp(0.1vw, 2vw, 3vw);
+      padding-top: clamp(0.1vw, 1vw, 2vw);
+      padding-bottom: clamp(0.1vw, 1vw, 2vw);
+
+      font-size: clamp(0.1rem, 0.8vw, 7.5rem);
+      text-decoration: none;
+
+      background: transparent;
+      border: 0.052vw solid #ffffff;
+      color: #ffffff;
+      font-family: "Metropolis";
+      font-weight: bold;
+
+      letter-spacing: -0.015vw;
+      transition: background-color 0.3s, color 0.3s;
+
+      &:hover {
+        background: #ffffff;
+        color: #f74137;
+      }
+    }
+  }
+
+  .pictures__box3-wrapper {
+    flex: 1 1 calc(33.333% - 1.563vw);
+    max-width: calc(33.333% - 1.563vw);
+    position: relative;
+    overflow: hidden;
+
+    &:hover img {
+      transform: scale(1.1);
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0)
+      );
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .pictures__box3-text1 {
+      position: absolute;
+      top: 17%;
+      left: 8%;
+      text-align: left;
+      color: #ffffff;
+      z-index: 2;
+      pointer-events: none;
+
+      p {
+        font-size: clamp(0.5rem, 2.3vw, 10.5rem);
+        line-height: 1.2vw;
+        font-family: "Metropolis", sans-serif;
+        font-weight: bold;
+      }
+    }
+
+    .pictures__box3-text2 {
+      position: absolute;
+      top: 27%;
+      left: 8%;
+      text-align: left;
+      color: #ffffff;
+      z-index: 2;
+      pointer-events: none;
+
+      p {
+        font-size: clamp(0.5rem, 2.3vw, 10.5rem);
+
+        line-height: 1.2;
+        font-family: "Metropolis-Light", sans-serif;
+        font-weight: 300;
+      }
+    }
+
+    .pictures__box3-button {
+      width: clamp(30%, 40%, 60%);
+      position: absolute;
+      top: 60%;
+      left: 8%;
+      z-index: 3;
+      pointer-events: auto;
+    }
+
+    .pictures__box3__button-text {
+      padding-left: clamp(0.1vw, 2vw, 3vw);
+      padding-right: clamp(0.1vw, 2vw, 3vw);
+      padding-top: clamp(0.1vw, 1vw, 2vw);
+      padding-bottom: clamp(0.1vw, 1vw, 2vw);
+
+      font-size: clamp(0.1rem, 0.8vw, 7.5rem);
+      text-decoration: none;
+      line-height: 1.2;
+
+      background: transparent;
+      border: 0.052vw solid #ffffff;
+      color: #ffffff;
+      font-family: "Metropolis";
+      font-weight: bold;
+
+      letter-spacing: -0.015vw;
+      transition: background-color 0.3s, color 0.3s;
+
+      &:hover {
+        background: #ffffff;
+        color: #f74137;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .pictures__box {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.563vw;
+    width: calc(100% - 1.563vw) !important;
+    height: auto;
+    gap: 1.563vw;
+    flex-direction: column !important;
+
+    .pictures__box-wrapper {
+      flex: 1 1 calc(100% - 1.563vw) !important;
+      max-width: calc(100% - 1.563vw) !important;
+      position: relative;
+      overflow: hidden;
+
+      &:hover img {
+        transform: scale(1.1);
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0)
+        );
+        pointer-events: none;
+        z-index: 1;
+      }
+
+      .pictures__box-text1 {
+        position: absolute;
+        top: 12%;
+        left: 10%;
+        text-align: left;
+        color: #ffffff;
+        z-index: 2;
+        pointer-events: none;
+
+        p {
+          font-size: clamp(10px, 5vw, 80px);
+          line-height: 1.2vw;
+          font-family: "Metropolis", sans-serif;
+          font-weight: bold;
+        }
+      }
+
+      .pictures__box-text2 {
+        position: absolute;
+        top: 22%;
+        left: 10%;
+        text-align: left;
+        color: #ffffff;
+        z-index: 2;
+        pointer-events: none;
+
+        p {
+          font-size: clamp(10px, 5vw, 80px);
+
+          font-family: "Metropolis-Light", sans-serif;
+          font-weight: 300;
+        }
+      }
+      .pictures__box-button {
+        width: clamp(30%, 40%, 60%);
+        position: absolute;
+        top: 55%;
+        left: 10%;
+        z-index: 3;
+        pointer-events: auto;
+      }
+
+      .pictures__box__button-text {
+        padding: 3vw !important;
+        padding-left: clamp(5px, 1vw, 50px);
+        padding-right: clamp(5px, 1vw, 50px);
+        padding-top: clamp(5px, 1vw, 50px);
+        padding-bottom: clamp(5px, 1vw, 50px);
+
+        font-size: clamp(10px, 2vw, 40px);
+        text-decoration: none;
+
+        background: transparent;
+        border: 0.052vw solid #ffffff;
+        color: #ffffff;
+        font-family: "Metropolis";
+        font-weight: bold;
+
+        letter-spacing: -0.015vw;
+        transition: background-color 0.3s, color 0.3s;
+
+        &:hover {
+          background: #ffffff;
+          color: #f74137;
+        }
+      }
+    }
+
+    .pictures__box2-wrapper {
+      flex: 1 1 calc(100% - 1.563vw) !important;
+      max-width: calc(100% - 1.563vw) !important;
+      position: relative;
+      overflow: hidden;
+
+      &:hover img {
+        transform: scale(1.1);
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0)
+        );
+        pointer-events: none;
+        z-index: 1;
+      }
+
+      .pictures__box2-text1 {
+        position: absolute;
+        top: 12%;
+        left: 10%;
+        text-align: left;
+        color: #ffffff;
+        z-index: 2;
+        pointer-events: none;
+
+        p {
+          font-size: clamp(10px, 5vw, 80px);
+          line-height: 1.2vw;
+          font-family: "Metropolis", sans-serif;
+          font-weight: bold;
+        }
+      }
+
+      .pictures__box2-text2 {
+        position: absolute;
+        top: 22%;
+        left: 10%;
+        text-align: left;
+        color: #ffffff;
+        z-index: 2;
+        pointer-events: none;
+
+        p {
+          font-size: clamp(10px, 5vw, 80px);
+
+          font-family: "Metropolis-Light", sans-serif;
+          font-weight: 300;
+        }
+      }
+
+      /* Przycisk */
+      .pictures__box2-button {
+        width: clamp(30%, 40%, 60%);
+        position: absolute;
+        top: 55%;
+        left: 10%;
+        z-index: 3;
+        pointer-events: auto;
+      }
+
+      .pictures__box2__button-text {
+        padding: 3vw !important;
+        padding-left: clamp(5px, 1vw, 50px);
+        padding-right: clamp(5px, 1vw, 50px);
+        padding-top: clamp(5px, 1vw, 50px);
+        padding-bottom: clamp(5px, 1vw, 50px);
+
+        font-size: clamp(10px, 2vw, 40px);
+        text-decoration: none;
+
+        background: transparent;
+        border: 0.052vw solid #ffffff;
+        color: #ffffff;
+        font-family: "Metropolis";
+        font-weight: bold;
+
+        letter-spacing: -0.015vw;
+        transition: background-color 0.3s, color 0.3s;
+        &:hover {
+          background: #ffffff;
+          color: #f74137;
+        }
+      }
+    }
+
+    .pictures__box3-wrapper {
+      flex: 1 1 calc(100% - 1.563vw) !important;
+      max-width: calc(100% - 1.563vw) !important;
+      position: relative;
+      overflow: hidden;
+
+      &:hover img {
+        transform: scale(1.1);
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0)
+        );
+        pointer-events: none;
+        z-index: 1;
+      }
+
+      .pictures__box3-text1 {
+        position: absolute;
+        top: 12%;
+        left: 10%;
+        text-align: left;
+        color: #ffffff;
+        z-index: 2;
+        pointer-events: none;
+
+        p {
+          font-size: clamp(10px, 5vw, 80px);
+          line-height: 1.2vw;
+          font-family: "Metropolis", sans-serif;
+          font-weight: bold;
+        }
+      }
+
+      .pictures__box3-text2 {
+        position: absolute;
+        top: 22%;
+        left: 10%;
+        text-align: left;
+        color: #ffffff;
+        z-index: 2;
+        pointer-events: none;
+
+        p {
+          font-size: clamp(10px, 5vw, 80px);
+
+          font-family: "Metropolis-Light", sans-serif;
+          font-weight: 300;
+        }
+      }
+
+      .pictures__box3-button {
+        width: clamp(30%, 40%, 60%);
+        position: absolute;
+        top: 55%;
+        left: 10%;
+        z-index: 3;
+        pointer-events: auto;
+      }
+
+      .pictures__box3__button-text {
+        padding: 3vw !important;
+        padding-left: clamp(5px, 1vw, 50px);
+        padding-right: clamp(5px, 1vw, 50px);
+        padding-top: clamp(5px, 1vw, 50px);
+        padding-bottom: clamp(5px, 1vw, 50px);
+
+        font-size: clamp(10px, 2vw, 40px);
+        text-decoration: none;
+
+        background: transparent;
+        border: 0.052vw solid #ffffff;
+        color: #ffffff;
+        font-family: "Metropolis";
+        font-weight: bold;
+
+        letter-spacing: -0.015vw;
+        transition: background-color 0.3s, color 0.3s;
+        &:hover {
+          background: #ffffff;
+          color: #f74137;
+        }
+      }
+    }
+    }
+  }
+

@@ -1,0 +1,79 @@
+.footer2__statistics-content {
+  background-color: #1b1f2b;
+  height: 5vw;
+  width: 78vw;
+  border-radius: 1.2vw;
+  margin-left: 11vw;
+  position: relative;
+  top: -2.8vw;
+  align-items: center;
+  display: flex;
+}
+
+.footer2__statistics-content-button {
+  position: absolute;
+  height: 2.8vw;
+  width: 14vw;
+  border-radius: 0.5vw;
+  margin-left: 62.8vw;
+  background-color: #212c41;
+  border-top: 0.1vw solid #5a9ffe;
+  border-bottom: 0.1vw solid #5a9ffe;
+  border-left: 0.1vw solid #5a9ffe;
+  border-right: 0.1vw solid #5a9ffe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6vw;
+  transition: background-color 0.35s ease, color 0.35s ease;
+  cursor: pointer;
+}
+.footer2__statistics-content-button p {
+  color: white;
+  font-weight: bold;
+  font-size: 0.75vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer2__statistics-content-button i {
+  color: #ffffff;
+  font-size: 0.75vw;
+}
+
+.footer2__statistics-content-button:hover {
+  background-color: #2e466b;
+}
+
+.footer2__statistics-content-alltext {
+  display: flex;
+  gap: 2.2vw;
+  margin-left: 1.2vw;
+  line-height: 1.4vw;
+  margin-top: 0.2vw;
+}
+.footer2__statistics-content-alltext i {
+  color: #5b9fff;
+  font-size: 1vw;
+  margin-top: 0.15vw;
+}
+
+.footer2__statistics-content-top {
+  display: flex;
+  gap: 0.4vw;
+  position: relative;
+}
+
+.footer2__statistics-content-top-text {
+  color: white;
+  font-size: 1.1vw;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer2__statistics-content-bottom-text {
+  color: #a7a7a9;
+  font-size: 0.55vw;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=footer2.css.map */

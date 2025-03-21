@@ -1,0 +1,103 @@
+.case__content {
+  margin-top: 2vw;
+}
+.case__content .case__content-title {
+  display: flex;
+  align-items: center;
+}
+.case__content .case__content-title .case__content__title-line1 {
+  cursor: pointer;
+  width: 60vw;
+  height: 0.1vw;
+  background: #3a4355;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.case__content .case__content-title .case__content__title-text {
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+  width: 14vw;
+  height: 2vw;
+  background-color: #161921;
+  left: 13.5vw;
+  font-size: 1.2vw;
+  display: block;
+}
+.case__content .case__content-title .case__content__title-text span {
+  font-size: 1.09vw;
+  color: white;
+  font-family: "ponur", sans-serif;
+  font-weight: 600;
+  margin-left: 0.4vw;
+  line-height: 1.5;
+}
+.case__content .case__content-title .case__content__title-text-text2 {
+  font-size: 0.5vw;
+  color: #8892a5;
+  font-family: "ponur", sans-serif;
+  font-weight: 200;
+  margin-left: 0.4vw;
+  display: block;
+}
+.case__content .case__content-title .case__content__title-line2 {
+  margin-right: 1vw;
+}
+.case__content .case__content-title .case__content__title-icon2 {
+  width: 17vw;
+  height: 2vw;
+  background-color: #161921;
+  font-size: 1.2vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.case__content .case__content-title .case__content__title-icon2 i {
+  font-size: 0.6vw;
+  cursor: pointer;
+  color: #8892a5;
+  margin-right: -39vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-right: 0.1vw;
+  display: block;
+}
+.case__content .case__content-title .case__content__title-icon2 .case__content__title-icon2-check button {
+  margin-right: -0.2vw;
+  cursor: pointer;
+  width: 8.3vw;
+  height: 2.5vw;
+  justify-content: center;
+  border-radius: 0.4vw;
+  background-color: #1f2536;
+  align-items: center;
+  border: 0.1vw solid #606d87;
+  display: flex;
+  gap: 0.4vw;
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+.case__content .case__content-title .case__content__title-icon2 .case__content__title-icon2-check button:hover {
+  background-color: #212c40;
+}
+.case__content .case__content-title .case__content__title-icon2 .case__content__title-icon2-check p {
+  font-weight: bold;
+  color: #f6f8fa;
+  display: flex;
+  font-size: 0.7vw;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.case__content .case__content-title .case__content__title-icon2 .case__content__title-icon2-check span {
+  fill: #cbcdcf;
+  display: flex;
+  font-size: 0.7vw;
+  color: #e5e8ec;
+}
+.case__content .case__content-title .case__content__title-icon2 .case__content__title-icon2-check:hover {
+  background-color: #ffffff;
+  border-radius: 1vw;
+}
+
+/*# sourceMappingURL=case__contents.css.map */

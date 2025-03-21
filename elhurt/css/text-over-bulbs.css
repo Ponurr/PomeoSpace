@@ -1,0 +1,37 @@
+.produkty {
+  max-width: 100vw;
+  background: #f2f3f4 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  width: 100%;
+  height: auto;
+  padding: 1.042vw 0;
+}
+.produkty .text_products {
+  width: 100%;
+  text-align: center;
+  font-size: clamp(0.5rem, 2.3vw, 10.5rem);
+  font-weight: bold;
+  line-height: 1.2;
+  color: #111111;
+  margin-bottom: 0.521vw;
+  font-family: "Metropolis";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+}
+.produkty .red_line {
+  width: 5vw;
+  height: 0.3vw;
+  background: #f74137 0% 0% no-repeat padding-box;
+  margin: 0 auto;
+  align-items: center;
+}
+.produkty .border_line {
+  background: #e1e2e8 0% 0% no-repeat padding-box;
+  width: clamp(100%, 100vw, 100%);
+  max-width: 100%;
+  height: 0.1vw;
+  margin: clamp(0.052vw, 5vw, -50px) auto;
+}
+
+/*# sourceMappingURL=text-over-bulbs.css.map */

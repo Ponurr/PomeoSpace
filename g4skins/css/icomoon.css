@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../design/fonts/icomoon.eot?wnmt6h");
+  src: url("../design/fonts/icomoon.eot?wnmt6h#iefix")
+      format("embedded-opentype"),
+    url("../design/fonts/icomoon.ttf?wnmt6h") format("truetype"),
+    url("../design/fonts/icomoon.woff?wnmt6h") format("woff"),
+    url("../design/fonts/icomoon.svg?wnmt6h#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-treasure-chest:before {
+  content: "\e900";
+}
+.icon-fist:before {
+  content: "\e902";
+}
+.icon-pen:before {
+  content: "\e903";
+}
+.icon-shopping-cart:before {
+  content: "\e904";
+}
+.icon-icon_02:before {
+  content: "\e901";
+}
+.icon-play3:before {
+  content: "\ea1c";
+}

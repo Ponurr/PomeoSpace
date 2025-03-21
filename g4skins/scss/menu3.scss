@@ -1,0 +1,239 @@
+@use '_variables';
+.header3 {
+  position: relative;
+  top: 0;
+  overflow: visible;
+  background-color: variables.$menu4_background;
+  height: auto; 
+  display: flex;
+  align-items: center;
+  margin-left: 0.3vw;
+  margin-right: 0.1vw;
+ 
+  
+  .header3__line {
+    width: clamp(0.1rem, 6.38vw, 4.5rem);
+    height: clamp(2rem, 4vh, 6.38vw); 
+    color: #6e6e6e;
+  }
+
+  .header3__menu-logo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8vw;
+    align-items: center;
+    margin-right: 1.9vw;
+    margin-left: 1.5vw;
+    position: relative;
+
+    &::before{
+      content: '';
+      position: absolute;
+      top: -3.7vw; 
+      bottom: -3.7vw; 
+      right: -1.88vw; 
+      width: 0.1vw;
+      height: auto; 
+      background-color: variables.$seperator_color; 
+
+
+    }
+    
+
+    & > *:not(:last-child) { 
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -0.4vw; 
+        left: -3vw;
+        right: 0;
+        height: 0.08vw;
+        width: 6.9vw; 
+        background-color: variables.$seperator_color; 
+        position: absolute;
+      }
+    }
+  }
+  .header3__menu-line{
+    width: clamp(0.02rem, 0.1vw, 0.2rem); 
+height: clamp(2rem, 18vh, 10.5rem); 
+background: variables.$seperator_color;
+  }
+  &__menu {
+    width: 2.6vw;
+    height: 2vw;
+    margin-top: -2.2vw;
+    right: -0.6vw;
+    font-size: 1.2vw;
+    color: rgb(67, 138, 230);
+  }
+
+  &__logo {
+    width: 1.32vw;
+    height: 1.5vw;
+    right: -1.1vw;
+    margin-top: 0.8vw;
+    margin-bottom: -2.7vw;
+    font-size: 0.8vw;
+    color: rgb(248, 248, 248); 
+    
+    &:hover {
+      color: rgb(67, 138, 230); 
+      transform: scale(1.1);   
+      transition: color 0.3s ease, transform 0.3s ease; 
+    }
+  }
+}
+.gallery {
+  display: flex;
+  justify-content: flex-start; 
+  gap: 0; 
+  padding: 0.1vw;
+  overflow: hidden;
+
+
+  &__item {
+    background-color: #1e1e1e;
+    flex: 0 0 8%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
+    background-image: url('../design/photos/Ratsy/ratsypurple.png'); 
+    background-size: cover;
+    background-position: center;
+    animation: scrollLeft 50s linear infinite; 
+    position: relative; 
+    overflow: hidden; 
+  
+    &__item-rat::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: inherit;
+      background-size: clamp(20%, 10vw, 40%); 
+      background-repeat: no-repeat;
+      background-position: center;
+      opacity: 0.5; 
+      z-index: -1;
+  }
+}
+
+  .gallery__item::before {
+    content: '';
+    position: absolute;
+    top: 15%; 
+    bottom: 15%; 
+    right: 0; 
+    width: 0.1vw; 
+    background-color: variables.$seperator_color; 
+  }
+
+
+  &__image {
+    max-width: 80%;
+    max-height: 80%;
+    margin-bottom: 0.5vw;
+  }
+
+  &__label {
+    font-size: clamp(0.1vw, 0.6vw, 5vw);
+    text-align: center;
+    color: #ccc;
+    font-weight: bold;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  &__condition-purple{
+    display: block;
+    color: rgb(136, 71, 255);
+    font-size: 0.75vw; 
+    margin-top: 0.2vw; 
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+  }
+  &__condition-pink{
+    display: block;
+    color: rgb(211, 46, 230);
+    font-size: 0.75vw; 
+    margin-top: 0.2vw; 
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  &__condition-red{
+    display: block;
+    color: rgb(235, 75, 75);
+    font-size: 0.75vw; 
+    margin-top: 0.2vw; 
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+  }
+  &__condition-purple{
+    display: block;
+    color: rgb(136, 71, 255);
+    font-size: 0.75vw; 
+    margin-top: 0.2vw; 
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+  }
+  &__condition-gold{
+    display: block;
+    color: rgb(255, 215, 0);
+    font-size: 0.75vw; 
+    margin-top: 0.2vw; 
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+  }
+
+  @keyframes scrollLeft {
+    0% {
+      transform: translateX(0);
+    }
+    10% {
+      transform: translateX(-300%);
+    }
+    20% {
+      transform: translateX(-600%);
+    }
+    30% {
+      transform: translateX(-900%);
+    }
+    40% {
+      transform: translateX(-1200%);
+    }
+    50% {
+      transform: translateX(-1500%);
+    }
+    60% {
+      transform: translateX(-1800%);
+    }
+    70% {
+      transform: translateX(-2100%);
+    }
+    80% {
+      transform: translateX(-2400%);
+    }
+    90% {
+      transform: translateX(-2700%);
+    }
+    100% {
+      transform: translateX(-3000%);
+    }
+  }
+}
+

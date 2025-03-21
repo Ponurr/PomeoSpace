@@ -1,0 +1,421 @@
+@use "_variables";
+@font-face {
+  font-family: "ponur";
+  src: url("../design/fonts/Fontspring-DEMO-billie-bold.otf") format("otf")
+    font-weight normal;
+  font-style: normal;
+}
+
+.menu1 {
+  
+  align-items: center;
+  display: flex;
+  height: 3.5vw;
+  position: relative;
+  width: 100%;
+  z-index: 11;
+  background-color: variables.$menu1_background;
+}
+
+a{
+
+  text-decoration: none;
+}
+
+.menu1__logo {
+  cursor: pointer;
+  display: flex;
+  margin-left: 0.7vw;
+  transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+ 
+
+  
+  img {
+    height: 3.7vw;
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    transform-origin: center left;
+  }
+
+  &:hover {
+    animation: bounceOnce 0.5s ease-out forwards;
+    transform: perspective(80vw) rotateX(10deg) rotateY(-10deg); 
+  }
+  @keyframes bounceOnce {
+    0% {
+      transform: perspective(80vw) rotateX(0deg) rotateY(0deg) scale(1); 
+      
+    }
+    40% {
+      transform: perspective(80vw) rotateX(5deg) rotateY(-5deg) scale(0.95); 
+    }
+    60% {
+      transform: perspective(80vw) rotateX(12deg) rotateY(-12deg)scale(0.90); 
+    }
+    100% {
+      transform: perspective(80vw) rotateX(10deg) rotateY(-10deg) scale(1); 
+    }
+  }
+  
+
+ 
+}
+
+.menu1__currency {
+  align-items: center;
+  display: flex;
+
+  .menu1__currency-country {
+    cursor: pointer;
+    display: flex;
+    margin-left: 0.9vw;
+    align-items: center;
+    margin-top: -0.1vw;
+    
+    border-radius: 50%;
+
+    img {
+      width: 0.84vw;
+      height: 0.84vw;
+    }
+  }
+
+  .menu1__currency-name {
+    cursor: pointer;
+    margin-left: 0.3vw;
+    display: flex;
+
+    span {
+      font-family: Arial, sans-serif;
+      color: #ffff;
+      font-weight: 600;
+      font-size: 0.8vw;
+    }
+  }
+  .menu1__currency-icon {
+    cursor: pointer;
+    margin-top: -0.22vw;
+    display: flex;
+    margin-left: 0.35vw;
+    transform: rotate(90deg);
+    transition: transform 0.3s ease;
+
+    &:hover{
+      transform: rotate(270deg);
+    }
+    
+
+    span {
+      color: #ffff;
+      font-size: 0.5vw;
+    }
+  }
+}
+.menu1__navigation {
+  align-items: center;
+  display: flex;
+  margin-left: auto;
+  gap: 1.3vw;
+  margin-right: 1.3vw;
+
+  .menu1__navigation-event {
+    cursor: pointer;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+    gap: 0.4vw;
+    position: relative;
+    transition: box-shadow 0.3s ease;
+   
+
+    span {
+      fill: #ee9b01;
+      display: flex;
+      font-size: 0.7vw;
+      color: #ee9b01;
+      
+    }
+    p {
+      letter-spacing: 0.08vw;
+      font-family: "ponur", sans-serif;
+      font-size: 0.58vw;
+      font-weight: 700;
+      display: flex;
+      color: #ee9b01;
+
+    }
+
+    &:hover::before {
+      content: ''; 
+      position: absolute;
+      top: -0.5vw; 
+      left: -0.5vw; 
+      right: -0.5vw; 
+      bottom: -0.5vw;
+      background-color: #161921; 
+      z-index: -1; 
+      border-radius: 1.2vw; 
+      transition: background-color 0.3s ease, transform 0.3s ease; 
+  }
+   
+  }
+ 
+  
+
+  .menu1__navigation-chests {
+
+    
+    cursor: pointer;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+    gap: 0.4vw;
+    position: relative;
+
+    span {
+      fill: #ffffff;
+      display: flex;
+      font-size: 0.7vw;
+      color: #ffffff;
+    }
+    p {
+      display: flex;
+      color: #ffffff;
+      letter-spacing: 0.08vw;
+      font-family: "ponur", sans-serif;
+      font-size: 0.58vw;
+      font-weight: 550;
+    }
+    &:hover::before {
+      content: ''; 
+      position: absolute;
+      top: -0.5vw; 
+      left: -0.5vw; 
+      right: -0.5vw; 
+      bottom: -0.5vw;
+      background-color: #161921; 
+      z-index: -1; 
+      border-radius: 1.2vw; 
+      transition: background-color 0.3s ease, transform 0.3s ease; 
+    }
+
+   
+    
+  }
+  .menu1__navigation-battles {
+
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+    gap: 0.4vw;
+
+    span {
+      transform: rotate(90deg);
+      display: flex;
+      font-size: 0.7vw;
+      color: #61d871;
+    }
+    p {
+      display: flex;
+      color: #61d871;
+      letter-spacing: 0.08vw;
+      font-family: "ponur", sans-serif;
+      font-size: 0.58vw;
+      font-weight: 550;
+    }
+    &:hover::before {
+      content: ''; 
+      position: absolute;
+      top: -0.5vw; 
+      left: -0.5vw; 
+      right: -0.5vw; 
+      bottom: -0.5vw;
+      background-color: #161921; 
+      z-index: -1; 
+      border-radius: 1.2vw; 
+      transition: background-color 0.3s ease, transform 0.3s ease; 
+    }
+    
+  }
+
+  .menu1__navigation-contract {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+    gap: 0.4vw;
+
+    span {
+      transform: rotate(90deg);
+      fill: #ffffff;
+      display: flex;
+      font-size: 0.7vw;
+      color: #ffffff;
+    }
+    p {
+      display: flex;
+      color: #ffffff;
+      letter-spacing: 0.08vw;
+      font-family: "ponur", sans-serif;
+      font-size: 0.58vw;
+      font-weight: 550;
+    }
+    &:hover::before {
+      content: ''; 
+      position: absolute;
+      top: -0.5vw; 
+      left: -0.5vw; 
+      right: -0.5vw; 
+      bottom: -0.5vw;
+      background-color: #161921; 
+      z-index: -1; 
+      border-radius: 1.2vw; 
+      transition: background-color 0.3s ease, transform 0.3s ease; 
+    }
+  }
+
+  .menu1__navigation-shop {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+    gap: 0.4vw;
+    margin-right: 1vw;
+
+    span {
+      fill: #ffffff;
+      display: flex;
+      font-size: 0.7vw;
+      color: #ffffff;
+    }
+    p {
+      display: flex;
+      color: #ffffff;
+      letter-spacing: 0.08vw;
+      font-family: "ponur", sans-serif;
+      font-size: 0.58vw;
+      font-weight: 550;
+    }
+    &:hover::before {
+      content: ''; 
+      position: absolute;
+      top: -0.5vw; 
+      left: -0.5vw; 
+      right: -0.5vw; 
+      bottom: -0.5vw;
+      background-color: #161921; 
+      z-index: -1; 
+      border-radius: 1.2vw; 
+      transition: background-color 0.3s ease, transform 0.3s ease; 
+    }
+  }
+
+}
+.menu1__steamlogin{
+  cursor: pointer;
+  
+  width: 10.3vw;
+  height: 2.2vw;
+  border-radius: 0.3vw;
+  background-color: #589404;
+  align-items: center;
+  display: flex;
+  right: 1vw;
+  position: relative;
+  
+  &::after {
+    content: '';
+    width: 9.2vw;
+    height: 1.7vw;
+    align-items: center;
+  display: flex;
+  
+    
+   
+   position: absolute;
+   left: -0.10vw;
+   transform-origin: center;
+   
+    
+    border: 0.63vw solid #497a0441;
+    border-radius: 0.6vw; 
+    animation: pulse 1.3s infinite; 
+  }
+
+
+
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1); 
+     opacity: 2;         
+    }
+    50% {
+      transform: scale(1.1); 
+      opacity: 1.4;          
+    }
+    60% {
+      transform: scale(1.15);
+      opacity: 0.5; 
+    }
+    70% {
+      transform: scale(1.17);
+      opacity: 0.2; 
+    }
+    100% {
+      transform: scale(1.18); 
+      opacity: 0;           
+    }
+  }
+
+  .menu1__steamlogin-icon{
+    display: flex;
+    align-items: center;
+    
+    img{
+      
+      width: 0.8vw;
+      height: 0.8vw;
+      margin-left: 0.99vw;
+      
+    }
+    span{
+      color: #ffff;
+      margin-left: 1vw;
+      font-size: 0.8vw;
+    }
+  }
+
+  .menu1__steamlogin-name{
+    display: flex;
+    align-items: center;
+    font-family:"ponur", sans-serif;
+    font-size: 0.75vw;
+    margin-left: 0.5vw;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.02vw;
+  }
+
+  .menu1__steamlogin-years{
+    display: flex;
+    align-items: center;
+    font-family:"ponur", sans-serif;
+    font-size: 0.75vw;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.02vw;
+    margin-left: 0.5vw;
+
+  }
+
+}
+
