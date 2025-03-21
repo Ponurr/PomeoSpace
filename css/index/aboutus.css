@@ -51,7 +51,7 @@
 .about_us .about-us-seperator .about-us__seperator-img img {
   position: absolute;
   width: 4.5vw;
-  margin-top: -1.3vw;
+  margin-top: -1.5vw;
   left: 50%;
   transform: translateX(-50%);
   filter: grayscale(10);
