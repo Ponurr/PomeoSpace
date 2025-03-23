@@ -170,6 +170,32 @@
     &:not(.middle-slide) {
         
         filter: blur(0.2vw) brightness(70%);
+        .text-overlay2{
+            visibility: hidden;
+        }
+
+        .text-overlay
+        {
+            font-size: 1.4vw;
+        }
+
+        .slider-container-laptop{
+
+            height: 12vw;
+            width: 18vw;
+        }
+
+        .slider-container-iphone{
+
+            visibility: hidden;
+        }
+
+        .slider-container-laptop-pomeo{
+
+            height: 12vw;
+            width: 18vw;
+            margin-left: 4vw;
+        }
     }
 }
 
