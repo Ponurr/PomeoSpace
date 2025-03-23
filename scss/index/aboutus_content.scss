@@ -127,7 +127,7 @@
                     width: 2.5vw;
                     height: 2.5vw;
                     background-color: rgb(243, 243, 243);
-                    border: 0.1vw solid black;
+                    
                     font-size: 1.6vw;
                     
                     &:nth-child(1){
@@ -266,7 +266,7 @@
                     border-radius: 1.5vw;
                     width: 2.5vw;
                     height: 2.5vw;
-                    border: 0.1vw solid black;
+                
                     background-color: rgb(255, 255, 255);
                     font-size: 1.6vw;
                     
@@ -393,6 +393,7 @@
                     align-items: center;
                     justify-content: space-evenly;
                     .about_us_content__container_2__buttons-container{
+                        top: -3vw;
                         width: 10vw;
                         display: flex;
                         
@@ -412,8 +413,8 @@
                         border-radius: 1.5vw;
                         width: 2.5vw;
                         height: 2.5vw;
-                        border: 0.1vw solid black;
-                        background-color: rgb(255, 255, 255);
+                       
+                       
                         font-size: 1.6vw;
                         
                         &:nth-child(1){

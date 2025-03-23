@@ -93,7 +93,6 @@
   width: 2.5vw;
   height: 2.5vw;
   background-color: rgb(243, 243, 243);
-  border: 0.1vw solid black;
   font-size: 1.6vw;
 }
 .about_us_content .about_us_content-container_1 .about_us_content__container_1-content .about_us_content__container_1-buttons .about_us_content__container_1__buttons-container i:nth-child(1) {
@@ -185,7 +184,6 @@
   border-radius: 1.5vw;
   width: 2.5vw;
   height: 2.5vw;
-  border: 0.1vw solid black;
   background-color: rgb(255, 255, 255);
   font-size: 1.6vw;
 }
@@ -264,6 +262,7 @@
   justify-content: space-evenly;
 }
 .about_us_content .about_us_content-container_3 .about_us_content__container_3-content .about_us_content__container_3-buttons .about_us_content__container_2__buttons-container {
+  top: -3vw;
   width: 10vw;
   display: flex;
   right: -8.5vw;
@@ -279,8 +278,6 @@
   border-radius: 1.5vw;
   width: 2.5vw;
   height: 2.5vw;
-  border: 0.1vw solid black;
-  background-color: rgb(255, 255, 255);
   font-size: 1.6vw;
 }
 .about_us_content .about_us_content-container_3 .about_us_content__container_3-content .about_us_content__container_3-buttons .about_us_content__container_2__buttons-container i:nth-child(1) {

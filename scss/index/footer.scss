@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "ponur";
+    src: url("../../design/fonts/PPObjectSans-Heavy.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.content__footer{
+    position: absolute;
+    aspect-ratio: 1080/300;
+    background-repeat: no-repeat;
+    background-color: #E8E8E8;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../design/layered-waves-footer-transparent.svg);
+    height: 20vw;
+    width: 94.3vw;
+    margin-left: 2.35vw;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    
+}
+
+.content__footer-main-logo{
+
+    position: absolute;
+    margin-left: 1.5vw;
+    margin-top: -0.2vw;
+    img {
+
+        height: 8.2vw;
+        width: 17.2vw;
+    }
+}
+
+
+.content__footer-main-social{
+
+    position: absolute;
+    height: 10vw;
+    width: 20vw;
+    margin-left: 51vw;
+    margin-top: 2.2vw;
+
+    p{
+
+        color: black;
+        font-family: 'ponur';
+        font-size: 1.5vw;
+    }
+
+    .content__footer-main-social-icons{
+
+        position: absolute;
+        margin-top: 0.6vw;
+        margin-left: 1.9vw;
+        display: flex;  
+        gap: 2vw;
+
+
+        .content__footer-main-social-icons-ig{
+
+            I{
+
+                color: black;
+                font-size: 2.5vw;
+                cursor: pointer;
+                transition: all 0.2s;
+            }
+
+            I:hover{
+                color: #49006E;
+            }
+        }
+
+        .content__footer-main-social-icons-fb{
+
+            I{
+
+                color: black;
+                font-size: 2.3vw;
+                margin-top: 0.1vw;
+                cursor: pointer;
+                transition: all 0.2s;
+            }
+
+            I:hover{
+                color: #49006E;
+            }
+        }
+
+        .content__footer-main-social-icons-tel{
+
+            I{
+
+                color: black;
+                font-size: 2.2vw;
+                margin-top: 0.15vw;
+                cursor: pointer;
+                transition: all 0.2s;
+            }
+
+            I:hover{
+                color: #49006E;
+            }
+        }
+
+        .content__footer-main-social-icons-mail{
+
+            I{  
+
+                margin-top: 0.0.5vw;
+                color: black;
+                font-size: 2.5vw;
+                cursor: pointer;
+                transition: all 0.2s;
+            }
+
+            I:hover{
+                color: #49006E;
+            }
+
+        }
+
+
+    }
+    
+}
+
+.content__footer-main-seperator{
+
+    position: absolute;
+    height: 0.02vw;
+    width: 97vw;
+    background-color: #fff;
+    margin-top: 15.2vw;
+    margin-left: 1.5vw;
+}
+
+.content__footer-main-copyright{
+
+    position: absolute;
+    height: 2vw;
+    width: 90vw;
+    margin-top: 16.8vw;
+    margin-left: 1.5vw;
+
+    p{
+    
+    font-family: 'ponur';
+    color: #fff;
+    font-size: 1vw;
+
+    }
+}
