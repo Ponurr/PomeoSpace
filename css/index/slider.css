@@ -151,6 +151,21 @@
 .slide:not(.middle-slide) {
   filter: blur(0.2vw) brightness(70%);
 }
+.slide:not(.middle-slide) .text-overlay2 {
+  visibility: hidden;
+}
+.slide:not(.middle-slide) .slider-container-laptop {
+  height: 12vw;
+  width: 18vw;
+}
+.slide:not(.middle-slide) .slider-container-iphone {
+  visibility: hidden;
+}
+.slide:not(.middle-slide) .slider-container-laptop-pomeo {
+  height: 12vw;
+  width: 18vw;
+  margin-left: 4vw;
+}
 
 .middle-slide {
   width: 30vw;
