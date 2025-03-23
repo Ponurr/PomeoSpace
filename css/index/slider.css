@@ -19,6 +19,7 @@
   width: 76vw;
   height: 36vw;
   display: flex;
+  justify-content: center;
   align-items: center;
   justify-content: center;
   overflow: hidden;
@@ -52,6 +53,7 @@
   border-radius: 2vw;
   margin: 0 1vw;
   display: flex;
+  justify-content: center;
   border: 0.1vw solid black;
   justify-content: center;
   align-items: center;
@@ -130,21 +132,39 @@
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
 }
+.slide a {
+  text-decoration: none;
+}
 .slide .button-portfolio {
+  border: 0.15vw solid;
+  display: flex;
   cursor: pointer;
   position: absolute;
   height: 2vw;
   width: 9vw;
-  margin-top: 23vw;
+  text-align: center;
+  justify-content: center;
   border-radius: 1vw;
-  background-color: #fff;
-  border-color: #49006E;
+  background-color: #ffffff;
+  border-top-color: #49006E;
+  border-left-color: #49006E;
+  border-right-color: #000000;
+  border-bottom-color: #000000;
+  transition: all 0.3s;
+  align-items: center;
+  margin-top: 11.5vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.slide .button-portfolio span {
+  color: black;
   font-size: 0.65vw;
   font-family: "ponur";
-  transition: all 0.3s;
 }
-.slide button:hover {
-  border-color: #49006E;
+.slide .button-portfolio:active {
+  border-top-color: #000000;
+  border-left-color: #000000;
+  border-right-color: #49006E;
   border-bottom-color: #49006E;
   background-color: rgba(247, 240, 240, 0.726);
 }
