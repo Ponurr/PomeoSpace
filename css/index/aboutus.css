@@ -46,13 +46,13 @@
   position: absolute;
   transform: translateX(-50%);
   margin-top: 0.7vw;
-  left: 50%;
+  left: 49%;
 }
 .about_us .about-us-seperator .about-us__seperator-img img {
   position: absolute;
   width: 4vw;
   margin-top: -1.5vw;
-  left: 50%;
+  left: 49%;
   transform: translateX(-50%);
   filter: grayscale(10);
 }
