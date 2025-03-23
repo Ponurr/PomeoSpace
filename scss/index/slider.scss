@@ -1,279 +1,260 @@
 @font-face {
-    font-family: "ponur";
-    src: url("../../design/fonts/PPObjectSans-Heavy.otf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "ponur2";
-    src: url("../../design/fonts/Aceh-Light.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-  }
-  .slider-container {
-    position: absolute;
-    top: 28.5vw;
-    left: 49%;
-    margin-left: 0.82vw;
-    transform: translate(-50%, -50%);
-    width: 76vw;
-    height: 36vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+  font-family: "ponur";
+  src: url("../../design/fonts/PPObjectSans-Heavy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ponur2";
+  src: url("../../design/fonts/Aceh-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.slider-container {
+  position: absolute;
+  top: 28.5vw;
+  left: 49%;
+  margin-left: 0.82vw;
+  transform: translate(-50%, -50%);
+  width: 76vw;
+  height: 36vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .slider-wrapper {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
 .slider {
-    
-    display: flex;
-    transition: transform 0.8s ease-in-out;
-    position: relative;
+  display: flex;
+  transition: transform 0.8s ease-in-out;
+  position: relative;
 }
 
 .slide {
-    width: 20vw;
-    height: 30vw;
-    aspect-ratio: 960/540;
-    background-color: white;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-position: center -0vw;
-    background-image: url(../../design/slider-background.png);
-    background-position-y: -2vw;
-    border-radius: 2vw;
-    margin: 0 1vw;
-    display: flex;
-    justify-content: center;
-    border: 0.1vw solid black;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #fff;
-    transition: transform 0.8s ease-in-out, opacity 0.6s ease;
-    position: relative;
-    overflow: hidden;
-    z-index: 1; 
-    
+  width: 20vw;
+  height: 30vw;
+  aspect-ratio: 960/540;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position: center -0vw;
+  background-image: url(../../design/slider-background.png);
+  background-position-y: -2vw;
+  border-radius: 2vw;
+  margin: 0 1vw;
+  display: flex;
+  justify-content: center;
+  border: 0.1vw solid black;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  transition: transform 0.8s ease-in-out, opacity 0.6s ease;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
 
-    .slider-container-laptop {
-        margin-top: 4vw;
-        width: 25vw;
-        height: 15vw;
-        object-fit: cover;
-        border-radius: 1vw;
-        padding: 0.2vw;
-        
+  .slider-container-laptop {
+    margin-top: 4vw;
+    width: 25vw;
+    height: 15vw;
+    object-fit: cover;
+    border-radius: 1vw;
+    padding: 0.2vw;
+  }
+
+  .slider-container-laptop-pomeo {
+    margin-top: 3vw;
+    margin-left: -1.5vw;
+    width: 24vw;
+    height: 15vw;
+    object-fit: cover;
+    border-radius: 1vw;
+    padding: 0.2vw;
+  }
+
+  .slider-container-iphone {
+    margin-top: 1.8vw;
+    margin-left: -2vw;
+    width: 6vw;
+    height: 11.5vw;
+    border-radius: 1vw;
+    padding: 0.2vw;
+  }
+
+  i {
+    position: absolute;
+    color: black;
+    margin-top: 23vw;
+    margin-left: 26vw;
+    cursor: pointer;
+    font-size: 1.5vw;
+    position: absolute;
+  }
+
+  p {
+    color: BLACK;
+    font-size: 0.9vw;
+    position: absolute;
+    bottom: 75%;
+    font-family: "Ponur2";
+  }
+
+  .text-overlay {
+    position: absolute;
+    margin-top: -23vw;
+    font-size: 1.3vw;
+    text-shadow: 2.1vw;
+    text-transform: uppercase;
+    letter-spacing: 0.1vw;
+    color: rgb(255, 255, 255);
+    font-family: "ponur";
+
+    border-radius: 1vw;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .text-overlay2 {
+    position: absolute;
+    margin-top: -19.5vw;
+    font-size: 0.7vw;
+    text-shadow: 2.1vw;
+    text-transform: uppercase;
+    letter-spacing: 0.1vw;
+    color: rgb(255, 255, 255);
+    font-family: "ponur";
+
+    border-radius: 1vw;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .button-portfolio {
+    border: 0.15vw solid;
+    display: flex;
+    cursor: pointer;
+    position: absolute;
+    height: 2vw;
+    width: 9vw;
+    text-align: center;
+    justify-content: center;
+    border-radius: 1vw;
+    background-color: #ffffff;
+    border-top-color: #49006e;
+    border-left-color: #49006e;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    transition: all 0.3s;
+    align-items: center;
+    margin-top: 11.5vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    span {
+      color: black;
+      font-size: 0.65vw;
+      font-family: "ponur";
+    }
+  }
+
+  .button-portfolio:active {
+    border-top-color: #000000;
+    border-left-color: #000000;
+    border-right-color: #49006e;
+    border-bottom-color: #49006e;
+    background-color: rgba(247, 240, 240, 0.726);
+  }
+
+  &:not(.middle-slide) {
+    filter: blur(0.2vw) brightness(70%);
+
+    .text-overlay2 {
+      visibility: hidden;
     }
 
-    .slider-container-laptop-pomeo {
-        margin-top: 3vw;
-        margin-left: -1.5vw;
-        width: 24vw;
-        height: 15vw;
-        object-fit: cover;
-        border-radius: 1vw;
-        padding: 0.2vw;
-        
+    .text-overlay {
+      font-size: 1.4vw;
+    }
+
+    .slider-container-laptop {
+      height: 12vw;
+      width: 18vw;
     }
 
     .slider-container-iphone {
-        margin-top: 1.8vw;
-        margin-left: -2vw;
-        width: 6vw;
-        height: 11.5vw;
-        border-radius: 1vw;
-        padding: 0.2vw;
-        
+      visibility: hidden;
     }
 
-    i{  
-        position: absolute;
-        color: black;
-        margin-top: 23vw;
-        margin-left: 26vw;
-        cursor: pointer; 
-        font-size: 1.5vw;
-        position: absolute;
-        
+    .slider-container-laptop-pomeo {
+      height: 12vw;
+      width: 18vw;
+      margin-left: 4vw;
     }
-
-    p{
-        color: BLACK;
-        font-size: 0.9vw;
-        position: absolute;
-        bottom: 75%;
-        font-family: 'Ponur2', ;
-    }
-
-    .text-overlay {
-        position: absolute;
-        margin-top: -23vw;
-        font-size: 1.3vw;
-        text-shadow: 2.1vw  ;
-        text-transform: uppercase;
-        letter-spacing: 0.1vw;
-        color: rgb(255, 255, 255);
-        font-family: 'ponur';
-      
-        border-radius: 1vw;
-        opacity: 1;
-        transition: opacity 0.5s ease-in-out;
-    }
-
-    .text-overlay2 {
-        position: absolute;
-        margin-top: -19.5vw;
-        font-size: 0.7vw;
-        text-shadow: 2.1vw  ;
-        text-transform: uppercase;
-        letter-spacing: 0.1vw;
-        color: rgb(255, 255, 255);
-        font-family: 'ponur';
-      
-        border-radius: 1vw;
-        opacity: 1;
-        transition: opacity 0.5s ease-in-out;
-    }
-
-    a{
-        text-decoration: none;
-    }
-
-    .button-portfolio{
-        border: 0.15vw solid;
-        display: flex;
-        cursor: pointer;
-        position: absolute;
-        height: 2vw;
-        width: 9vw;
-        text-align: center;
-        justify-content: center;
-        border-radius: 1vw;
-        background-color: #ffffff;
-        border-top-color: #49006E;
-        border-left-color: #49006E;
-        border-right-color: #000000;
-        border-bottom-color: #000000;
-        transition: all 0.3s;
-        align-items: center;
-        margin-top: 11.5vw;
-        left: 50%;
-        transform: translate(-50%, -50%);
-
-        span{
-        color: black;
-        font-size: 0.65vw;
-        font-family: 'ponur';
-
-        }
-    }
-    
-
-    .button-portfolio:active{
-        border-top-color: #000000;
-        border-left-color: #000000;
-        border-right-color: #49006E;
-        border-bottom-color: #49006E;
-        background-color: rgba(247, 240, 240, 0.726);
-    }
-
-
-    &:not(.middle-slide) {
-        
-        filter: blur(0.2vw) brightness(70%);
-
-        .text-overlay2{
-            visibility: hidden;
-        }
-
-        .text-overlay
-        {
-            font-size: 1.4vw;
-        }
-
-        .slider-container-laptop{
-
-            height: 12vw;
-            width: 18vw;
-        }
-
-        .slider-container-iphone{
-
-            visibility: hidden;
-        }
-
-        .slider-container-laptop-pomeo{
-
-            height: 12vw;
-            width: 18vw;
-            margin-left: 4vw;
-        }
-    }
+  }
 }
 
 .middle-slide {
-    width: 30vw;
-    height: 28vw;
-    transform: scale(1.2);
-    transition: transform 0.8s ease-in-out;
-    z-index: 10;
-    top: 1vw;
+  width: 30vw;
+  height: 28vw;
+  transform: scale(1.2);
+  transition: transform 0.8s ease-in-out;
+  z-index: 10;
+  top: 1vw;
 
-    .text-overlay {
-        opacity: 1;
-    }
+  .text-overlay {
+    opacity: 1;
+  }
 }
 
 .slide:not(.middle-slide) .text-overlay {
-    opacity: 0.9;
+  opacity: 0.9;
 }
-
 
 .arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2vw;
+  color: #ffffff;
+  background: rgba(41, 41, 41, 0.5);
+  border: none;
+  cursor: pointer;
+  padding: 1vw;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+  z-index: 10;
+  pointer-events: auto;
+  width: 4.3vw;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  i {
     font-size: 2vw;
-    color: #ffffff;
-    background: rgba(41, 41, 41, 0.5);
-    border: none;
-    cursor: pointer;
-    padding: 1vw;
-    border-radius: 50%;
-    transition: background 0.3s ease;
-    z-index: 10;
-    pointer-events: auto;
-    width: 4.3vw;
-    
-
-  
-    &:hover {
-        background: rgba(0, 0, 0, 0.3);
-       
-    }
-
-    i {
-        font-size: 2vw; 
-    }
+  }
 }
 
-
 .arrow-left {
-    left: 2vw;
+  left: 2vw;
 }
 
 .arrow-right {
-    right: 2vw;
+  right: 2vw;
 }

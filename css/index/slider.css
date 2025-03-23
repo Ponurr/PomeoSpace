@@ -146,8 +146,8 @@
   justify-content: center;
   border-radius: 1vw;
   background-color: #ffffff;
-  border-top-color: #49006E;
-  border-left-color: #49006E;
+  border-top-color: #49006e;
+  border-left-color: #49006e;
   border-right-color: #000000;
   border-bottom-color: #000000;
   transition: all 0.3s;
@@ -164,8 +164,8 @@
 .slide .button-portfolio:active {
   border-top-color: #000000;
   border-left-color: #000000;
-  border-right-color: #49006E;
-  border-bottom-color: #49006E;
+  border-right-color: #49006e;
+  border-bottom-color: #49006e;
   background-color: rgba(247, 240, 240, 0.726);
 }
 .slide:not(.middle-slide) {

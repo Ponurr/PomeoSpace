@@ -35,7 +35,7 @@
   height: 3vw;
   width: 38vw;
   border-radius: 2vw;
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
   display: flex;
   gap: 2.2vw;
   margin-top: 1.4vw;
@@ -58,7 +58,7 @@
   text-decoration: none;
   transform: scale(1.1);
   background-color: rgba(235, 235, 235, 0.438);
-  color: #49006E;
+  color: #49006e;
 }
 .navigation .navigation-container .navigation__container-content .navigation__container-content-subpages .subpages_seperator {
   font-size: 1.5vw;
@@ -82,7 +82,7 @@
 .navigation .navigation-container .navigation__container-content .navigation__container-content-subpages .navigation__container-content-subpages-icons .navigation__container-content-subpages-icons-website i:hover {
   transform: scale(1.1);
   background-color: rgba(235, 235, 235, 0.438);
-  color: #49006E;
+  color: #49006e;
 }
 .navigation .navigation-container .navigation__container-content .navigation__container-content-subpages .navigation__container-content-subpages-icons .navigation__container-content-subpages-icons-instagram i {
   color: rgb(0, 0, 0);
@@ -95,7 +95,7 @@
 .navigation .navigation-container .navigation__container-content .navigation__container-content-subpages .navigation__container-content-subpages-icons .navigation__container-content-subpages-icons-instagram i:hover {
   transform: scale(1.1);
   background-color: rgba(235, 235, 235, 0.438);
-  color: #49006E;
+  color: #49006e;
 }
 
 /*# sourceMappingURL=navigation.css.map */

@@ -1,100 +1,98 @@
 @font-face {
-    font-family: "ponur";
-    src: url("../../design/fonts/PPObjectSans-Heavy.otf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "ponur2";
-    src: url("../../design/fonts/Aceh-Light.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-  }
- .title{
-    position: relative;
-    width: 100%; 
-    
-    display: flex;
-    justify-content: center; 
-    top: -40vw;
-    z-index: 10;
-   
+  font-family: "ponur";
+  src: url("../../design/fonts/PPObjectSans-Heavy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 
-  .title-content{
+@font-face {
+  font-family: "ponur2";
+  src: url("../../design/fonts/Aceh-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.title {
+  position: relative;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  top: -40vw;
+  z-index: 10;
+
+  .title-content {
     position: relative;
     text-align: center;
-    span{
+    span {
       position: absolute;
-      top: -8.3vw; 
-      left: 30vw;  
+      top: -8.3vw;
+      left: 30vw;
       font-family: "ponur";
       font-size: 2vw;
       color: #000000;
       text-align: center;
       animation: effect 2s infinite ease-in-out;
-      }
-      span:after{
-        content: "";
-        width: 100%;
-        height: 100%;
-        line-height: 4.2VW;
-        left: 30%;
-        top: 50%;
-        animation: effect 7.5s linear infinite;
-        animation-fill-mode: forwards;
     }
-    
+    span:after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      line-height: 4.2vw;
+      left: 30%;
+      top: 50%;
+      animation: effect 7.5s linear infinite;
+      animation-fill-mode: forwards;
+    }
   }
- }
-  
-  @keyframes effect {
-    0% {
-      content: "P";
-    }
-    6% {
-      content: "PO";
-    }
-    12% {
-      content: "POM";
-    }
-    18% {
-      content: "PO ";
-    }
-    24% {
-      content: "POM";
-    }
-    30% {
-      content: "POME";
-    }
-    36% {
-      content: "POMEO";
-    }
-    42% {
-      content: "POMEOS ";
-    }
-    50% {
-      content: "POMEO ";
-    }
-    56% {
-      content: "POMEO  ";
-    }
-    63% {
-      content: "POMEOS  ";
-    }
-    71% {
-      content: "POMEOSP ";
-    }
-    80% {
-      content: "POMEOSPA";
-    }
-    88% {
-      content: "POMEOSPAC";
-    }
-    94% {
-      content: "POMEOSPACE";
-    }
-    100% {
-      content: "POMEOSPACE";
-    }
-}     
+}
+
+@keyframes effect {
+  0% {
+    content: "P";
+  }
+  6% {
+    content: "PO";
+  }
+  12% {
+    content: "POM";
+  }
+  18% {
+    content: "PO ";
+  }
+  24% {
+    content: "POM";
+  }
+  30% {
+    content: "POME";
+  }
+  36% {
+    content: "POMEO";
+  }
+  42% {
+    content: "POMEOS ";
+  }
+  50% {
+    content: "POMEO ";
+  }
+  56% {
+    content: "POMEO  ";
+  }
+  63% {
+    content: "POMEOS  ";
+  }
+  71% {
+    content: "POMEOSP ";
+  }
+  80% {
+    content: "POMEOSPA";
+  }
+  88% {
+    content: "POMEOSPAC";
+  }
+  94% {
+    content: "POMEOSPACE";
+  }
+  100% {
+    content: "POMEOSPACE";
+  }
+}

@@ -24,7 +24,7 @@
   width: 28vw;
   height: 28vw;
   background-color: #E8E8E8;
-  border-radius: 1vw;
+  border-radius: 1vw 1vw 0 0;
 }
 .about_us_content .about_us_content-container_1 {
   display: flex;
@@ -49,31 +49,42 @@
   font-weight: 650;
 }
 .about_us_content .about_us_content-container_1 .about_us_content__container_1-content img {
-  filter: grayscale(19);
+  filter: grayscale(100) brightness(4);
+  transform: scaleX(-1);
   width: 15vw;
 }
 .about_us_content .about_us_content-container_1 .about_us_content__container_1-content h4 {
   letter-spacing: 0.1vw;
   font-size: 1.6vw;
   position: relative;
-  left: 11vw;
-  top: -6vw;
+  left: 14.5vw;
+  top: -5.5vw;
   text-transform: uppercase;
   color: #000000;
   font-family: "ponur";
   text-shadow: 0.1vw 0.1vw #eeeeee, 0.1vw 0.1vw #727272, 0.1vw 0.1vw #727272, 0.1vw 0.1vw #727272;
 }
-.about_us_content .about_us_content-container_1 .about_us_content__container_1-content .about_us_content__container_1__content-buttons {
-  width: 10vw;
+.about_us_content .about_us_content-container_1 .about_us_content__container_1-content .about_us_content__container_1-buttons {
+  width: 28vw;
   height: 2vw;
-  border-radius: 0.5vw;
-  right: -15vw;
+  right: 1.4vw;
+  top: -1vw;
+  background-color: rgb(51, 51, 51);
+  border-radius: 0 0 1vw 1vw;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-.about_us_content .about_us_content-container_1 .about_us_content__container_1-content .about_us_content__container_1__content-buttons i {
+.about_us_content .about_us_content-container_1 .about_us_content__container_1-content .about_us_content__container_1-buttons .about_us_content__container_1__buttons-container {
+  width: 10vw;
+  display: flex;
+  right: -8.5vw;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about_us_content .about_us_content-container_1 .about_us_content__container_1-content .about_us_content__container_1-buttons .about_us_content__container_1__buttons-container i {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -81,17 +92,30 @@
   border-radius: 1.5vw;
   width: 2.5vw;
   height: 2.5vw;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(243, 243, 243);
+  border: 0.1vw solid black;
   font-size: 1.6vw;
 }
-.about_us_content .about_us_content-container_1 .about_us_content__container_1-content .about_us_content__container_1__content-buttons i:nth-child(1) {
+.about_us_content .about_us_content-container_1 .about_us_content__container_1-content .about_us_content__container_1-buttons .about_us_content__container_1__buttons-container i:nth-child(1) {
   color: #adadad;
   font-size: 1.5vw;
 }
-.about_us_content .about_us_content-container_1 .about_us_content__container_1-content .about_us_content__container_1__content-buttons i:nth-child(2) {
+.about_us_content .about_us_content-container_1 .about_us_content__container_1-content .about_us_content__container_1-buttons .about_us_content__container_1__buttons-container i:nth-child(1):hover {
+  font-size: 2vw;
+  color: #49006E;
+}
+.about_us_content .about_us_content-container_1 .about_us_content__container_1-content .about_us_content__container_1-buttons .about_us_content__container_1__buttons-container i:nth-child(2) {
   font-size: 1.4vw;
   margin-top: 0.1vw;
   color: #4b4a4a;
+}
+.about_us_content .about_us_content-container_1 .about_us_content__container_1-content .about_us_content__container_1-buttons .about_us_content__container_1__buttons-container i:nth-child(2):hover {
+  font-size: 2vw;
+  color: #49006E;
+}
+.about_us_content .about_us_content-container_1 .about_us_content__container_1-content .about_us_content__container_1-buttons .about_us_content__container_1__buttons-container i:nth-child(3):hover {
+  font-size: 2vw;
+  color: #49006E;
 }
 .about_us_content .about_us_content-container_2 {
   background-color: #c4c4c4;
@@ -119,30 +143,41 @@
   font-weight: 650;
 }
 .about_us_content .about_us_content-container_2 .about_us_content__container_2-content img {
-  filter: grayscale(10);
+  filter: grayscale(100) brightness(2);
+  transform: scaleX(-1);
   width: 15vw;
 }
 .about_us_content .about_us_content-container_2 .about_us_content__container_2-content h4 {
   letter-spacing: 0.1vw;
   font-size: 1.6vw;
   position: relative;
-  left: 11vw;
-  top: -6vw;
+  left: 14.5vw;
+  top: -5.5vw;
   text-transform: uppercase;
   color: #4b4a4a;
   font-family: "ponur";
 }
-.about_us_content .about_us_content-container_2 .about_us_content__container_2-content .about_us_content__container_2__content-buttons {
-  width: 10vw;
+.about_us_content .about_us_content-container_2 .about_us_content__container_2-content .about_us_content__container_2-buttons {
+  width: 28vw;
   height: 2vw;
-  border-radius: 0.5vw;
-  right: -15vw;
+  right: 1.4vw;
+  top: -1vw;
+  background-color: rgb(51, 51, 51);
+  border-radius: 0 0 1vw 1vw;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-.about_us_content .about_us_content-container_2 .about_us_content__container_2-content .about_us_content__container_2__content-buttons i {
+.about_us_content .about_us_content-container_2 .about_us_content__container_2-content .about_us_content__container_2-buttons .about_us_content__container_2__buttons-container {
+  width: 10vw;
+  display: flex;
+  right: -8.5vw;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about_us_content .about_us_content-container_2 .about_us_content__container_2-content .about_us_content__container_2-buttons .about_us_content__container_2__buttons-container i {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -150,17 +185,30 @@
   border-radius: 1.5vw;
   width: 2.5vw;
   height: 2.5vw;
+  border: 0.1vw solid black;
   background-color: rgb(255, 255, 255);
   font-size: 1.6vw;
 }
-.about_us_content .about_us_content-container_2 .about_us_content__container_2-content .about_us_content__container_2__content-buttons i:nth-child(1) {
+.about_us_content .about_us_content-container_2 .about_us_content__container_2-content .about_us_content__container_2-buttons .about_us_content__container_2__buttons-container i:nth-child(1) {
   color: #adadad;
   font-size: 1.5vw;
 }
-.about_us_content .about_us_content-container_2 .about_us_content__container_2-content .about_us_content__container_2__content-buttons i:nth-child(2) {
+.about_us_content .about_us_content-container_2 .about_us_content__container_2-content .about_us_content__container_2-buttons .about_us_content__container_2__buttons-container i:nth-child(1):hover {
+  font-size: 2vw;
+  color: #49006E;
+}
+.about_us_content .about_us_content-container_2 .about_us_content__container_2-content .about_us_content__container_2-buttons .about_us_content__container_2__buttons-container i:nth-child(2) {
   font-size: 1.4vw;
   margin-top: 0.1vw;
   color: #4b4a4a;
+}
+.about_us_content .about_us_content-container_2 .about_us_content__container_2-content .about_us_content__container_2-buttons .about_us_content__container_2__buttons-container i:nth-child(2):hover {
+  font-size: 2vw;
+  color: #49006E;
+}
+.about_us_content .about_us_content-container_2 .about_us_content__container_2-content .about_us_content__container_2-buttons .about_us_content__container_2__buttons-container i:nth-child(3):hover {
+  font-size: 2vw;
+  color: #49006E;
 }
 .about_us_content .about_us_content-container_3 {
   background-color: #999999;
@@ -188,31 +236,42 @@
   font-weight: 650;
 }
 .about_us_content .about_us_content-container_3 .about_us_content__container_3-content img {
-  filter: grayscale(19);
+  filter: grayscale(100) brightness(1);
+  transform: scaleX(-1);
   width: 15vw;
 }
 .about_us_content .about_us_content-container_3 .about_us_content__container_3-content h4 {
   letter-spacing: 0.1vw;
   font-size: 1.6vw;
   position: relative;
-  left: 11vw;
-  top: -6vw;
+  left: 14.5vw;
+  top: -5.5vw;
   text-transform: uppercase;
   color: #ffffff;
   font-family: "ponur";
   text-shadow: 0.1vw 0.1vw #727272, 0.1vw 0.1vw #727272, 0.1vw 0.1vw #727272, 0.1vw 0.1vw #727272;
 }
-.about_us_content .about_us_content-container_3 .about_us_content__container_3-content .about_us_content__container_3__content-buttons {
-  width: 10vw;
+.about_us_content .about_us_content-container_3 .about_us_content__container_3-content .about_us_content__container_3-buttons {
+  width: 28vw;
   height: 2vw;
-  border-radius: 0.5vw;
-  right: -15vw;
+  right: 1.4vw;
+  top: -1vw;
+  background-color: rgb(51, 51, 51);
+  border-radius: 0 0 1vw 1vw;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-.about_us_content .about_us_content-container_3 .about_us_content__container_3-content .about_us_content__container_3__content-buttons i {
+.about_us_content .about_us_content-container_3 .about_us_content__container_3-content .about_us_content__container_3-buttons .about_us_content__container_2__buttons-container {
+  width: 10vw;
+  display: flex;
+  right: -8.5vw;
+  position: relative;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about_us_content .about_us_content-container_3 .about_us_content__container_3-content .about_us_content__container_3-buttons .about_us_content__container_2__buttons-container i {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -220,17 +279,30 @@
   border-radius: 1.5vw;
   width: 2.5vw;
   height: 2.5vw;
+  border: 0.1vw solid black;
   background-color: rgb(255, 255, 255);
   font-size: 1.6vw;
 }
-.about_us_content .about_us_content-container_3 .about_us_content__container_3-content .about_us_content__container_3__content-buttons i:nth-child(1) {
+.about_us_content .about_us_content-container_3 .about_us_content__container_3-content .about_us_content__container_3-buttons .about_us_content__container_2__buttons-container i:nth-child(1) {
   color: #adadad;
   font-size: 1.5vw;
 }
-.about_us_content .about_us_content-container_3 .about_us_content__container_3-content .about_us_content__container_3__content-buttons i:nth-child(2) {
+.about_us_content .about_us_content-container_3 .about_us_content__container_3-content .about_us_content__container_3-buttons .about_us_content__container_2__buttons-container i:nth-child(1):hover {
+  font-size: 2vw;
+  color: #49006E;
+}
+.about_us_content .about_us_content-container_3 .about_us_content__container_3-content .about_us_content__container_3-buttons .about_us_content__container_2__buttons-container i:nth-child(2) {
   font-size: 1.4vw;
   margin-top: 0.1vw;
   color: #4b4a4a;
+}
+.about_us_content .about_us_content-container_3 .about_us_content__container_3-content .about_us_content__container_3-buttons .about_us_content__container_2__buttons-container i:nth-child(2):hover {
+  font-size: 2vw;
+  color: #49006E;
+}
+.about_us_content .about_us_content-container_3 .about_us_content__container_3-content .about_us_content__container_3-buttons .about_us_content__container_2__buttons-container i:nth-child(3):hover {
+  font-size: 2vw;
+  color: #49006E;
 }
 
 /*# sourceMappingURL=aboutus_content.css.map */
