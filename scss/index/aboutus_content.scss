@@ -30,7 +30,7 @@
         width: 28vw;
         height: 28vw;
         background-color:#E8E8E8;
-        border-radius: 1vw 1vw 0 0;
+        border-radius: 1vw ;
 
 
     }
@@ -93,9 +93,9 @@
                 height: 2vw;
                 right: 1.4vw;
                 top: -1vw;
-                background-color: rgb(51, 51, 51);
+                
                
-                border-radius: 0 0 1vw 1vw;
+                
                 
                 position: relative;
                 
@@ -109,6 +109,7 @@
                 .about_us_content__container_1__buttons-container{
                     width: 10vw;
                     display: flex;
+                    top:-1vw;
                     
                     right: -8.5vw;
                     position: relative;
@@ -126,13 +127,14 @@
                     border-radius: 1.5vw;
                     width: 2.5vw;
                     height: 2.5vw;
-                    background-color: rgb(243, 243, 243);
+                    transition: all 0.2s;
+                    
                     
                     font-size: 1.6vw;
                     
                     &:nth-child(1){
                         // color: #000000;
-                        color: #adadad;
+                        color: #000000;
                         font-size: 1.5vw;
                         &:hover{
 
@@ -144,7 +146,7 @@
                     &:nth-child(2){
                         font-size: 1.4vw;
                         margin-top: 0.1vw;
-                         color: #4b4a4a;
+                         color: #000000;
                          &:hover{
 
                             font-size: 2vw;
@@ -232,7 +234,7 @@
                     top: -1vw;
                 
                 
-                background-color: rgb(51, 51, 51);
+              
                
                 border-radius: 0 0 1vw 1vw;
                 
@@ -247,7 +249,7 @@
                 .about_us_content__container_2__buttons-container{
                     width: 10vw;
                     display: flex;
-                    
+                    top:-1vw;
                     right: -8.5vw;
                     position: relative;
                 
@@ -267,12 +269,12 @@
                     width: 2.5vw;
                     height: 2.5vw;
                 
-                    background-color: rgb(255, 255, 255);
+                   
                     font-size: 1.6vw;
                     
                     &:nth-child(1){
                         // color: #000000;
-                        color: #adadad;
+                        color: #000000;
                         font-size: 1.5vw;
                         &:hover{
     
@@ -284,7 +286,7 @@
                     &:nth-child(2){
                         font-size: 1.4vw;
                         margin-top: 0.1vw;
-                         color: #4b4a4a;
+                        color: #000000;
                          &:hover{
     
                             font-size: 2vw;
@@ -293,6 +295,7 @@
                         
                     }
                     &:nth-child(3){
+                        color: #000000;
                         &:hover{
     
                             font-size: 2vw;
@@ -381,7 +384,7 @@
                     height: 2vw;
                     right: 1.4vw;
                     top: -1vw;
-                    background-color: rgb(51, 51, 51);
+                  
                    
                     border-radius: 0 0 1vw 1vw;
                     
@@ -393,9 +396,10 @@
                     align-items: center;
                     justify-content: space-evenly;
                     .about_us_content__container_2__buttons-container{
-                        top: -3vw;
+                        top:-1vw;
                         width: 10vw;
                         display: flex;
+
                         
                         right: -8.5vw;
                         position: relative;
@@ -419,7 +423,7 @@
                         
                         &:nth-child(1){
                             // color: #000000;
-                            color: #adadad;
+                            color: #000000;
                             font-size: 1.5vw;
                             &:hover{
     
@@ -431,7 +435,7 @@
                         &:nth-child(2){
                             font-size: 1.4vw;
                             margin-top: 0.1vw;
-                             color: #4b4a4a;
+                            color: #000000;
                              &:hover{
     
                                 font-size: 2vw;
@@ -440,6 +444,7 @@
                             
                         }
                         &:nth-child(3){
+                            color: #000000;
                             &:hover{
     
                                 font-size: 2vw;
