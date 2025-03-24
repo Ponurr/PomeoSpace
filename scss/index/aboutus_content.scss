@@ -249,7 +249,106 @@
 
               // color: #adadad;
             }
-          }
+
+            h4{
+                letter-spacing: 0.1vw;
+                font-size: 1.6vw;
+                position: relative;
+                left: 14.5vw;
+                top: -5.5vw;
+                text-transform: uppercase;
+                color:#4b4a4a;
+                font-family: 'ponur';
+               
+            }
+
+            .about_us_content__container_2-buttons{
+                width: 28vw;
+                height: 2vw;
+                right: 1.4vw;
+                    top: -1vw;
+                
+                
+              
+               
+                border-radius: 0 0 1vw 1vw;
+                
+                position: relative;
+                
+               
+                display: flex;
+                
+                align-items: center;
+                justify-content: space-evenly;
+
+                .about_us_content__container_2__buttons-container{
+                    width: 10vw;
+                    display: flex;
+                    top:-1vw;
+                    right: -8.5vw;
+                    position: relative;
+                
+                align-items: center;
+                justify-content: space-evenly;
+
+
+                
+                
+    
+                i{
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 1.5vw;
+                    width: 2.5vw;
+                    height: 2.5vw;
+                    transition: all 0.2s;
+                
+                   
+                    font-size: 1.6vw;
+                    
+                    &:nth-child(1){
+                        // color: #000000;
+                        color: #000000;
+                        font-size: 1.5vw;
+                        &:hover{
+    
+                            font-size: 2vw;
+                            color: #49006E;
+                        }
+    
+                    }
+                    &:nth-child(2){
+                        font-size: 1.4vw;
+                        margin-top: 0.1vw;
+                        color: #000000;
+                         &:hover{
+    
+                            font-size: 2vw;
+                            color: #49006E;
+                        }
+                        
+                    }
+                    &:nth-child(3){
+                        color: #000000;
+                        &:hover{
+    
+                            font-size: 2vw;
+                            color: #49006E;
+                        }
+                        
+                        // color: #adadad;
+                        
+                        
+                    }
+                }
+            }
+            }
+
+            
+
+
         }
       }
     }
@@ -364,7 +463,111 @@
 
               // color: #adadad;
             }
+<<<<<<< HEAD
           }
+=======
+
+            h4{
+                letter-spacing: 0.1vw;
+                font-size: 1.6vw;
+                position: relative;
+                left: 14.5vw;
+                top: -5.5vw;
+                text-transform: uppercase;
+                color: #ffffff;
+                font-family: 'ponur';
+                text-shadow:0.1vw 0.1vw  #727272,
+                0.1vw 0.1vw  #727272,
+                0.1vw 0.1vw  #727272,
+                0.1vw 0.1vw  #727272;
+            }
+
+            .about_us_content__container_3-buttons{
+            
+                    width: 28vw;
+                    height: 2vw;
+                    right: 1.4vw;
+                    top: -1vw;
+                  
+                   
+                    border-radius: 0 0 1vw 1vw;
+                    
+                    position: relative;
+                    
+                   
+                    display: flex;
+                    
+                    align-items: center;
+                    justify-content: space-evenly;
+                    .about_us_content__container_2__buttons-container{
+                        top:-1vw;
+                        width: 10vw;
+                        display: flex;
+
+                        
+                        right: -8.5vw;
+                        position: relative;
+                    
+                    align-items: center;
+                    justify-content: space-evenly;
+    
+                    
+    
+                    i{
+                        cursor: pointer;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 1.5vw;
+                        width: 2.5vw;
+                        height: 2.5vw;
+                        transition: all 0.2s;
+                       
+                       
+                        font-size: 1.6vw;
+                        
+                        &:nth-child(1){
+                            // color: #000000;
+                            color: #000000;
+                            font-size: 1.5vw;
+                            &:hover{
+    
+                                font-size: 2vw;
+                                color: #49006E;
+                            }
+    
+                        }
+                        &:nth-child(2){
+                            font-size: 1.4vw;
+                            margin-top: 0.1vw;
+                            color: #000000;
+                             &:hover{
+    
+                                font-size: 2vw;
+                                color: #49006E;
+                            }
+                            
+                        }
+                        &:nth-child(3){
+                            color: #000000;
+                            &:hover{
+    
+                                font-size: 2vw;
+                                color: #49006E;
+                            }
+                            
+                            // color: #adadad;
+                            
+                            
+                        
+                    }
+                }
+            }
+
+            }
+
+
+>>>>>>> parent of a6a03dd (Revert "links + transition about us")
         }
       }
     }
