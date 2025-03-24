@@ -183,6 +183,7 @@
   border-radius: 1.5vw;
   width: 2.5vw;
   height: 2.5vw;
+  transition: all 0.2s;
   font-size: 1.6vw;
 }
 .about_us_content .about_us_content-container_2 .about_us_content__container_2-content .about_us_content__container_2-buttons .about_us_content__container_2__buttons-container i:nth-child(1) {
@@ -278,6 +279,7 @@
   border-radius: 1.5vw;
   width: 2.5vw;
   height: 2.5vw;
+  transition: all 0.2s;
   font-size: 1.6vw;
 }
 .about_us_content .about_us_content-container_3 .about_us_content__container_3-content .about_us_content__container_3-buttons .about_us_content__container_2__buttons-container i:nth-child(1) {
