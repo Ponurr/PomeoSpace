@@ -95,7 +95,7 @@
   border-radius: 1vw;
   visibility: hidden;
   width: 13vw;
-  height: 3vw;
+  height: 3.4vw;
   transition: transform 0.8s ease-in-out;
 }
 .slide .tooltip span {
