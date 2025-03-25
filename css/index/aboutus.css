@@ -41,7 +41,7 @@
 .about_us .about-us-seperator .about-us__seperator-img {
   width: 7vw;
   height: 2vw;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   z-index: 10;
   position: absolute;
   transform: translateX(-50%);

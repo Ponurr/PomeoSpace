@@ -15,17 +15,15 @@
   width: 90vw;
   margin-left: 4.5vw;
   height: 40vw;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-.about_us_content .about_us_content-container_1,
-.about_us_content .about_us_content-container_2,
-.about_us_content .about_us_content-container_3 {
+.about_us_content .about_us_content-container_1, .about_us_content .about_us_content-container_2, .about_us_content .about_us_content-container_3 {
   width: 28vw;
   height: 28vw;
-  background-color: #e8e8e8;
+  background-color: #E8E8E8;
   border-radius: 1vw;
 }
 .about_us_content .about_us_content-container_1 {
@@ -102,7 +100,7 @@
 }
 .about_us_content .about_us_content-container_1 .about_us_content__container_1-content .about_us_content__container_1-buttons .about_us_content__container_1__buttons-container i:nth-child(1):hover {
   font-size: 2vw;
-  color: #49006e;
+  color: #49006E;
 }
 .about_us_content .about_us_content-container_1 .about_us_content__container_1-content .about_us_content__container_1-buttons .about_us_content__container_1__buttons-container i:nth-child(2) {
   font-size: 1.4vw;
@@ -111,11 +109,11 @@
 }
 .about_us_content .about_us_content-container_1 .about_us_content__container_1-content .about_us_content__container_1-buttons .about_us_content__container_1__buttons-container i:nth-child(2):hover {
   font-size: 2vw;
-  color: #49006e;
+  color: #49006E;
 }
 .about_us_content .about_us_content-container_1 .about_us_content__container_1-content .about_us_content__container_1-buttons .about_us_content__container_1__buttons-container i:nth-child(3):hover {
   font-size: 2vw;
-  color: #49006e;
+  color: #49006E;
 }
 .about_us_content .about_us_content-container_2 {
   background-color: #c4c4c4;
@@ -194,7 +192,7 @@
 }
 .about_us_content .about_us_content-container_2 .about_us_content__container_2-content .about_us_content__container_2-buttons .about_us_content__container_2__buttons-container i:nth-child(1):hover {
   font-size: 2vw;
-  color: #49006e;
+  color: #49006E;
 }
 .about_us_content .about_us_content-container_2 .about_us_content__container_2-content .about_us_content__container_2-buttons .about_us_content__container_2__buttons-container i:nth-child(2) {
   font-size: 1.4vw;
@@ -203,14 +201,14 @@
 }
 .about_us_content .about_us_content-container_2 .about_us_content__container_2-content .about_us_content__container_2-buttons .about_us_content__container_2__buttons-container i:nth-child(2):hover {
   font-size: 2vw;
-  color: #49006e;
+  color: #49006E;
 }
 .about_us_content .about_us_content-container_2 .about_us_content__container_2-content .about_us_content__container_2-buttons .about_us_content__container_2__buttons-container i:nth-child(3) {
   color: #000000;
 }
 .about_us_content .about_us_content-container_2 .about_us_content__container_2-content .about_us_content__container_2-buttons .about_us_content__container_2__buttons-container i:nth-child(3):hover {
   font-size: 2vw;
-  color: #49006e;
+  color: #49006E;
 }
 .about_us_content .about_us_content-container_3 {
   background-color: #999999;
@@ -290,7 +288,7 @@
 }
 .about_us_content .about_us_content-container_3 .about_us_content__container_3-content .about_us_content__container_3-buttons .about_us_content__container_2__buttons-container i:nth-child(1):hover {
   font-size: 2vw;
-  color: #49006e;
+  color: #49006E;
 }
 .about_us_content .about_us_content-container_3 .about_us_content__container_3-content .about_us_content__container_3-buttons .about_us_content__container_2__buttons-container i:nth-child(2) {
   font-size: 1.4vw;
@@ -299,14 +297,14 @@
 }
 .about_us_content .about_us_content-container_3 .about_us_content__container_3-content .about_us_content__container_3-buttons .about_us_content__container_2__buttons-container i:nth-child(2):hover {
   font-size: 2vw;
-  color: #49006e;
+  color: #49006E;
 }
 .about_us_content .about_us_content-container_3 .about_us_content__container_3-content .about_us_content__container_3-buttons .about_us_content__container_2__buttons-container i:nth-child(3) {
   color: #000000;
 }
 .about_us_content .about_us_content-container_3 .about_us_content__container_3-content .about_us_content__container_3-buttons .about_us_content__container_2__buttons-container i:nth-child(3):hover {
   font-size: 2vw;
-  color: #49006e;
+  color: #49006E;
 }
 
 /*# sourceMappingURL=aboutus_content.css.map */
