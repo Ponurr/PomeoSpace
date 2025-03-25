@@ -65,10 +65,61 @@
   overflow: hidden;
   z-index: 1;
 
+
+  .tooltip-container {
+    position: relative;
+    display: inline-block;
+    width: 2vw;
+    height: 2vw;
+    margin-top: 23.5vw;
+
+    i {
+      position: absolute;
+      color: black;
+      cursor: pointer;
+      font-size: 1.5vw;
+      position: absolute;
+    }
+}
+
+.tooltip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: -12vw;
+    margin-top: -4vw;
+    border: 0.15vw solid;
+    background-color: #ffffff;
+    border-top-color: #49006e;
+    border-left-color: #49006e;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    border-radius: 1vw;
+    visibility: hidden;
+    width: 13vw;
+    height: 3vw;
+    transition: transform 0.8s ease-in-out;
+
+    span{
+      margin-left: 0.15vw;
+      font-size: 0.67vw;
+      color: black;
+      font-family: "ponur2";
+    }
+}
+
+i:hover ~ .tooltip {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
   .slider-container-laptop {
     margin-top: 4vw;
     width: 25vw;
     height: 15vw;
+    margin-left: 1.7vw;
     object-fit: cover;
     border-radius: 1vw;
     padding: 0.2vw;
@@ -76,7 +127,7 @@
 
   .slider-container-laptop-pomeo {
     margin-top: 3vw;
-    margin-left: -1.5vw;
+    margin-left: 0.5vw;
     width: 24vw;
     height: 15vw;
     object-fit: cover;
@@ -91,16 +142,6 @@
     height: 11.5vw;
     border-radius: 1vw;
     padding: 0.2vw;
-  }
-
-  i {
-    position: absolute;
-    color: black;
-    margin-top: 23vw;
-    margin-left: 26vw;
-    cursor: pointer;
-    font-size: 1.5vw;
-    position: absolute;
   }
 
   p {
@@ -188,6 +229,11 @@
       visibility: hidden;
     }
 
+    .tooltip-container{
+
+      visibility: hidden;
+    }
+
     .text-overlay {
       font-size: 1.4vw;
     }
@@ -195,6 +241,7 @@
     .slider-container-laptop {
       height: 12vw;
       width: 18vw;
+      margin-left: 0.8vw;
     }
 
     .slider-container-iphone {
@@ -204,7 +251,7 @@
     .slider-container-laptop-pomeo {
       height: 12vw;
       width: 18vw;
-      margin-left: 4vw;
+      margin-left: 5vw;
     }
   }
 }
