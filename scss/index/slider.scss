@@ -229,6 +229,10 @@ i:hover ~ .tooltip {
       visibility: hidden;
     }
 
+    a{
+      pointer-events: none;
+    }
+
     .tooltip-container{
 
       visibility: hidden;

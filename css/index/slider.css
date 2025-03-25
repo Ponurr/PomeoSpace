@@ -210,6 +210,9 @@
 .slide:not(.middle-slide) .text-overlay2 {
   visibility: hidden;
 }
+.slide:not(.middle-slide) a {
+  pointer-events: none;
+}
 .slide:not(.middle-slide) .tooltip-container {
   visibility: hidden;
 }
