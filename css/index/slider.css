@@ -231,12 +231,12 @@
 .slide:not(.middle-slide) .slider-container-laptop {
   height: 12vw;
   width: 18vw;
-  margin-left: 0.8vw;
+  margin-left: 1vw;
 }
 .slide:not(.middle-slide) .slider-container-laptop-pomeoanim {
   height: 12.3vw;
   width: 19vw;
-  margin-left: 0.8vw;
+  margin-left: 1.3vw;
 }
 .slide:not(.middle-slide) .slider-container-iphone {
   visibility: hidden;
@@ -244,7 +244,7 @@
 .slide:not(.middle-slide) .slider-container-laptop-pomeo {
   height: 12vw;
   width: 18vw;
-  margin-left: 4.9vw;
+  margin-left: 5.2vw;
 }
 
 .middle-slide {
