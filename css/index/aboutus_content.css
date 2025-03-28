@@ -115,9 +115,6 @@
   font-size: 2vw;
   color: #49006E;
 }
-.about_us_content a {
-  text-decoration: none;
-}
 .about_us_content .about_us_content-container_2 {
   background-color: #c4c4c4;
   display: flex;
