@@ -119,7 +119,17 @@ i:hover ~ .tooltip {
     margin-top: 4vw;
     width: 25vw;
     height: 15vw;
-    margin-left: 1.7vw;
+    margin-left: 2vw;
+    object-fit: cover;
+    border-radius: 1vw;
+    padding: 0.2vw;
+  }
+
+  .slider-container-laptop-pomeoanim{
+    margin-top: 3.5vw;
+    margin-left: 1.3vw;
+    width: 27vw;
+    height: 15.5vw;
     object-fit: cover;
     border-radius: 1vw;
     padding: 0.2vw;
@@ -245,6 +255,12 @@ i:hover ~ .tooltip {
     .slider-container-laptop {
       height: 12vw;
       width: 18vw;
+      margin-left: 0.8vw;
+    }
+
+    .slider-container-laptop-pomeoanim {
+      height: 12.3vw;
+      width: 19vw;
       margin-left: 0.8vw;
     }
 
