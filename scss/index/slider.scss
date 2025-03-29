@@ -4,12 +4,14 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "ponur2";
   src: url("../../design/fonts/Aceh-Light.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
+
 .slider-container {
   position: absolute;
   top: 28.5vw;
@@ -65,7 +67,6 @@
   overflow: hidden;
   z-index: 1;
 
-
   .tooltip-container {
     position: relative;
     display: inline-block;
@@ -78,11 +79,10 @@
       color: black;
       cursor: pointer;
       font-size: 1.5vw;
-      position: absolute;
     }
-}
+  }
 
-.tooltip {
+  .tooltip {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,19 +101,19 @@
     height: 3.4vw;
     transition: transform 0.8s ease-in-out;
 
-    span{
+    span {
       margin-left: 0.15vw;
       font-size: 0.67vw;
       color: black;
       font-family: "ponur2";
     }
-}
+  }
 
-i:hover ~ .tooltip {
+  i:hover ~ .tooltip {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-}
+  }
 
   .slider-container-laptop {
     margin-top: 4vw;
@@ -125,7 +125,7 @@ i:hover ~ .tooltip {
     padding: 0.2vw;
   }
 
-  .slider-container-laptop-pomeoanim{
+  .slider-container-laptop-pomeoanim {
     margin-top: 3.5vw;
     margin-left: 1.3vw;
     width: 27vw;
@@ -171,7 +171,6 @@ i:hover ~ .tooltip {
     letter-spacing: 0.1vw;
     color: rgb(255, 255, 255);
     font-family: "ponur";
-
     border-radius: 1vw;
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
@@ -186,7 +185,6 @@ i:hover ~ .tooltip {
     letter-spacing: 0.1vw;
     color: rgb(255, 255, 255);
     font-family: "ponur";
-
     border-radius: 1vw;
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
@@ -239,12 +237,11 @@ i:hover ~ .tooltip {
       visibility: hidden;
     }
 
-    a{
+    a {
       pointer-events: none;
     }
 
-    .tooltip-container{
-
+    .tooltip-container {
       visibility: hidden;
     }
 
@@ -324,4 +321,108 @@ i:hover ~ .tooltip {
 
 .arrow-right {
   right: 2vw;
+}
+
+/* Responsywne style */
+@media (max-width: 1024px) {
+  .slider-container {
+    width: 100vw; // Pełna szerokość ekranu
+    height: 50vw; // Zachowuję Twój rozmiar
+    display: flex;
+    justify-content: center; // Wyśrodkowanie zawartości
+    align-items: center; // Pionowe wyśrodkowanie
+    overflow: hidden; // Ukrycie slajdów poza ekranem
+    position: relative; // Dla prawidłowego pozycjonowania strzałek
+  }
+
+  .slide {
+    width: 70vw; // Zachowuję Twój rozmiar
+    height: 35vw; // Zachowuję Twój rozmiar
+    flex-shrink: 0; // Zapobiega zmniejszaniu slajdów
+    position: relative; // Żeby slajdy były w linii
+  }
+
+  .middle-slide {
+    width: 70vw; // Zachowuję Twój rozmiar
+    height: 35vw; // Zachowuję Twój rozmiar
+    margin: 0; // Usuwam margines, bo JS to kontroluje
+    opacity: 1; // Środkowy slajd widoczny od razu
+  }
+
+  .arrow {
+    font-size: 3vw; // Zachowuję Twój styl
+    width: 6vw; // Zachowuję Twój styl
+    padding: 1.5vw; // Zachowuję Twój styl
+    position: absolute; // Strzałki absolutne względem kontenera
+    top: 50%; // Pionowe wyśrodkowanie
+    transform: translateY(-50%); // Precyzyjne centrowanie strzałek
+  }
+
+  .arrow-left {
+    left: 2vw; // Odstęp od lewej krawędzi
+  }
+
+  .arrow-right {
+    right: 2vw; // Odstęp od prawej krawędzi
+  }
+
+  .slide:not(.middle-slide) {
+    opacity: 0; // Zachowuję Twój efekt
+    pointer-events: none; // Zachowuję Twój efekt
+  }
+}
+@media (max-width: 768px) {
+  .slider-container {
+    width: 95vw;
+    height: 60vw;
+  }
+
+  .slide {
+    width: 80vw;
+    height: 40vw;
+  }
+
+  .middle-slide {
+    width: 80vw;
+    height: 40vw;
+  }
+
+  .arrow {
+    font-size: 4vw;
+    width: 8vw;
+    padding: 2vw;
+  }
+
+  .slide:not(.middle-slide) {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider-container {
+    width: 100vw;
+    height: 70vw;
+  }
+
+  .slide {
+    width: 90vw;
+    height: 50vw;
+  }
+
+  .middle-slide {
+    width: 90vw;
+    height: 50vw;
+  }
+
+  .arrow {
+    font-size: 5vw;
+    width: 10vw;
+    padding: 2.5vw;
+  }
+
+  .slide:not(.middle-slide) {
+    opacity: 0;
+    pointer-events: none;
+  }
 }

@@ -98,4 +98,87 @@
   color: #49006e;
 }
 
+@media (max-width: 1024px) {
+  .navigation-container {
+    height: 6vw !important;
+  }
+  .navigation__container-content-logo img {
+    height: 6vw !important;
+    width: 14vw !important;
+    margin-right: 4vw !important;
+    margin-left: 5vw !important;
+  }
+  .navigation__container-content-subpages {
+    height: 4vw !important;
+    width: 45vw !important;
+    gap: 2.5vw !important;
+  }
+  .navigation__container-content-subpages span {
+    font-size: 1.2vw !important;
+    line-height: 22vw !important;
+  }
+  .navigation__container-content-subpages-icons i {
+    font-size: 1.6vw !important;
+    margin-bottom: 0.5vw !important;
+  }
+  .subpages_seperator {
+    font-size: 2vw !important;
+  }
+}
+@media (max-width: 768px) {
+  .navigation-container {
+    height: 8vw !important;
+  }
+  .navigation__container-content-logo img {
+    height: 7vw !important;
+    width: 16vw !important;
+    margin-left: 25vw !important;
+    margin-right: -20vw !important;
+  }
+  .navigation__container-content-subpages {
+    height: 5vw !important;
+    width: 55vw !important;
+    gap: 3vw !important;
+    margin-left: 2vw !important;
+  }
+  .navigation__container-content-subpages span {
+    font-size: 1.5vw !important;
+    line-height: 22vw !important;
+  }
+  .navigation__container-content-subpages-icons i {
+    font-size: 2vw !important;
+    margin-bottom: 0.7vw !important;
+  }
+  .subpages_seperator {
+    font-size: 2.5vw !important;
+  }
+}
+@media (max-width: 480px) {
+  .navigation-container {
+    height: 10vw !important;
+  }
+  .navigation__container-content-logo img {
+    height: 10vw !important;
+    width: 22vw !important;
+  }
+  .navigation__container-content-subpages {
+    height: 6vw !important;
+    width: 66vw !important;
+    gap: 3.5vw !important;
+    margin-top: 2vw !important;
+    margin-right: -20vw !important;
+  }
+  .navigation__container-content-subpages span {
+    font-size: 2vw !important;
+    line-height: 22vw !important;
+  }
+  .navigation__container-content-subpages-icons i {
+    font-size: 2.5vw !important;
+    margin-bottom: 2vw !important;
+  }
+  .subpages_seperator {
+    font-size: 3vw !important;
+  }
+}
+
 /*# sourceMappingURL=navigation.css.map */

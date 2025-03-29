@@ -93,5 +93,30 @@
     content: "POMEOSPACE";
   }
 }
+@media (max-width: 1024px) {
+  .title-content span {
+    margin-top: -0.7vw !important;
+    left: 25vw !important;
+    font-size: 2.5vw !important;
+  }
+}
+@media (max-width: 768px) {
+  .title-content span {
+    left: 29vw !important;
+    font-size: 2.3vw !important;
+    margin-top: -1.8vw !important;
+  }
+}
+@media (max-width: 480px) {
+  .title {
+    top: 20vw !important;
+    opacity: 0 !important;
+  }
+  .title-content span {
+    top: -4vw !important;
+    left: 15vw !important;
+    font-size: 4vw !important;
+  }
+}
 
 /*# sourceMappingURL=title.css.map */
