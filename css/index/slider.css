@@ -354,17 +354,17 @@
   .slider-container-laptop-pomeo {
     width: 48vw !important;
     height: 30vw !important;
-    margin-left: 0;
+    margin-left: 2vw !important;
   }
   .slider-container-iphone {
     width: 48vw !important;
     height: 30vw !important;
-    display: none;
+    margin-left: 0;
+    display: none !important;
   }
   .slider-container-laptop-pomeoanim {
     width: 48vw !important;
     height: 30vw !important;
-    height: auto;
     margin-left: 0;
   }
   .text-overlay {
@@ -446,10 +446,12 @@
   .slider-container-laptop {
     width: 95vw;
     height: auto;
+    margin-bottom: 2vw !important;
   }
   .slider-container-laptop-pomeo {
-    width: 95vw;
-    height: auto;
+    width: 48vw !important;
+    height: 30vw !important;
+    margin-left: 5vw !important;
   }
   .slider-container-laptop-pomeoanim {
     width: 95vw;
@@ -483,16 +485,19 @@
     margin-top: -25vw;
   }
   .slider-container-laptop {
-    width: 100vw;
-    height: auto;
-  }
-  .slider-container-laptop-pomeo {
-    width: 100vw;
+    margin-bottom: 2vw !important;
     height: auto;
   }
   .slider-container-laptop-pomeoanim {
-    width: 100vw;
-    height: auto;
+    width: 48vw !important;
+    height: 30vw !important;
+    margin-left: 7.5vw !important;
+    margin-bottom: 1.5vw !important;
+  }
+  .slider-container-laptop-pomeo {
+    width: 48vw !important;
+    height: 30vw !important;
+    margin-left: 7.5vw !important;
   }
   .button-portfolio {
     width: 35vw;

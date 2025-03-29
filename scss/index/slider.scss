@@ -391,19 +391,19 @@
   .slider-container-laptop-pomeo {
     width: 48vw !important; // Powiększony obrazek
     height: 30vw !important;
-    margin-left: 0;
+    margin-left: 2vw !important;
   }
 
   .slider-container-iphone {
     width: 48vw !important; // Powiększony obrazek
     height: 30vw !important;
-    display: none;
+    margin-left: 0;
+    display: none !important;
   }
 
   .slider-container-laptop-pomeoanim {
     width: 48vw !important; // Powiększony obrazek
     height: 30vw !important;
-    height: auto;
     margin-left: 0;
   }
 
@@ -497,11 +497,12 @@
   .slider-container-laptop {
     width: 95vw; // Jeszcze większy na mniejszych ekranach
     height: auto;
+    margin-bottom: 2vw !important; 
   }
-
   .slider-container-laptop-pomeo {
-    width: 95vw; // Jeszcze większy
-    height: auto;
+    width: 48vw !important; // Powiększony obrazek
+    height: 30vw !important;
+    margin-left: 5vw !important;
   }
 
   .slider-container-laptop-pomeoanim {
@@ -543,18 +544,21 @@
   }
 
   .slider-container-laptop {
-    width: 100vw; // Maksymalna szerokość na najmniejszych ekranach
-    height: auto;
-  }
-
-  .slider-container-laptop-pomeo {
-    width: 100vw; // Maksymalna szerokość
+    margin-bottom: 2vw !important;
     height: auto;
   }
 
   .slider-container-laptop-pomeoanim {
-    width: 100vw; // Maksymalna szerokość
-    height: auto;
+    width: 48vw !important; // Powiększony obrazek
+    height: 30vw !important;
+    margin-left: 7.5vw !important;
+    margin-bottom: 1.5vw !important; 
+  }
+
+  .slider-container-laptop-pomeo {
+    width: 48vw !important; // Powiększony obrazek
+    height: 30vw !important;
+    margin-left: 7.5vw !important;
   }
 
   .button-portfolio {
