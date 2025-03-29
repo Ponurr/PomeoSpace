@@ -322,58 +322,164 @@
 .arrow-right {
   right: 2vw;
 }
-
-/* Responsywne style */
 @media (max-width: 1024px) {
   .slider-container {
-    width: 100vw; // Pełna szerokość ekranu
-    height: 50vw; // Zachowuję Twój rozmiar
-    display: flex;
-    justify-content: center; // Wyśrodkowanie zawartości
-    align-items: center; // Pionowe wyśrodkowanie
-    overflow: hidden; // Ukrycie slajdów poza ekranem
-    position: relative; // Dla prawidłowego pozycjonowania strzałek
+    width: 100vw !important;
+    height: 70vw !important;
+    position: relative;
+    overflow: hidden;
+    margin-top: -45vw;
+  }
+
+  .slider {
+    position: relative;
+    width: 100vw;
+    height: 100%;
   }
 
   .slide {
-    width: 70vw; // Zachowuję Twój rozmiar
-    height: 35vw; // Zachowuję Twój rozmiar
-    flex-shrink: 0; // Zapobiega zmniejszaniu slajdów
-    position: relative; // Żeby slajdy były w linii
+    width: 70vw !important;
+    height: 40vw !important;
+    margin: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0.5s ease;
   }
 
   .middle-slide {
-    width: 70vw; // Zachowuję Twój rozmiar
-    height: 35vw; // Zachowuję Twój rozmiar
-    margin: 0; // Usuwam margines, bo JS to kontroluje
-    opacity: 1; // Środkowy slajd widoczny od razu
+    width: 70vw !important;
+    height: 50vw !important;
+    opacity: 1;
+    z-index: 10;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    margin-top: -17.5vw;
   }
 
   .arrow {
-    font-size: 3vw; // Zachowuję Twój styl
-    width: 6vw; // Zachowuję Twój styl
-    padding: 1.5vw; // Zachowuję Twój styl
-    position: absolute; // Strzałki absolutne względem kontenera
-    top: 50%; // Pionowe wyśrodkowanie
-    transform: translateY(-50%); // Precyzyjne centrowanie strzałek
+    font-size: 3.5vw !important;
+    width: 9vw !important;
+    height: 9vw !important;
+    padding: 1.5vw !important;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    margin-top: 5vw !important;
   }
 
   .arrow-left {
-    left: 2vw; // Odstęp od lewej krawędzi
+    left: 2vw; 
+    font-size: 2vw !important;
   }
 
   .arrow-right {
-    right: 2vw; // Odstęp od prawej krawędzi
+    right: 2vw;
+    font-size: 2vw !important;
   }
 
-  .slide:not(.middle-slide) {
-    opacity: 0; // Zachowuję Twój efekt
-    pointer-events: none; // Zachowuję Twój efekt
+  .slider-container-laptop {
+    width: 48vw !important; // Powiększony obrazek
+    height: 30vw !important;
+    margin-left: 0;
+  }
+
+  .slider-container-laptop-pomeo {
+    width: 48vw !important; // Powiększony obrazek
+    height: 30vw !important;
+    margin-left: 0;
+  }
+
+  .slider-container-iphone {
+    width: 48vw !important; // Powiększony obrazek
+    height: 30vw !important;
+    display: none;
+  }
+
+  .slider-container-laptop-pomeoanim {
+    width: 48vw !important; // Powiększony obrazek
+    height: 30vw !important;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .text-overlay {
+    font-size: 3vw !important;
+    margin-top: -40vw !important;
+  }
+
+  .text-overlay2 {
+    font-size: 1.5vw !important;
+    margin-top: -33vw !important;
+  }
+
+  .button-portfolio {
+    width: 24vw !important; // Powiększony przycisk
+    height: 6vw !important; // Powiększony przycisk
+    margin-top: 20vw !important;
+    
+
+    span {
+      font-size: 2.5vw !important; // Większa czcionka
+    }
+  }
+  .tooltip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: -12vw;
+    margin-top: -4vw;
+    border: 0.15vw solid;
+    background-color: #ffffff;
+    border-top-color: #49006e;
+    border-left-color: #49006e;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    border-radius: 1vw;
+    visibility: hidden !important;
+    width: 13vw;
+    height: 3.4vw;
+    opacity: 0 !important;
+    transition: transform 0.8s ease-in-out;
+
+    span {
+      margin-left: 0.15vw;
+      font-size: 0.67vw;
+      color: black;
+      font-family: "ponur2";
+      opacity: 0 !important;
+    }
+  }
+
+  i:hover ~ .tooltip {
+    opacity: 0 !important;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .tooltip-container {
+    position: relative;
+    display: inline-block;
+    width: 2vw;
+    height: 2vw;
+    margin-top: 23.5vw;
+    opacity: 0 !important;
+
+    i {
+      position: absolute;
+      color: black;
+      cursor: pointer;
+      font-size: 1.5vw;
+    }
   }
 }
+
 @media (max-width: 768px) {
   .slider-container {
-    width: 95vw;
     height: 60vw;
   }
 
@@ -385,6 +491,32 @@
   .middle-slide {
     width: 80vw;
     height: 40vw;
+    margin-top: -20vw;
+  }
+
+  .slider-container-laptop {
+    width: 95vw; // Jeszcze większy na mniejszych ekranach
+    height: auto;
+  }
+
+  .slider-container-laptop-pomeo {
+    width: 95vw; // Jeszcze większy
+    height: auto;
+  }
+
+  .slider-container-laptop-pomeoanim {
+    width: 95vw; // Jeszcze większy
+    height: auto;
+  }
+
+  .button-portfolio {
+    width: 30vw; // Większy przycisk
+    height: 7vw;
+    margin-top: 14vw;
+
+    span {
+      font-size: 3vw; // Większa czcionka
+    }
   }
 
   .arrow {
@@ -392,16 +524,10 @@
     width: 8vw;
     padding: 2vw;
   }
-
-  .slide:not(.middle-slide) {
-    opacity: 0;
-    pointer-events: none;
-  }
 }
 
 @media (max-width: 480px) {
   .slider-container {
-    width: 100vw;
     height: 70vw;
   }
 
@@ -413,16 +539,37 @@
   .middle-slide {
     width: 90vw;
     height: 50vw;
+    margin-top: -25vw;
+  }
+
+  .slider-container-laptop {
+    width: 100vw; // Maksymalna szerokość na najmniejszych ekranach
+    height: auto;
+  }
+
+  .slider-container-laptop-pomeo {
+    width: 100vw; // Maksymalna szerokość
+    height: auto;
+  }
+
+  .slider-container-laptop-pomeoanim {
+    width: 100vw; // Maksymalna szerokość
+    height: auto;
+  }
+
+  .button-portfolio {
+    width: 35vw; // Jeszcze większy przycisk
+    height: 8vw;
+    margin-top: 16vw;
+
+    span {
+      font-size: 3.5vw; // Jeszcze większa czcionka
+    }
   }
 
   .arrow {
     font-size: 5vw;
     width: 10vw;
     padding: 2.5vw;
-  }
-
-  .slide:not(.middle-slide) {
-    opacity: 0;
-    pointer-events: none;
   }
 }
