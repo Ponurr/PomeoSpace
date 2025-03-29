@@ -57,4 +57,152 @@
   filter: grayscale(10);
 }
 
+@media (max-width: 1024px) {
+  .about_us .about_us-title {
+    margin-top: 2vw;
+    margin-left: 8vw;
+  }
+  .about_us .about_us-title span {
+    color: rgb(0, 0, 0);
+    font-size: 4.5vw;
+    font-family: "ponur";
+  }
+  .about_us .about_us-title p {
+    font-family: ponur2;
+    font-weight: 550;
+    width: 30vw;
+    color: rgb(0, 0, 0);
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
+  }
+  .about_us .about-us-seperator {
+    display: flex;
+    width: 100%;
+  }
+  .about_us .about-us-seperator .about_us__seperator-line {
+    margin-top: 2vw;
+    margin-left: 5vw;
+    width: 90%;
+    height: 0.05vw;
+    transform: scaleY(0.1);
+    background-color: black;
+  }
+  .about_us .about-us-seperator .about-us__seperator-img {
+    width: 14vw;
+    height: 4vw;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+    position: absolute;
+    transform: translateX(-50%);
+    margin-top: 0.7vw;
+    left: 49%;
+  }
+  .about_us .about-us-seperator .about-us__seperator-img img {
+    position: absolute;
+    width: 8vw;
+    margin-top: -3vw;
+    left: 49%;
+    transform: translateX(-50%);
+    filter: grayscale(10);
+  }
+}
+@media (max-width: 768px) {
+  .about_us .about_us-title {
+    margin-top: 2vw;
+    margin-left: 8vw;
+  }
+  .about_us .about_us-title span {
+    color: rgb(0, 0, 0);
+    font-size: 5vw;
+    font-family: "ponur";
+  }
+  .about_us .about_us-title p {
+    font-family: ponur2;
+    font-weight: 550;
+    width: 42vw;
+    color: rgb(0, 0, 0);
+    font-size: 1.8vw;
+    margin-bottom: 2vw;
+  }
+  .about_us .about-us-seperator {
+    display: flex;
+    width: 100%;
+  }
+  .about_us .about-us-seperator .about_us__seperator-line {
+    margin-top: 2vw;
+    margin-left: 5vw;
+    width: 90%;
+    height: 0.1vw;
+    transform: scaleY(0.1);
+    background-color: black;
+  }
+  .about_us .about-us-seperator .about-us__seperator-img {
+    width: 14vw;
+    height: 4vw;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+    position: absolute;
+    transform: translateX(-50%);
+    margin-top: 0.7vw;
+    left: 49%;
+  }
+  .about_us .about-us-seperator .about-us__seperator-img img {
+    position: absolute;
+    width: 10vw;
+    margin-top: -4.5vw;
+    left: 49%;
+    transform: translateX(-50%);
+    filter: grayscale(10);
+  }
+}
+@media (max-width: 480px) {
+  .about_us .about_us-title {
+    margin-top: -7vw;
+    margin-left: 8vw;
+  }
+  .about_us .about_us-title span {
+    color: rgb(0, 0, 0);
+    font-size: 6vw;
+    font-family: "ponur";
+  }
+  .about_us .about_us-title p {
+    font-family: ponur2;
+    font-weight: 550;
+    width: 50vw;
+    color: rgb(0, 0, 0);
+    font-size: 2.5vw;
+    margin-bottom: 5vw;
+  }
+  .about_us .about-us-seperator {
+    display: flex;
+    width: 100%;
+  }
+  .about_us .about-us-seperator .about_us__seperator-line {
+    margin-top: 2vw;
+    margin-left: 5vw;
+    width: 90%;
+    height: 0.1vw;
+    transform: scaleY(0.1);
+    background-color: black;
+  }
+  .about_us .about-us-seperator .about-us__seperator-img {
+    width: 16vw;
+    height: 4vw;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+    position: absolute;
+    transform: translateX(-50%);
+    margin-top: 0.7vw;
+    left: 49%;
+  }
+  .about_us .about-us-seperator .about-us__seperator-img img {
+    position: absolute;
+    width: 12vw;
+    margin-top: -5.6vw;
+    left: 49%;
+    transform: translateX(-50%);
+    filter: grayscale(10);
+  }
+}
+
 /*# sourceMappingURL=aboutus.css.map */
