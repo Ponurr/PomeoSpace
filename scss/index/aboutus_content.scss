@@ -480,3 +480,284 @@
 
 
 }
+@media (max-width: 768px) {
+    .about_us_content {
+      margin-top: 4vw; 
+      width: 90vw !important;
+      margin-left: 5vw; 
+      height: auto; 
+      flex-direction: column; 
+      align-items: center; 
+      justify-content: flex-start; 
+      padding: 2vw 0; 
+    }
+  
+    .about_us_content-container_1,
+    .about_us_content-container_2,
+    .about_us_content-container_3 {
+      width: 100vw; 
+      height: 80vw; 
+      margin: 2vw 0; 
+      border-radius: 2vw; 
+    }
+  
+    .about_us_content-container_1,
+    .about_us_content-container_2,
+    .about_us_content-container_3 {
+        width: 70vw !important;
+      .about_us_content__container_1-content,
+      .about_us_content__container_2-content,
+      .about_us_content__container_3-content {
+        width: 90vw;
+        height: 90vw;
+  
+        span {
+          font-size: 3vw !important; 
+        }
+  
+        p {
+          font-size: 1.5vw !important; 
+        }
+  
+        img {
+          width: 17vw !important; 
+         
+        }
+  
+        h4 {
+          font-size: 3vw; 
+          left: 38vw; 
+          top: -15vw; 
+          letter-spacing: 0.2vw; 
+        }
+  
+        .about_us_content__container_1-buttons,
+        .about_us_content__container_2-buttons,
+        .about_us_content__container_3-buttons {
+          width: 80vw; 
+          height: 6vw; 
+          right: 0; 
+          top: -2vw;
+  
+          .about_us_content__container_1__buttons-container,
+          .about_us_content__container_2__buttons-container {
+            height: 10vw !important; 
+            right: -45vw !important; 
+            top: -11.5vw !important;
+            flex-direction: column;
+  
+            i {
+              width: 6vw !important; 
+              height: 6vw;
+              font-size: 3.3vw !important; 
+              margin-bottom: 3.4vw !important;
+  
+              &:nth-child(1) {
+                font-size: 2.8vw;
+                &:hover {
+                  font-size: 3.5vw; 
+                }
+              }
+  
+              &:nth-child(2) {
+                font-size: 2.6vw;
+                margin-top: 0.2vw;
+                &:hover {
+                  font-size: 3.5vw;
+                }
+              }
+  
+              &:nth-child(3) {
+                font-size: 3vw;
+                &:hover {
+                  font-size: 3.5vw;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+   
+    .about_us_content-container_3 {
+      .about_us_content__container_3-content {
+        .about_us_content__container_3-buttons {
+          .about_us_content__container_2__buttons-container {
+            width: 30vw;
+            right: -25vw;
+            top: -1.5vw;
+  
+            i {
+              width: 6vw;
+              height: 6vw;
+              font-size: 3vw;
+  
+              &:nth-child(1) {
+                font-size: 2.8vw;
+                &:hover {
+                  font-size: 3.5vw;
+                }
+              }
+  
+              &:nth-child(2) {
+                font-size: 2.6vw;
+                margin-top: 0.2vw;
+                &:hover {
+                  font-size: 3.5vw;
+                }
+              }
+  
+              &:nth-child(3) {
+                font-size: 3vw;
+                &:hover {
+                  font-size: 3.5vw;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 480px) {
+    .about_us_content {
+        margin-top: 4vw; 
+        width: 90vw !important;
+        margin-left: 5vw; 
+        height: auto; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: flex-start; 
+        padding: 2vw 0; 
+      }
+    
+      .about_us_content-container_1,
+      .about_us_content-container_2,
+      .about_us_content-container_3 {
+        width: 100vw; 
+        height: 80vw; 
+        margin: 2vw 0; 
+        border-radius: 2vw; 
+      }
+    
+      .about_us_content-container_1,
+      .about_us_content-container_2,
+      .about_us_content-container_3 {
+          width: 80vw !important;
+          height: 38vw !important;
+        .about_us_content__container_1-content,
+        .about_us_content__container_2-content,
+        .about_us_content__container_3-content {
+          width: 90vw;
+          height: 90vw;
+    
+          span {
+            font-size: 3.6vw !important; 
+          }
+    
+          p {
+            font-size: 2vw !important; 
+          }
+    
+          img {
+            width: 22vw !important; 
+           
+          }
+    
+          h4 {
+            font-size: 3vw; 
+            left: 38vw; 
+            top: -15vw; 
+            letter-spacing: 0.2vw; 
+          }
+    
+          .about_us_content__container_1-buttons,
+          .about_us_content__container_2-buttons,
+          .about_us_content__container_3-buttons {
+            width: 80vw; 
+            height: 6vw; 
+            right: 0; 
+            top: -2vw;
+    
+            .about_us_content__container_1__buttons-container,
+            .about_us_content__container_2__buttons-container {
+              height: 10vw !important; 
+              right: -53vw !important; 
+              top: -12.5vw !important;
+              flex-direction: column;
+    
+              i {
+                width: 6vw !important; 
+                height: 6vw;
+                font-size: 3.6vw !important; 
+                margin-bottom: 3.4vw !important;
+    
+                &:nth-child(1) {
+                  font-size: 2.8vw;
+                  &:hover {
+                    font-size: 3.5vw; 
+                  }
+                }
+    
+                &:nth-child(2) {
+                  font-size: 2.6vw;
+                  margin-top: 0.2vw;
+                  &:hover {
+                    font-size: 3.5vw;
+                  }
+                }
+    
+                &:nth-child(3) {
+                  font-size: 3vw;
+                  &:hover {
+                    font-size: 3.5vw;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    
+     
+      .about_us_content-container_3 {
+        .about_us_content__container_3-content {
+          .about_us_content__container_3-buttons {
+            .about_us_content__container_2__buttons-container {
+              width: 30vw;
+              right: -25vw;
+              top: -1.5vw;
+    
+              i {
+                width: 6vw;
+                height: 6vw;
+                font-size: 3vw;
+    
+                &:nth-child(1) {
+                  font-size: 2.8vw;
+                  &:hover {
+                    font-size: 3.5vw;
+                  }
+                }
+    
+                &:nth-child(2) {
+                  font-size: 2.6vw;
+                  margin-top: 0.2vw;
+                  &:hover {
+                    font-size: 3.5vw;
+                  }
+                }
+    
+                &:nth-child(3) {
+                  font-size: 3vw;
+                  &:hover {
+                    font-size: 3.5vw;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+  }
