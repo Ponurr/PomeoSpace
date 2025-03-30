@@ -365,7 +365,7 @@
   .slider-container-laptop-pomeoanim {
     width: 48vw !important;
     height: 30vw !important;
-    margin-left: 0;
+    margin-left: 2.5vw !important;
   }
   .text-overlay {
     font-size: 3vw !important;
@@ -376,12 +376,12 @@
     margin-top: -33vw !important;
   }
   .button-portfolio {
-    width: 24vw !important;
-    height: 6vw !important;
+    width: 16vw !important;
+    height: 4.2vw !important;
     margin-top: 20vw !important;
   }
   .button-portfolio span {
-    font-size: 2.5vw !important;
+    font-size: 1.5vw !important;
   }
   .tooltip {
     display: flex;
@@ -456,10 +456,11 @@
   .slider-container-laptop-pomeoanim {
     width: 95vw;
     height: auto;
+    margin-left: 4.7vw !important;
   }
   .button-portfolio {
-    width: 30vw;
-    height: 7vw;
+    width: 10vw;
+    height: 5vw;
     margin-top: 14vw;
   }
   .button-portfolio span {
@@ -487,21 +488,23 @@
   .slider-container-laptop {
     margin-bottom: 2vw !important;
     height: auto;
+    margin-left: 2vw !important;
   }
   .slider-container-laptop-pomeoanim {
-    width: 48vw !important;
-    height: 30vw !important;
-    margin-left: 7.5vw !important;
+    width: 49vw !important;
+    height: 31vw !important;
+    margin-left: 6.1vw !important;
     margin-bottom: 1.5vw !important;
   }
   .slider-container-laptop-pomeo {
-    width: 48vw !important;
-    height: 30vw !important;
-    margin-left: 7.5vw !important;
+    width: 49vw !important;
+    height: 30.7vw !important;
+    margin-top: 1.8vw !important;
+    margin-left: 6.1vw !important;
   }
   .button-portfolio {
-    width: 35vw;
-    height: 8vw;
+    width: 10vw;
+    height: 5vw;
     margin-top: 16vw;
   }
   .button-portfolio span {
@@ -509,6 +512,7 @@
   }
   .arrow {
     font-size: 5vw;
+    margin-top: -1.2vw !important;
     width: 10vw;
     padding: 2.5vw;
   }

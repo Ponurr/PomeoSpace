@@ -404,7 +404,7 @@
   .slider-container-laptop-pomeoanim {
     width: 48vw !important; // Powiększony obrazek
     height: 30vw !important;
-    margin-left: 0;
+    margin-left: 2.5vw !important;
   }
 
   .text-overlay {
@@ -418,13 +418,13 @@
   }
 
   .button-portfolio {
-    width: 24vw !important; // Powiększony przycisk
-    height: 6vw !important; // Powiększony przycisk
+    width: 16vw !important; // Powiększony przycisk
+    height: 4.2vw !important; // Powiększony przycisk
     margin-top: 20vw !important;
     
 
     span {
-      font-size: 2.5vw !important; // Większa czcionka
+      font-size: 1.5vw !important; // Większa czcionka
     }
   }
   .tooltip {
@@ -508,11 +508,12 @@
   .slider-container-laptop-pomeoanim {
     width: 95vw; // Jeszcze większy
     height: auto;
+    margin-left: 4.7vw !important;
   }
 
   .button-portfolio {
-    width: 30vw; // Większy przycisk
-    height: 7vw;
+    width: 10vw; // Większy przycisk
+    height: 5vw;
     margin-top: 14vw;
 
     span {
@@ -546,24 +547,26 @@
   .slider-container-laptop {
     margin-bottom: 2vw !important;
     height: auto;
+    margin-left: 2vw !important;
   }
 
   .slider-container-laptop-pomeoanim {
-    width: 48vw !important; // Powiększony obrazek
-    height: 30vw !important;
-    margin-left: 7.5vw !important;
+    width: 49vw !important; // Powiększony obrazek
+    height: 31vw !important;
+    margin-left: 6.1vw !important;
     margin-bottom: 1.5vw !important; 
   }
 
   .slider-container-laptop-pomeo {
-    width: 48vw !important; // Powiększony obrazek
-    height: 30vw !important;
-    margin-left: 7.5vw !important;
+    width: 49vw !important; // Powiększony obrazek
+    height: 30.7vw !important;
+    margin-top: 1.8vw !important;
+    margin-left: 6.1vw !important;
   }
 
   .button-portfolio {
-    width: 35vw; // Jeszcze większy przycisk
-    height: 8vw;
+    width: 10vw; // Jeszcze większy przycisk
+    height: 5vw;
     margin-top: 16vw;
 
     span {
@@ -573,6 +576,7 @@
 
   .arrow {
     font-size: 5vw;
+    margin-top: -1.2vw !important;
     width: 10vw;
     padding: 2.5vw;
   }
