@@ -548,16 +548,32 @@
   }
 
   .slider-container-laptop {
-    margin-bottom: 2vw !important;
-    height: auto;
+    width: 52vw !important;
+    height: 44vw !important;
     margin-left: 2vw !important;
+    margin-bottom: 2vw !important; 
+    margin-top: -3vw !important;
+  }
+
+  .slider-container-laptop-edge1{
+    width: 52vw !important;
+    height: 44vw !important;
+    margin-left: 6vw !important;
+    margin-top: -5vw;
+  }
+
+  .slider-container-laptop-edge2{
+    width: 52vw !important;
+    height: 44vw !important;
+    margin-left: 6vw !important;
+    margin-top: -5vw;
   }
 
   .slider-container-laptop-pomeo {
-    width: 49vw !important; 
-    height: 30.7vw !important;
-    margin-top: 1.8vw !important;
-    margin-left: 6.1vw !important;
+    width: 52vw !important;
+    height: 44vw !important;
+    margin-left: 6vw !important;
+    margin-top: -5vw !important;
   }
 
   .button-portfolio {

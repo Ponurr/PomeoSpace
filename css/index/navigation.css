@@ -182,14 +182,22 @@
     gap: 3.5vw !important;
     margin-top: 2vw !important;
     margin-right: -20vw !important;
+    align-items: center;
+    align-self: center;
   }
   .navigation__container-content-subpages span {
     font-size: 2vw !important;
     line-height: 22vw !important;
   }
-  .navigation__container-content-subpages-icons i {
-    font-size: 2.5vw !important;
-    margin-bottom: 2vw !important;
+  .navigation__container-content-subpages-icons {
+    margin-top: -0.5vw !important;
+  }
+  .navigation__container-content-subpages-icons .navigation__container-content-subpages-icons-website i {
+    font-size: 2.4vw !important;
+  }
+  .navigation__container-content-subpages-icons .navigation__container-content-subpages-icons-instagram i {
+    font-size: 2.6vw !important;
+    margin-top: 1.3vw !important;
   }
   .subpages_seperator {
     font-size: 3vw !important;
