@@ -105,21 +105,29 @@
   .navigation__container-content-logo img {
     height: 6vw !important;
     width: 14vw !important;
-    margin-right: 4vw !important;
-    margin-left: 5vw !important;
+    margin-left: 8vw !important;
   }
   .navigation__container-content-subpages {
     height: 4vw !important;
     width: 45vw !important;
     gap: 2.5vw !important;
+    margin-left: -33vw !important;
   }
   .navigation__container-content-subpages span {
     font-size: 1.2vw !important;
     line-height: 22vw !important;
+    margin-top: 0.2vw;
   }
-  .navigation__container-content-subpages-icons i {
+  .navigation__container-content-subpages-icons {
+    margin-top: 0.4vw !important;
+  }
+  .navigation__container-content-subpages-icons .navigation__container-content-subpages-icons-website i {
     font-size: 1.6vw !important;
     margin-bottom: 0.5vw !important;
+  }
+  .navigation__container-content-subpages-icons .navigation__container-content-subpages-icons-instagram i {
+    font-size: 1.8vw !important;
+    margin-top: 0.1vw !important;
   }
   .subpages_seperator {
     font-size: 2vw !important;

@@ -116,37 +116,35 @@
   }
 
   .slider-container-laptop {
-    margin-top: 4vw;
     width: 25vw;
-    height: 15vw;
-    margin-left: 2vw;
+    height: 23vw;
+    margin-left: 1.95vw;
     object-fit: cover;
     border-radius: 1vw;
     padding: 0.2vw;
   }
 
-  .slider-container-laptop-pomeoanim {
-    margin-top: 3.5vw;
+  .slider-container-laptop-edge2 {
+    width: 25vw;
+    height: 23vw;
     margin-left: 1.3vw;
-    width: 27vw;
-    height: 15.5vw;
     object-fit: cover;
     border-radius: 1vw;
     padding: 0.2vw;
   }
 
   .slider-container-laptop-pomeo {
-    margin-top: 3vw;
-    margin-left: 0.5vw;
+    margin-top: 0vw;
+    margin-left: 0.1vw;
     width: 24vw;
-    height: 15vw;
+    height: 20vw;
     object-fit: cover;
     border-radius: 1vw;
     padding: 0.2vw;
   }
 
   .slider-container-iphone {
-    margin-top: 1.8vw;
+    margin-top: 2.5vw;
     margin-left: -2vw;
     width: 6vw;
     height: 11.5vw;
@@ -250,15 +248,15 @@
     }
 
     .slider-container-laptop {
-      height: 12vw;
-      width: 18vw;
-      margin-left: 1vw;
+      height: 16vw;
+      width: 17vw;
+      margin-left: 1.4vw;
     }
 
-    .slider-container-laptop-pomeoanim {
-      height: 12.3vw;
-      width: 19vw;
-      margin-left: 1.3vw;
+    .slider-container-laptop-edge2 {
+      height: 16vw;
+      width: 17vw;
+      margin-left: 1vw;
     }
 
     .slider-container-iphone {
@@ -266,9 +264,9 @@
     }
 
     .slider-container-laptop-pomeo {
-      height: 12vw;
-      width: 18vw;
-      margin-left: 5.2vw;
+      height: 16vw;
+      width: 17vw;
+      margin-left: 5vw;
     }
   }
 }
@@ -383,29 +381,30 @@
   }
 
   .slider-container-laptop {
-    width: 48vw !important; // Powiększony obrazek
-    height: 30vw !important;
+    width: 52vw !important; // Powiększony obrazek
+    height: 44vw !important;
     margin-left: 0;
+    margin-top: -5vw;
+  }
+
+  .slider-container-laptop-edge2 {
+    width: 52vw !important; // Powiększony obrazek
+    height: 44vw !important;
+    margin-left: 2.2vw !important;
+    margin-top: -5vw;
   }
 
   .slider-container-laptop-pomeo {
-    width: 48vw !important; // Powiększony obrazek
-    height: 30vw !important;
-    margin-left: 2vw !important;
+    width: 52vw !important; // Powiększony obrazek
+    height: 44vw !important;
+    margin-left: 2.3vw !important;
+    margin-top: -5vw !important;
   }
 
   .slider-container-iphone {
-    width: 48vw !important; // Powiększony obrazek
-    height: 30vw !important;
-    margin-left: 0;
     display: none !important;
   }
 
-  .slider-container-laptop-pomeoanim {
-    width: 48vw !important; // Powiększony obrazek
-    height: 30vw !important;
-    margin-left: 2.5vw !important;
-  }
 
   .text-overlay {
     font-size: 3vw !important;
@@ -505,12 +504,6 @@
     margin-left: 5vw !important;
   }
 
-  .slider-container-laptop-pomeoanim {
-    width: 95vw; // Jeszcze większy
-    height: auto;
-    margin-left: 4.7vw !important;
-  }
-
   .button-portfolio {
     width: 10vw; // Większy przycisk
     height: 5vw;
@@ -550,27 +543,20 @@
     margin-left: 2vw !important;
   }
 
-  .slider-container-laptop-pomeoanim {
-    width: 49vw !important; // Powiększony obrazek
-    height: 31vw !important;
-    margin-left: 6.1vw !important;
-    margin-bottom: 1.5vw !important; 
-  }
-
   .slider-container-laptop-pomeo {
-    width: 49vw !important; // Powiększony obrazek
+    width: 49vw !important; 
     height: 30.7vw !important;
     margin-top: 1.8vw !important;
     margin-left: 6.1vw !important;
   }
 
   .button-portfolio {
-    width: 10vw; // Jeszcze większy przycisk
+    width: 10vw; 
     height: 5vw;
     margin-top: 16vw;
 
     span {
-      font-size: 3.5vw; // Jeszcze większa czcionka
+      font-size: 3.5vw;
     }
   }
 
