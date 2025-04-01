@@ -442,14 +442,22 @@
     margin-top: -20vw;
   }
   .slider-container-laptop {
-    width: 95vw;
-    height: auto;
+    width: 52vw !important;
+    height: 44vw !important;
     margin-bottom: 2vw !important;
+    margin-top: -3vw !important;
+  }
+  .slider-container-laptop-edge2 {
+    width: 52vw !important;
+    height: 44vw !important;
+    margin-left: 3.5vw !important;
+    margin-top: -5vw;
   }
   .slider-container-laptop-pomeo {
-    width: 48vw !important;
-    height: 30vw !important;
-    margin-left: 5vw !important;
+    width: 52vw !important;
+    height: 44vw !important;
+    margin-left: 3.5vw !important;
+    margin-top: -5vw !important;
   }
   .button-portfolio {
     width: 10vw;

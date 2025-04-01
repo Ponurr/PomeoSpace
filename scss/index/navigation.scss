@@ -187,9 +187,20 @@
     line-height: 22vw !important;
   }
 
-  .navigation__container-content-subpages-icons i {
+  .navigation__container-content-subpages-icons 
+
+  {
+    margin-top: 0.3vw !important;
+
+  .navigation__container-content-subpages-icons-website i {
     font-size: 2vw !important;
-    margin-bottom: 0.7vw !important;
+    margin-bottom: 0.55vw !important;
+  }
+
+  .navigation__container-content-subpages-icons-instagram i {
+    font-size: 2.2vw !important;
+    margin-top: 0.3vw !important;
+  }
   }
 
   .subpages_seperator {
