@@ -194,10 +194,11 @@
   }
   .navigation__container-content-subpages-icons .navigation__container-content-subpages-icons-website i {
     font-size: 2.4vw !important;
+    gap: 2vw;
   }
   .navigation__container-content-subpages-icons .navigation__container-content-subpages-icons-instagram i {
     font-size: 2.6vw !important;
-    margin-top: 1.3vw !important;
+    margin-top: 0.99vw !important;
   }
   .subpages_seperator {
     font-size: 3vw !important;
