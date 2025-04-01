@@ -493,6 +493,12 @@
     margin-bottom: 2vw !important;
     margin-top: -3vw !important;
   }
+  .slider-container-laptop-edge1 {
+    width: 52vw !important;
+    height: 44vw !important;
+    margin-left: 6vw !important;
+    margin-top: -5vw;
+  }
   .slider-container-laptop-edge2 {
     width: 52vw !important;
     height: 44vw !important;
