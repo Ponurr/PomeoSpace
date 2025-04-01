@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "ponur";
+  src: url("../../design/fonts/PPObjectSans-Heavy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.content {
+  text-align: left;
+  font-family: ponur;
+  margin-top: 2vw;
+  margin-left: -5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content .content__main {
+  font-size: 2.4vw;
+  margin-top: 2vw;
+}
+.content .content__text {
+  margin-top: 1vw;
+  width: 36vw;
+  margin-left: -4vw;
+}
+.content .content__text P {
+  font-size: 1.2vw;
+}
+.content .content__text span {
+  color: #49006E;
+}
+.content .content__text span img {
+  height: 1.2vw;
+  width: 1.2vw;
+}
+
+.text-anim-explode {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  width: 30vw;
+  display: inline-block;
+  justify-content: left;
+  margin-left: -10vw;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.text-anim-explode__char {
+  opacity: 0;
+  transform: translateY(80px) scale(0.8) rotate(-10deg);
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
+.text-anim-explode--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.text-anim-explode--visible .text-anim-explode__char {
+  opacity: 1;
+  transform: translateY(0) scale(1) rotate(0);
+}
+
+.main__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 2vw;
+  gap: 4vw;
+}
+
+.content {
+  flex: 1 1 60%;
+  max-width: 60%;
+}
+
+.cube1 {
+  position: relative;
+  transform-style: preserve-3d;
+  transform: rotateX(-40deg) rotateY(300deg);
+  margin-right: -138vw;
+  margin-top: -22vw;
+}
+.cube1 .face {
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  background-color: #49006E;
+  border: 0.1vw solid #fff;
+  box-sizing: border-box;
+}
+.cube1 .front {
+  transform: translateZ(2.6vw);
+}
+.cube1 .top {
+  transform: translateY(-2.6vw) rotateX(90deg);
+}
+.cube1 .right {
+  transform: translateX(2.6vw) rotateY(90deg);
+}
+
+.cube2 {
+  position: absolute;
+  transform-style: preserve-3d;
+  transform: rotateX(-40deg) rotateY(330deg);
+  margin-top: 22vw;
+  margin-left: -50vw;
+}
+
+.cube3 {
+  position: absolute;
+  transform-style: preserve-3d;
+  transform: rotateX(30deg) rotateY(-210deg);
+  margin-left: -32vw;
+  margin-top: 28vw;
+}
+
+.cube4 {
+  position: absolute;
+  transform-style: preserve-3d;
+  transform: rotateX(50deg) rotateY(150deg);
+  margin-left: -19vw;
+  margin-top: 23vw;
+}
+
+.face {
+  position: absolute;
+  width: 4vw;
+  height: 4vw;
+  background-color: #49006E;
+  border: 0.1vw solid #fff;
+  box-sizing: border-box;
+}
+
+.front {
+  transform: translateZ(2.02vw);
+}
+
+.top {
+  transform: translateY(-2.02vw) rotateX(90deg);
+}
+
+.right {
+  transform: translateX(2.02vw) rotateY(90deg);
+}
+
+/*# sourceMappingURL=content.css.map */

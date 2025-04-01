@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "ponur";
+  src: url("../../../design/fonts/PPObjectSans-Heavy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.editor20 {
+  width: 50VW;
+  margin: 2vw auto;
+  background: #1a1a1a;
+  border-radius: 0.8vw;
+  box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.editor20__tabs {
+  display: flex;
+  border-bottom: 0.1vw solid #333;
+  background: #2a2a2a;
+}
+.editor20__tabs .editor20__tabs__button {
+  padding: 1vw 2vw;
+  border: none;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.4vw;
+  border-radius: 0.4vw 0.4vw 0 0;
+  transition: background 0.3s;
+}
+.editor20__tabs .editor20__tabs__button.editor20__tabs__button--active {
+  background: #333;
+}
+.editor20__tabs .editor20__tabs__button:hover:not(.editor2__tabs__button--active) {
+  background: #3a3a3a;
+}
+
+.editor20__main-content {
+  display: flex;
+  height: 35vw;
+}
+
+.editor20__code-menu {
+  width: 0;
+  background: #2a2a2a;
+  transition: width 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+.editor20__code-menu.editor20__code-menu--expanded {
+  width: 30vw;
+}
+.editor20__code-menu .editor20__code-menu__input {
+  width: 100%;
+  height: 100%;
+  background: #1a1a1a;
+  color: #fff;
+  border: none;
+  padding: 1vw;
+  font-family: monospace;
+  resize: none;
+  white-space: pre-wrap;
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.editor20__code-menu .editor20__code-menu__input.editor20__code-menu__input--visible {
+  opacity: 1;
+}
+
+.editor20__animation-area {
+  flex: 1;
+  background: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editor20__animation-area__text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 2vw;
+}
+.editor20__animation-area__text svg {
+  width: 100%;
+  height: 100%;
+}
+.editor20__animation-area__text text {
+  font-size: 4.6vw;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  fill: rgb(255, 255, 255);
+  stroke-width: 0.2vw;
+}
+.editor20__animation-area__text .text-copy {
+  fill: none;
+  stroke-width: 0.2vw;
+  stroke-linecap: round;
+  stroke-dasharray: 0, 100%;
+  animation: draw-text 3s forwards ease-in-out infinite;
+}
+.editor20__animation-area__text .text-copy:nth-child(1) {
+  stroke: #00ff4c;
+  animation-delay: 0s;
+}
+.editor20__animation-area__text .text-copy:nth-child(2) {
+  stroke: #D61C59;
+  animation-delay: 0.2s;
+}
+.editor20__animation-area__text .text-copy:nth-child(3) {
+  stroke: #E7D84B;
+  animation-delay: 0.4s;
+}
+.editor20__animation-area__text .text-copy:nth-child(4) {
+  stroke: #ff7ee3;
+  animation-delay: 0.6s;
+}
+.editor20__animation-area__text .text-copy:nth-child(5) {
+  stroke: #000000;
+  animation-delay: 0.8s;
+}
+
+@keyframes draw-text {
+  0% {
+    stroke-dasharray: 0, 100%;
+  }
+  50% {
+    stroke-dasharray: 100%, 0;
+  }
+  100% {
+    stroke-dasharray: 0, 100%;
+  }
+}
+
+/*# sourceMappingURL=editor20.css.map */

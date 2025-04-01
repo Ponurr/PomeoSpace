@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "ponur";
+  src: url("../../../design/fonts/PPObjectSans-Heavy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.container19 {
+  width: 96vw;
+  height: 40vw;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container19 .container19-textbox {
+  overflow: hidden;
+  width: 40vw;
+  height: 30vw;
+  border: 1.1vw solid black;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+@keyframes neonGlow {
+  0% {
+    text-shadow: 0 0 5px #ff00d4, 0 0 10px #ff0088, 0 0 15px #ff0088, 0 0 20px #ff0088, 0 0 25px #ff0088;
+    transform: translateX(-10px) rotate(-5deg);
+  }
+  50% {
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff;
+    transform: translateX(10px) rotate(5deg);
+  }
+  100% {
+    text-shadow: 0 0 5px #ff0088, 0 0 10px #ff0088, 0 0 15px #ff0088, 0 0 20px #ff0088, 0 0 25px #ff0088;
+    transform: translateX(-10px) rotate(-5deg);
+  }
+}
+.container19 .container19-textbox span {
+  width: 30vw;
+  font-size: 1.8vw;
+  font-family: "ponur";
+  animation: neonGlow 1.5s ease-in-out infinite, bounce 2s ease-in-out infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+.container19 .container19-codebox {
+  overflow: hidden;
+  width: 40vw;
+  height: 30vw;
+  border: 1.1vw solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+.container19 pre {
+  width: 30vw;
+  font-size: 0.4vw;
+  font-family: "ponur";
+}
+.container19 button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 1vw;
+  cursor: pointer;
+  background-color: #49006E;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+.container19 button:hover {
+  background-color: #49006E;
+  transform: scale(1.05);
+}
+.container19 #hiddenTextarea {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+
+/*# sourceMappingURL=container19.css.map */

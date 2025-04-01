@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "ponur";
+  src: url("../../../design/fonts/PPObjectSans-Heavy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.container9 {
+  width: 96vw;
+  height: 40vw;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container9 .container9-textbox {
+  overflow: hidden;
+  width: 40vw;
+  height: 30vw;
+  border: 1.1vw solid black;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.container9 .container9-textbox span {
+  width: 30vw;
+  font-size: 1.8vw;
+  font-family: "ponur";
+  animation: rotate3D 3s infinite linear;
+}
+@keyframes rotate3D {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+.container9 .container9-codebox {
+  overflow: hidden;
+  width: 40vw;
+  height: 30vw;
+  border: 1.1vw solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+.container9 pre {
+  width: 30vw;
+  font-size: 1vw;
+  font-family: "ponur";
+}
+.container9 button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 1vw;
+  cursor: pointer;
+  background-color: #49006E;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+.container9 button:hover {
+  background-color: #49006E;
+  transform: scale(1.05);
+}
+.container9 #hiddenTextarea {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+
+/*# sourceMappingURL=container9.css.map */

@@ -1,0 +1,145 @@
+.editor22 {
+    width: 50VW;
+    margin: 2vw auto;
+    background: #1a1a1a;
+    border-radius: 0.8vw;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.editor22__tabs {
+    display: flex;
+    border-bottom: 0.1vw solid #333;
+    background: #2a2a2a;
+
+    .editor22__tabs__button {
+        padding: 1vw 2vw;
+        border: none;
+        background: none;
+        color: #fff;
+        cursor: pointer;
+        font-size: 1.4vw;
+        border-radius: 0.4vw 0.4vw 0 0;
+        transition: background 0.3s;
+
+        &.editor22__tabs__button--active {
+            background: #333;
+        }
+
+        &:hover:not(.editor22__tabs__button--active) {
+            background: #3a3a3a;
+        }
+    }
+}
+
+.editor22__main-content {
+    display: flex;
+    height: 35vw;
+}
+
+.editor22__code-menu {
+    width: 0;
+    background: #2a2a2a;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    position: relative;
+
+    &.editor22__code-menu--expanded {
+        width: 30vw;
+    }
+
+    .editor22__code-menu__input {
+        width: 100%;
+        height: 100%;
+        background: #1a1a1a;
+        color: #fff;
+        border: none;
+        padding: 1vw;
+        font-family: monospace;
+        resize: none;
+        white-space: pre-wrap;
+        overflow: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+
+        &.editor22__code-menu__input--visible {
+            opacity: 1;
+        }
+    }
+}
+
+.editor22__animation-area {
+    flex: 1;
+    background: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editor22__animation-area__text {
+   
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 2vw;
+    
+    span {
+        width: 30vw;
+        font-size: 1.8vw;
+        font-family: "ponur";
+        color: #ffffff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        display: inline-flex;
+        position: relative;
+    
+        
+        span {
+          display: inline-block;
+          animation: explodeAndReform 7s ease-in-out infinite;
+          transform-style: preserve-3d; 
+          position: relative;
+        }
+    
+        
+        $text: "Ponurek to szef";
+        @for $i from 1 through str-length($text) {
+          span:nth-child(#{$i}) {
+            animation-delay: ($i * 0.15s); 
+          }
+        }
+      }
+    
+     
+      @keyframes explodeAndReform {
+        0% {
+          transform: translateZ(0) rotateX(0deg) rotateY(0deg) scale(1);
+          opacity: 1;
+        }
+        20% {
+          transform: translateZ(50px) rotateX(90deg) rotateY(45deg) scale(1.3); 
+          opacity: 0.7;
+        }
+        40% {
+          transform: translateZ(-30px) translateX(20px) rotateX(-180deg) rotateY(90deg) scale(0.8); 
+          opacity: 0.5;
+        }
+        60% {
+          transform: translateZ(20px) translateY(-15px) rotateX(360deg) rotateY(-45deg) scale(1.1); 
+          opacity: 0.8;
+        }
+        80% {
+          transform: translateZ(-10px) rotateX(-90deg) rotateY(180deg) scale(0.9); 
+          opacity: 0.9;
+        }
+        100% {
+          transform: translateZ(0) rotateX(0deg) rotateY(0deg) scale(1); 
+          opacity: 1;
+        }
+      }
+    }
+  

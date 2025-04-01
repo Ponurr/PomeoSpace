@@ -1,0 +1,147 @@
+.editor14 {
+    width: 50VW;
+    margin: 2vw auto;
+    background: #1a1a1a;
+    border-radius: 0.8vw;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.editor14__tabs {
+    display: flex;
+    border-bottom: 0.1vw solid #333;
+    background: #2a2a2a;
+
+    .editor14__tabs__button {
+        padding: 1vw 2vw;
+        border: none;
+        background: none;
+        color: #fff;
+        cursor: pointer;
+        font-size: 1.4vw;
+        border-radius: 0.4vw 0.4vw 0 0;
+        transition: background 0.3s;
+
+        &.editor14__tabs__button--active {
+            background: #333;
+        }
+
+        &:hover:not(.editor14__tabs__button--active) {
+            background: #3a3a3a;
+        }
+    }
+}
+
+.editor14__main-content {
+    display: flex;
+    height: 35vw;
+}
+
+.editor14__code-menu {
+    width: 0;
+    background: #2a2a2a;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    position: relative;
+
+    &.editor14__code-menu--expanded {
+        width: 30vw;
+    }
+
+    .editor14__code-menu__input {
+        width: 100%;
+        height: 100%;
+        background: #1a1a1a;
+        color: #fff;
+        border: none;
+        padding: 1vw;
+        font-family: monospace;
+        resize: none;
+        white-space: pre-wrap;
+        overflow: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+
+        &.editor14__code-menu__input--visible {
+            opacity: 1;
+        }
+    }
+}
+
+.editor14__animation-area {
+    flex: 1;
+    background: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editor14__animation-area__text {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+
+    span{
+        position: absolute;
+        transform: translate(-50%, -50%);
+          width: 35vw;
+          font-size: 2.8vw;
+          font-family: "ponur";
+          font-weight: 300;
+          letter-spacing: 0.12vw;
+          text-transform: uppercase;
+         
+          left: 24.5vw;
+          
+          animation: effect 15s linear infinite;
+          &:nth-child(1){
+            color: transparent;
+            -webkit-text-stroke: 0.18vw #ffffff;
+
+          }
+          &:nth-child(2){
+
+            color: #ffffff;
+            animation: animate 4s ease-in-out infinite;
+          }
+      }
+     
+
+      @keyframes animate {
+        0%,
+        100% {
+          clip-path: polygon(
+            0% 45%,
+            16% 44%,
+            33% 50%,
+            54% 60%,
+            70% 61%,
+            84% 59%,
+            100% 52%,
+            100% 100%,
+            0% 100%
+          );
+        }
+      
+        50% {
+          clip-path: polygon(
+            0% 60%,
+            15% 65%,
+            34% 66%,
+            51% 62%,
+            67% 50%,
+            84% 45%,
+            100% 46%,
+            100% 100%,
+            0% 100%
+          );
+        }
+      }
+    }    

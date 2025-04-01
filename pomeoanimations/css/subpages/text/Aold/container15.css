@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "ponur";
+  src: url("../../../design/fonts/PPObjectSans-Heavy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.container15 {
+  width: 96vw;
+  height: 40vw;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container15 .container15-textbox {
+  overflow: hidden;
+  width: 40vw;
+  height: 30vw;
+  border: 1.1vw solid black;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  gap: 0vw;
+}
+.container15 .container15-textbox span {
+  display: inline-block;
+  width: 35vw;
+  font-size: 3.8vw;
+  font-family: "ponur";
+  font-weight: 300;
+  position: relative;
+  text-transform: uppercase;
+  animation: animate1 2s infinite;
+  animation-delay: calc(0.2s * var(--i));
+}
+.container15 .container15-textbox span:nth-child(1) {
+  left: 8vw;
+}
+.container15 .container15-textbox span:nth-child(2) {
+  left: 5.2vw;
+}
+.container15 .container15-textbox span:nth-child(3) {
+  left: 3vw;
+}
+.container15 .container15-textbox span:nth-child(4) {
+  left: 0.7vw;
+}
+.container15 .container15-textbox span:nth-child(5) {
+  left: -1.65vw;
+}
+.container15 .container15-textbox span:nth-child(6) {
+  left: -4.2vw;
+}
+.container15 .container15-textbox span:nth-child(7) {
+  left: -7.2vw;
+}
+@keyframes animate1 {
+  0%, 80% {
+    transform: rotateY(360deg);
+  }
+}
+.container15 .container15-codebox {
+  overflow: hidden;
+  width: 40vw;
+  height: 30vw;
+  border: 1.1vw solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+.container15 pre {
+  width: 30vw;
+  font-size: 0.3vw;
+  font-family: "ponur";
+}
+.container15 button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 1vw;
+  cursor: pointer;
+  background-color: #49006E;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+.container15 button:hover {
+  background-color: #49006E;
+  transform: scale(1.05);
+}
+.container15 #hiddenTextarea {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+
+/*# sourceMappingURL=container15.css.map */

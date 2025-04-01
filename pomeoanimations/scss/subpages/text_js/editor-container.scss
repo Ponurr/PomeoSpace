@@ -1,0 +1,147 @@
+
+.editor {
+    width: 50VW;
+    margin: 2vw auto;
+    background: #1a1a1a;
+    border-radius: 0.8vw;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.editor__tabs {
+    display: flex;
+    border-bottom: 0.1vw solid #333;
+    background: #2a2a2a;
+
+    .editor__tabs__button {
+        padding: 1vw 2vw;
+        border: none;
+        background: none;
+        color: #fff;
+        cursor: pointer;
+        font-size: 1.4vw;
+        border-radius: 0.4vw 0.4vw 0 0;
+        transition: background 0.3s;
+
+        &.editor__tabs__button--active {
+            background: #333;
+        }
+
+        &:hover:not(.editor__tabs__button--active) {
+            background: #3a3a3a;
+        }
+    }
+}
+
+.editor__main-content {
+    display: flex;
+    height: 35vw;
+}
+
+.editor__code-menu {
+    width: 0;
+    background: #2a2a2a;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    position: relative;
+
+    &.editor__code-menu--expanded {
+        width: 30vw;
+    }
+
+    .editor__code-menu__input {
+        width: 100%;
+        height: 100%;
+        background: #1a1a1a;
+        color: #fff;
+        border: none;
+        padding: 1vw;
+        font-family: monospace;
+        resize: none;
+        white-space: pre-wrap;
+        overflow: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+
+        &.editor__code-menu__input--visible {
+            opacity: 1;
+        }
+    }
+}
+
+.editor__animation-area {
+    flex: 1;
+    background: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editor__animation-area__text {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    animation: fadeIn 2s infinite;
+
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        50% { opacity: 1; }
+        100% { opacity: 0; }
+    }
+}
+.about-us-seperator{
+    display: flex;
+   width: 100%;
+   height: 4vw;
+   
+    
+    .about_us__seperator-line{
+      margin-top: 2vw;
+      margin-left: 5vw;
+      width: 90%;
+      height: 0.01vw;
+      transform: scaleY(0.1);
+     
+      background-color: black;
+
+      
+    }
+    .about-us__seperator-img{
+
+      width: 7vw;
+      height: 2vw;
+      background-color: rgb(255, 255, 255);
+      z-index: 1;
+      position: absolute;
+      transform: translateX(-50%);
+      margin-top: 0.7vw;
+      
+      left: 50%; 
+    img{
+      
+      position: absolute;
+      width: 4.5vw;
+      margin-top: -1.5vw;
+      left: 50%;              
+    transform: translateX(-50%);
+    z-index: 1;
+    
+    filter: grayscale(10);
+    
+    }
+  }
+  }
+
+  .separator__number{
+    font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 2vw;
+  letter-spacing: 0.05em;
+  color: #222;
+
+  }
+  

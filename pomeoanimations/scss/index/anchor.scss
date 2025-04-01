@@ -1,0 +1,70 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 3vw; 
+    right: 2vw; 
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 0.1vw 0.1vw rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    z-index: 1000;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 0.1vw solid #2e394f;
+    scrollbar-color: rgba(92, 158, 224, .3) rgba(0, 116, 233, 0.1);
+    display: flex;
+    font-size: 1.8vw; 
+    transition: all 0.4s;
+    
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.9); 
+      border-color: rgb(255, 255, 255); 
+      transform: scale(1);
+      transition: transform 4s ease;
+      box-shadow: 0 0.01vw 1vw rgba(255, 255, 255, 0.5);
+  
+      
+      i {
+        color: rgb(255, 255, 255); 
+       
+      }
+      
+      svg path {
+        fill: #ff4500; 
+      }
+    }
+  
+    svg path {
+      fill: rgba(255, 0, 0, 0.8);
+      transition: fill 0.3s;
+    }
+  
+    &:hover svg path {
+      fill: rgb(230, 0, 0);
+    }
+  
+    &.active {
+      opacity: 1;
+      visibility: visible;
+    }
+  
+    i {
+      display: inline-block; 
+      font-size: 1.8vw; 
+      line-height: 1; 
+      margin: 0; 
+      padding: 0; 
+      background: none; 
+      border: none; 
+      color: #000000;
+      position: relative;
+      top: 0.1vw;
+      
+      
+    }
+  }
