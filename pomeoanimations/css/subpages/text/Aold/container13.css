@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "ponur";
+  src: url("../../../design/fonts/PPObjectSans-Heavy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.container13 {
+  width: 96vw;
+  height: 40vw;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container13 .container13-textbox {
+  overflow: hidden;
+  width: 40vw;
+  height: 30vw;
+  border: 1.1vw solid black;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.container13 .container13-textbox span {
+  width: 30vw;
+  font-size: 1.8vw;
+  font-family: "ponur";
+  animation: effect 2s infinite ease-in-out;
+}
+.container13 .container13-textbox span:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  line-height: 48px;
+  left: 30%;
+  top: 50%;
+  animation: effect 7.5s linear infinite;
+  animation-fill-mode: forwards;
+}
+@keyframes effect {
+  0% {
+    content: "Ponur";
+  }
+  4% {
+    content: "to";
+  }
+  8% {
+    content: "giga";
+  }
+  12% {
+    content: "szef ";
+  }
+  16% {
+    content: "";
+  }
+  20% {
+    content: "Po";
+  }
+  24% {
+    content: "Ponu";
+  }
+  28% {
+    content: "Ponur ";
+  }
+  32% {
+    content: "Ponu ";
+  }
+  36% {
+    content: "Ponur  ";
+  }
+  40% {
+    content: "Ponur t  ";
+  }
+  44% {
+    content: "Ponur to ";
+  }
+  48% {
+    content: "Ponur to s";
+  }
+  52% {
+    content: "Ponur to sze";
+  }
+  56% {
+    content: "Ponur to sz";
+  }
+  60% {
+    content: "Ponur to sze";
+  }
+  64% {
+    content: "Ponur to szef";
+  }
+  68% {
+    content: "Ponur to szef i ";
+  }
+  72% {
+    content: "Ponur to szef i gi";
+  }
+  76% {
+    content: "Ponur to szef i g";
+  }
+  80% {
+    content: "Ponur to szef i giga";
+  }
+  84% {
+    content: "Ponur to szef i giga k";
+  }
+  88% {
+    content: "Ponur to szef i giga ko";
+  }
+  92% {
+    content: "Ponur to szef i giga koc";
+  }
+  96% {
+    content: "Ponur to szef i giga kocu";
+  }
+  100% {
+    content: "Ponur to szef i giga kocur";
+  }
+}
+.container13 .container13-codebox {
+  overflow: hidden;
+  width: 40vw;
+  height: 30vw;
+  border: 1.1vw solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+.container13 pre {
+  width: 30vw;
+  font-size: 0.15vw;
+  font-family: "ponur";
+}
+.container13 button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 1vw;
+  cursor: pointer;
+  background-color: #49006E;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+.container13 button:hover {
+  background-color: #49006E;
+  transform: scale(1.05);
+}
+.container13 #hiddenTextarea {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+
+/*# sourceMappingURL=container13.css.map */

@@ -1,0 +1,125 @@
+.editor23 {
+    width: 50VW;
+    margin: 2vw auto;
+    background: #1a1a1a;
+    border-radius: 0.8vw;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.editor23__tabs {
+    display: flex;
+    border-bottom: 0.1vw solid #333;
+    background: #2a2a2a;
+
+    .editor23__tabs__button {
+        padding: 1vw 2vw;
+        border: none;
+        background: none;
+        color: #fff;
+        cursor: pointer;
+        font-size: 1.4vw;
+        border-radius: 0.4vw 0.4vw 0 0;
+        transition: background 0.3s;
+
+        &.editor2__tabs__button--active {
+            background: #333;
+        }
+
+        &:hover:not(.editor2__tabs__button--active) {
+            background: #3a3a3a;
+        }
+    }
+}
+
+.editor23__main-content {
+    display: flex;
+    height: 35vw;
+}
+
+.editor23__code-menu {
+    width: 0;
+    background: #2a2a2a;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    position: relative;
+
+    &.editor23__code-menu--expanded {
+        width: 30vw;
+    }
+
+    .editor23__code-menu__input {
+        width: 100%;
+        height: 100%;
+        background: #1a1a1a;
+        color: #fff;
+        border: none;
+        padding: 1vw;
+        font-family: monospace;
+        resize: none;
+        white-space: pre-wrap;
+        overflow: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+
+        &.editor23__code-menu__input--visible {
+            opacity: 1;
+        }
+    }
+}
+
+.editor23__animation-area {
+    flex: 1;
+    background: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editor23__animation-area__text {
+   
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 2vw;
+    
+    span{
+        color: #fff;
+        margin: 0 15px;
+        line-height: .7;
+        text-shadow: 0 0 2px rgba(255, 255, 255, 0.45);
+        animation: span 3s ease-in infinite alternate;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+      
+          
+        @media(max-width: 600px){ transform: scale(.65); }
+    }
+    .letter{
+        display: inline-flex;
+        height: 1.5vw;
+        width: 0.27vw;
+        border: 0.235vw solid rgb(255, 255, 255);
+        border-radius: 1.4vw;
+        box-shadow:
+            0 0 0.1vw rgba(255, 255, 255, 0.75),
+            inset 0 0 0.1vw rgba(255, 255, 255, 0.45);
+    
+        animation: letter 3s ease-in-out infinite alternate;
+    }
+    @keyframes span {
+        0%,30%{ margin: 0 15px; }
+        70%,100%{ margin: 0 5px; }
+    }
+    @keyframes letter {
+        0%,30%{ width: 27px; }
+        70%,100%{ width: 20vw; }
+    }
+}

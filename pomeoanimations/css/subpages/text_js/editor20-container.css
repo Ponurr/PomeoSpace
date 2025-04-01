@@ -1,0 +1,123 @@
+.editor20 {
+  width: 50VW;
+  margin: 2vw auto;
+  background: #1a1a1a;
+  border-radius: 0.8vw;
+  box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.editor20__tabs {
+  display: flex;
+  border-bottom: 0.1vw solid #333;
+  background: #2a2a2a;
+}
+.editor20__tabs .editor20__tabs__button {
+  padding: 1vw 2vw;
+  border: none;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.4vw;
+  border-radius: 0.4vw 0.4vw 0 0;
+  transition: background 0.3s;
+}
+.editor20__tabs .editor20__tabs__button.editor20__tabs__button--active {
+  background: #333;
+}
+.editor20__tabs .editor20__tabs__button:hover:not(.editor20__tabs__button--active) {
+  background: #3a3a3a;
+}
+
+.editor20__main-content {
+  display: flex;
+  height: 35vw;
+}
+
+.editor20__code-menu {
+  width: 0;
+  background: #2a2a2a;
+  transition: width 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+.editor20__code-menu.editor20__code-menu--expanded {
+  width: 30vw;
+}
+.editor20__code-menu .editor20__code-menu__input {
+  width: 100%;
+  height: 100%;
+  background: #1a1a1a;
+  color: #fff;
+  border: none;
+  padding: 1vw;
+  font-family: monospace;
+  resize: none;
+  white-space: pre-wrap;
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.editor20__code-menu .editor20__code-menu__input.editor20__code-menu__input--visible {
+  opacity: 1;
+}
+
+.editor20__animation-area {
+  flex: 1;
+  background: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editor20__animation-area__text {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+}
+.editor20__animation-area__text .flip-card {
+  width: 15vw;
+  height: 10vw;
+  perspective: 100vw;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+.editor20__animation-area__text .flip-card--visible {
+  opacity: 1;
+}
+.editor20__animation-area__text .flip-card__inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 2s ease-in-out;
+}
+.editor20__animation-area__text .flip-card--visible .flip-card__inner {
+  transform: rotateY(180deg);
+}
+.editor20__animation-area__text .flip-card__front, .editor20__animation-area__text .flip-card__back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  font-weight: bold;
+}
+.editor20__animation-area__text .flip-card__front {
+  background: #49006E;
+  color: white;
+}
+.editor20__animation-area__text .flip-card__back {
+  background: #ffffff;
+  color: #49006E;
+  transform: rotateY(180deg);
+}
+
+/*# sourceMappingURL=editor20-container.css.map */

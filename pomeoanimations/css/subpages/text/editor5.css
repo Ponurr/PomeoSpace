@@ -1,0 +1,93 @@
+.editor5 {
+  width: 50VW;
+  margin: 2vw auto;
+  background: #1a1a1a;
+  border-radius: 0.8vw;
+  box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.editor5__tabs {
+  display: flex;
+  border-bottom: 0.1vw solid #333;
+  background: #2a2a2a;
+}
+.editor5__tabs .editor5__tabs__button {
+  padding: 1vw 2vw;
+  border: none;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.4vw;
+  border-radius: 0.4vw 0.4vw 0 0;
+  transition: background 0.3s;
+}
+.editor5__tabs .editor5__tabs__button.editor5__tabs__button--active {
+  background: #333;
+}
+.editor5__tabs .editor5__tabs__button:hover:not(.editor5__tabs__button--active) {
+  background: #3a3a3a;
+}
+
+.editor5__main-content {
+  display: flex;
+  height: 35vw;
+}
+
+.editor5__code-menu {
+  width: 0;
+  background: #2a2a2a;
+  transition: width 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+.editor5__code-menu.editor5__code-menu--expanded {
+  width: 30vw;
+}
+.editor5__code-menu .editor5__code-menu__input {
+  width: 100%;
+  height: 100%;
+  background: #1a1a1a;
+  color: #fff;
+  border: none;
+  padding: 1vw;
+  font-family: monospace;
+  resize: none;
+  white-space: pre-wrap;
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.editor5__code-menu .editor5__code-menu__input.editor5__code-menu__input--visible {
+  opacity: 1;
+}
+
+.editor5__animation-area {
+  flex: 1;
+  background: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editor5__animation-area__text {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  animation: bounceUpDown 2s infinite ease-in-out;
+}
+
+@keyframes bounceUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/*# sourceMappingURL=editor5.css.map */

@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "ponur";
+  src: url("../../../design/fonts/PPObjectSans-Heavy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.container23 {
+  width: 96vw;
+  height: 40vw;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container23 .container23-textbox {
+  overflow: hidden;
+  width: 40vw;
+  height: 30vw;
+  border: 1.1vw solid black;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 2vw;
+}
+.container23 .container23-textbox span {
+  margin: 0 15px;
+  line-height: 0.7;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.45);
+  animation: span 3s ease-in infinite alternate;
+}
+.container23 .container23-textbox .main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+@media (max-width: 600px) {
+  .container23 .container23-textbox .main {
+    transform: scale(0.65);
+  }
+}
+.container23 .container23-textbox .letter {
+  display: inline-flex;
+  height: 1.5vw;
+  width: 0.27vw;
+  border: 0.235vw solid black;
+  border-radius: 1.4vw;
+  box-shadow: 0 0 0.1vw rgba(0, 0, 0, 0.75), inset 0 0 0.1vw rgba(0, 0, 0, 0.45);
+  animation: letter 3s ease-in-out infinite alternate;
+}
+@keyframes span {
+  0%, 30% {
+    margin: 0 15px;
+  }
+  70%, 100% {
+    margin: 0 5px;
+  }
+}
+@keyframes letter {
+  0%, 30% {
+    width: 27px;
+  }
+  70%, 100% {
+    width: 20vw;
+  }
+}
+.container23 .container23-codebox {
+  overflow: hidden;
+  width: 40vw;
+  height: 30vw;
+  border: 1.1vw solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+.container23 pre {
+  width: 30vw;
+  font-size: 0.5vw;
+  font-family: "ponur";
+}
+.container23 button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 1vw;
+  cursor: pointer;
+  background-color: #49006E;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+.container23 button:hover {
+  background-color: #49006E;
+  transform: scale(1.05);
+}
+.container23 #hiddenTextarea {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+
+/*# sourceMappingURL=container23.css.map */

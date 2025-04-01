@@ -1,0 +1,107 @@
+.editor19 {
+  width: 50VW;
+  margin: 2vw auto;
+  background: #1a1a1a;
+  border-radius: 0.8vw;
+  box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.editor19__tabs {
+  display: flex;
+  border-bottom: 0.1vw solid #333;
+  background: #2a2a2a;
+}
+.editor19__tabs .editor19__tabs__button {
+  padding: 1vw 2vw;
+  border: none;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.4vw;
+  border-radius: 0.4vw 0.4vw 0 0;
+  transition: background 0.3s;
+}
+.editor19__tabs .editor19__tabs__button.editor19__tabs__button--active {
+  background: #333;
+}
+.editor19__tabs .editor19__tabs__button:hover:not(.editor19__tabs__button--active) {
+  background: #3a3a3a;
+}
+
+.editor19__main-content {
+  display: flex;
+  height: 35vw;
+}
+
+.editor19__code-menu {
+  width: 0;
+  background: #2a2a2a;
+  transition: width 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+.editor19__code-menu.editor19__code-menu--expanded {
+  width: 30vw;
+}
+.editor19__code-menu .editor19__code-menu__input {
+  width: 100%;
+  height: 100%;
+  background: #1a1a1a;
+  color: #fff;
+  border: none;
+  padding: 1vw;
+  font-family: monospace;
+  resize: none;
+  white-space: pre-wrap;
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.editor19__code-menu .editor19__code-menu__input.editor19__code-menu__input--visible {
+  opacity: 1;
+}
+
+.editor19__animation-area {
+  flex: 1;
+  background: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editor19__animation-area__text {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+}
+.editor19__animation-area__text .smoke-text {
+  font-size: 3vw;
+  font-weight: bold;
+  position: relative;
+  opacity: 0;
+  transition: opacity 0.4s ease-out;
+}
+.editor19__animation-area__text .smoke-text::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  opacity: 0;
+  filter: blur(20px);
+  transition: opacity 0.8s ease-out, filter 0.8s ease-out;
+}
+.editor19__animation-area__text .smoke-text--visible {
+  opacity: 1;
+}
+.editor19__animation-area__text .smoke-text--visible::before {
+  opacity: 1;
+  filter: blur(0);
+}
+
+/*# sourceMappingURL=editor19-container.css.map */

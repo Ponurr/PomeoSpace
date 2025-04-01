@@ -1,0 +1,98 @@
+.editor8 {
+    width: 50VW;
+    margin: 2vw auto;
+    background: #1a1a1a;
+    border-radius: 0.8vw;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.editor8__tabs {
+    display: flex;
+    border-bottom: 0.1vw solid #333;
+    background: #2a2a2a;
+
+    .editor8__tabs__button {
+        padding: 1vw 2vw;
+        border: none;
+        background: none;
+        color: #fff;
+        cursor: pointer;
+        font-size: 1.4vw;
+        border-radius: 0.4vw 0.4vw 0 0;
+        transition: background 0.3s;
+
+        &.editor8__tabs__button--active {
+            background: #333;
+        }
+
+        &:hover:not(.editor8__tabs__button--active) {
+            background: #3a3a3a;
+        }
+    }
+}
+
+.editor8__main-content {
+    display: flex;
+    height: 35vw;
+}
+
+.editor8__code-menu {
+    width: 0;
+    background: #2a2a2a;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    position: relative;
+
+    &.editor8__code-menu--expanded {
+        width: 30vw;
+    }
+
+    .editor8__code-menu__input {
+        width: 100%;
+        height: 100%;
+        background: #1a1a1a;
+        color: #fff;
+        border: none;
+        padding: 1vw;
+        font-family: monospace;
+        resize: none;
+        white-space: pre-wrap;
+        overflow: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+
+        &.editor8__code-menu__input--visible {
+            opacity: 1;
+        }
+    }
+}
+
+.editor8__animation-area {
+    flex: 1;
+    background: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editor8__animation-area__text {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    animation: stretch 2s infinite ease-in-out;
+
+        }
+        @keyframes stretch {
+            0%, 100% {
+                transform: scaleX(1);
+            }
+            50% {
+                transform: scaleX(1.2);
+            }
+        }
+        

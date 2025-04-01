@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "ponur";
+  src: url("../../../design/fonts/PPObjectSans-Heavy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.container20 {
+  width: 96vw;
+  height: 40vw;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container20 .container20-textbox {
+  position: relative;
+  overflow: hidden;
+  width: 40vw;
+  height: 30vw;
+  border: 1.1vw solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container20 .container20-textbox svg {
+  width: 100%;
+  height: 100%;
+}
+.container20 .container20-textbox text {
+  font-size: 4.6vw;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  fill: white;
+  stroke-width: 0.2vw;
+}
+.container20 .container20-textbox .text-copy {
+  fill: none;
+  stroke-width: 0.2vw;
+  stroke-linecap: round;
+  stroke-dasharray: 0, 100%;
+  animation: draw-text 3s forwards ease-in-out infinite;
+}
+.container20 .container20-textbox .text-copy:nth-child(1) {
+  stroke: #00ff4c;
+  animation-delay: 0s;
+}
+.container20 .container20-textbox .text-copy:nth-child(2) {
+  stroke: #D61C59;
+  animation-delay: 0.2s;
+}
+.container20 .container20-textbox .text-copy:nth-child(3) {
+  stroke: #E7D84B;
+  animation-delay: 0.4s;
+}
+.container20 .container20-textbox .text-copy:nth-child(4) {
+  stroke: #ff7ee3;
+  animation-delay: 0.6s;
+}
+.container20 .container20-textbox .text-copy:nth-child(5) {
+  stroke: #000000;
+  animation-delay: 0.8s;
+}
+
+@keyframes draw-text {
+  0% {
+    stroke-dasharray: 0, 100%;
+  }
+  50% {
+    stroke-dasharray: 100%, 0;
+  }
+  100% {
+    stroke-dasharray: 0, 100%;
+  }
+}
+.container20-codebox {
+  overflow: hidden;
+  width: 40vw;
+  height: 30vw;
+  border: 1.1vw solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+pre {
+  width: 30vw;
+  font-size: 0.25vw;
+  font-family: "ponur";
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 1vw;
+  cursor: pointer;
+  background-color: #49006E;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #49006E;
+  transform: scale(1.05);
+}
+
+#hiddenTextarea {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+
+/*# sourceMappingURL=container20.css.map */

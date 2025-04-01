@@ -1,0 +1,102 @@
+.editor11 {
+  width: 50VW;
+  margin: 2vw auto;
+  background: #1a1a1a;
+  border-radius: 0.8vw;
+  box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.editor11__tabs {
+  display: flex;
+  border-bottom: 0.1vw solid #333;
+  background: #2a2a2a;
+}
+.editor11__tabs .editor11__tabs__button {
+  padding: 1vw 2vw;
+  border: none;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.4vw;
+  border-radius: 0.4vw 0.4vw 0 0;
+  transition: background 0.3s;
+}
+.editor11__tabs .editor11__tabs__button.editor11__tabs__button--active {
+  background: #333;
+}
+.editor11__tabs .editor11__tabs__button:hover:not(.editor11__tabs__button--active) {
+  background: #3a3a3a;
+}
+
+.editor11__main-content {
+  display: flex;
+  height: 35vw;
+}
+
+.editor11__code-menu {
+  width: 0;
+  background: #2a2a2a;
+  transition: width 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+.editor11__code-menu.editor11__code-menu--expanded {
+  width: 30vw;
+}
+.editor11__code-menu .editor11__code-menu__input {
+  width: 100%;
+  height: 100%;
+  background: #1a1a1a;
+  color: #fff;
+  border: none;
+  padding: 1vw;
+  font-family: monospace;
+  resize: none;
+  white-space: pre-wrap;
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.editor11__code-menu .editor11__code-menu__input.editor11__code-menu__input--visible {
+  opacity: 1;
+}
+
+.editor11__animation-area {
+  flex: 1;
+  background: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editor11__animation-area__text {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  animation: shake 0.3s infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-5px, 0);
+  }
+  50% {
+    transform: translate(5px, 0);
+  }
+  75% {
+    transform: translate(-5px, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/*# sourceMappingURL=editor11.css.map */

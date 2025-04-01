@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "ponur";
+  src: url("../../../design/fonts/PPObjectSans-Heavy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.container17 {
+  width: 96vw;
+  height: 40vw;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container17 .container17-textbox {
+  overflow: hidden;
+  width: 40vw;
+  height: 30vw;
+  border: 1.1vw solid black;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ccc;
+}
+.container17 .container17-textbox h1 {
+  margin: 0;
+  height: 12vmin;
+  width: 22vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.container17 .container17-textbox h1::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: -26vmin;
+  left: 29vmin;
+  width: 62vmin;
+  height: 62vmin;
+  border-radius: 50%;
+  border: 1.3vmin solid currentColor;
+  box-sizing: border-box;
+}
+.container17 .container17-textbox em {
+  font-family: "ponur", sans-serif;
+  color: currentColor;
+  font-size: 5vmin;
+  position: relative;
+  font-style: normal;
+  width: 20vmin;
+  text-align: center;
+  color: black;
+}
+.container17 .container17-textbox a {
+  color: purple !important;
+}
+.container17 .container17-textbox em.planet {
+  -webkit-animation: planet-rotate 4s linear infinite;
+  animation: planet-rotate 4s linear infinite;
+  position: relative;
+}
+.container17 .container17-textbox em.planet::before {
+  content: "";
+  position: absolute;
+  top: -0.5vmin;
+  left: 3.5vmin;
+  z-index: -1;
+  width: 13vmin;
+  height: 13vmin;
+  border-radius: 50%;
+  background: black;
+  opacity: 0;
+}
+.container17 .container17-textbox em.planet.left {
+  -webkit-transform-origin: 20vw 5vw;
+  transform-origin: 10vw 2vw;
+  color: purple;
+}
+.container17 .container17-textbox em.planet.right {
+  -webkit-transform-origin: 0vw 5vw;
+  transform-origin: -4.8vw 3vw;
+}
+@-webkit-keyframes planet-rotate {
+  to {
+    -webkit-transform: rotate(1turn);
+  }
+}
+@keyframes planet-rotate {
+  to {
+    transform: rotate(1turn);
+  }
+}
+.container17 .container17-codebox {
+  overflow: hidden;
+  width: 40vw;
+  height: 30vw;
+  border: 1.1vw solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+.container17 pre {
+  width: 30vw;
+  font-size: 0.2vw;
+  font-family: "ponur";
+}
+.container17 button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 1vw;
+  cursor: pointer;
+  background-color: #49006E;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+.container17 button:hover {
+  background-color: #49006E;
+  transform: scale(1.05);
+}
+.container17 #hiddenTextarea {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+
+/*# sourceMappingURL=container17.css.map */

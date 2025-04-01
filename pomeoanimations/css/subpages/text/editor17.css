@@ -1,0 +1,153 @@
+.editor17 {
+  width: 50VW;
+  margin: 2vw auto;
+  background: #1a1a1a;
+  border-radius: 0.8vw;
+  box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.editor17__tabs {
+  display: flex;
+  border-bottom: 0.1vw solid #333;
+  background: #2a2a2a;
+}
+.editor17__tabs .editor17__tabs__button {
+  padding: 1vw 2vw;
+  border: none;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.4vw;
+  border-radius: 0.4vw 0.4vw 0 0;
+  transition: background 0.3s;
+}
+.editor17__tabs .editor17__tabs__button.editor17__tabs__button--active {
+  background: #333;
+}
+.editor17__tabs .editor17__tabs__button:hover:not(.editor17__tabs__button--active) {
+  background: #3a3a3a;
+}
+
+.editor17__main-content {
+  display: flex;
+  height: 35vw;
+}
+
+.editor17__code-menu {
+  width: 0;
+  background: #2a2a2a;
+  transition: width 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+.editor17__code-menu.editor17__code-menu--expanded {
+  width: 30vw;
+}
+.editor17__code-menu .editor17__code-menu__input {
+  width: 100%;
+  height: 100%;
+  background: #1a1a1a;
+  color: #fff;
+  border: none;
+  padding: 1vw;
+  font-family: monospace;
+  resize: none;
+  white-space: pre-wrap;
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.editor17__code-menu .editor17__code-menu__input.editor17__code-menu__input--visible {
+  opacity: 1;
+}
+
+.editor17__animation-area {
+  flex: 1;
+  background: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editor17__animation-area__text {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+}
+.editor17__animation-area__text h1 {
+  margin: 0;
+  height: 12vmin;
+  width: 15vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.editor17__animation-area__text h1::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: -26vmin;
+  left: 29vmin;
+  width: 62vmin;
+  height: 62vmin;
+  border-radius: 50%;
+  border: 1.3vmin solid currentColor;
+  box-sizing: border-box;
+}
+.editor17__animation-area__text em {
+  font-family: "ponur", sans-serif;
+  color: currentColor;
+  font-size: 5vmin;
+  position: relative;
+  font-style: normal;
+  width: 20vmin;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.editor17__animation-area__text a {
+  color: purple !important;
+}
+.editor17__animation-area__text em.planet {
+  -webkit-animation: planet-rotate 4s linear infinite;
+  animation: planet-rotate 4s linear infinite;
+  position: relative;
+}
+.editor17__animation-area__text em.planet::before {
+  content: "";
+  position: absolute;
+  top: -0.5vmin;
+  left: 3.5vmin;
+  z-index: -1;
+  width: 13vmin;
+  height: 13vmin;
+  border-radius: 50%;
+  background: black;
+  opacity: 0;
+}
+.editor17__animation-area__text em.planet.left {
+  -webkit-transform-origin: 0vw 1vw;
+  transform-origin: 6vw 1vw;
+  color: purple;
+}
+.editor17__animation-area__text em.planet.right {
+  -webkit-transform-origin: 0vw 1vw;
+  transform-origin: -3vw 1vw;
+}
+@-webkit-keyframes planet-rotate {
+  to {
+    -webkit-transform: rotate(1turn);
+  }
+}
+@keyframes planet-rotate {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+/*# sourceMappingURL=editor17.css.map */

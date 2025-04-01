@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "ponur";
+  src: url("../../design/fonts/PPObjectSans-Heavy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.pomeospace__content-box{
+  position: relative;
+  height: 30vw;
+  width: 35vw;
+  border: 0.1vw solid black;
+  margin-right: 5vw;
+  aspect-ratio: 900/600;
+  background-color: #E8E8E8;
+  border-radius: 2vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position: center 0vw;
+  background-image: url(../../design/blob-scene.svg);
+}
+
+.pomeospace__content-box-link{
+  cursor: pointer;
+  position: absolute;
+  margin-top: -4vw;
+  margin-left: 11.5vw;
+  background-color: #E8E8E8;
+  height: 2.5vw;
+  width: 12vw;
+  border: 0.15vw solid;
+  border-color: #000000;
+  border-radius: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3vw;
+  transition: all 1s;
+
+  a{
+    text-decoration: none;
+  }
+  p{
+    font-family: "ponur";
+    color: black;
+    font-size: 0.9vw;
+  }
+  i{
+    font-size: 1vw;
+    color: #000000;
+    transition: all 0.2s;
+  }
+
+
+}
+
+.pomeospace__content-box-link:hover{
+  background-color: #e2e0e0;
+
+  i{
+    color: #49006E;
+  }
+
+}
+
+.pomeospace__content-box-laptop{
+
+  position: absolute;
+  margin-top: -25.5vw;
+  margin-left: 1.5vw;
+
+  img{
+    width: 32vw;
+    height: 19vw;
+  }
+
+}
+
+.pomeospace__content-box-title{
+  position: absolute;
+  height: 2.5vw;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -29vw;
+
+  p{
+    font-family: "ponur";
+    color: black;
+    font-size: 2vw;
+  }
+}
