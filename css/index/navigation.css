@@ -25,7 +25,7 @@
 }
 .navigation .navigation-container .navigation__container-content .navigation__container-content-logo {
   margin-left: -43vw;
-  margin-top: 0.2vw;
+  margin-top: 0.3vw;
 }
 .navigation .navigation-container .navigation__container-content .navigation__container-content-logo img {
   height: 5vw;
@@ -106,6 +106,7 @@
     height: 6vw !important;
     width: 14vw !important;
     margin-left: 8vw !important;
+    margin-top: 0.15vw !important;
   }
   .navigation__container-content-subpages {
     height: 4vw !important;
@@ -136,6 +137,7 @@
 @media (max-width: 768px) {
   .navigation-container {
     height: 8vw !important;
+    margin-top: 0.2vw !important;
   }
   .navigation__container-content-logo img {
     height: 7vw !important;
@@ -175,6 +177,7 @@
   .navigation__container-content-logo img {
     height: 10vw !important;
     width: 22vw !important;
+    margin-top: 2.5vw !important;
   }
   .navigation__container-content-subpages {
     height: 6vw !important;
