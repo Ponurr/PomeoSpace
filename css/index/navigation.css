@@ -115,9 +115,8 @@
     margin-left: -33vw !important;
   }
   .navigation__container-content-subpages span {
-    font-size: 1.2vw !important;
-    line-height: 22vw !important;
-    margin-top: 0.2vw;
+    font-size: 1.3vw !important;
+    line-height: 2vw !important;
   }
   .navigation__container-content-subpages-icons {
     margin-top: 0.4vw !important;
@@ -153,7 +152,8 @@
   }
   .navigation__container-content-subpages span {
     font-size: 1.5vw !important;
-    line-height: 22vw !important;
+    margin-top: -7vw !important;
+    line-height: 3.4vw !important;
   }
   .navigation__container-content-subpages-icons {
     margin-top: 0.3vw !important;
@@ -190,7 +190,7 @@
   }
   .navigation__container-content-subpages span {
     font-size: 2vw !important;
-    line-height: 22vw !important;
+    line-height: 6vw !important;
   }
   .navigation__container-content-subpages-icons {
     margin-top: -0.5vw !important;

@@ -46,6 +46,8 @@
         justify-content: center;
         align-items: center;
 
+        
+
         span {
           border-radius: 0.3vw;
           text-decoration: none;
@@ -136,9 +138,8 @@
   }
 
   .navigation__container-content-subpages span {
-    font-size: 1.2vw !important;
-    line-height: 22vw !important;
-    margin-top: 0.2vw;
+    font-size: 1.3vw !important;
+    line-height: 2vw !important;
   }
 
   .navigation__container-content-subpages-icons 
@@ -182,11 +183,13 @@
     width: 55vw !important;
     gap: 3vw !important;
     margin-left: 2vw !important; 
+    
   }
 
   .navigation__container-content-subpages span {
     font-size: 1.5vw !important;
-    line-height: 22vw !important;
+    margin-top: -7vw !important;
+    line-height: 3.4vw !important;
   }
 
   .navigation__container-content-subpages-icons 
@@ -233,7 +236,7 @@
 
   .navigation__container-content-subpages span {
     font-size: 2vw !important;
-    line-height: 22vw !important;
+    line-height: 6vw !important;
     
   }
 
