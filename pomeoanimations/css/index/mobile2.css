@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "ponur";
+  src: url("../../design/fonts/PPObjectSans-Heavy.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.mobile {
+  width: 102vw;
+  height: 120vw;
+  background-color: rgba(128, 128, 128, 0.616);
+  position: absolute;
+  z-index: 9;
+  visibility: hidden;
+}
+.mobile .mobile-content {
+  visibility: hidden;
+  position: absolute;
+  width: 60vw;
+  height: 40vw;
+  background-color: rgb(0, 0, 0);
+  z-index: 10;
+  left: 22vw;
+  top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5vw 5vw 5vw 5vw;
+  flex-direction: column;
+}
+.mobile .mobile-content span {
+  font-family: "ponur";
+  color: white;
+  font-size: 5vw;
+  text-align: center;
+}
+.mobile .mobile-content img {
+  width: 15vw;
+}
+.mobile .mobile-content .mobile__content-back {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 4vw;
+}
+.mobile .mobile-content .mobile__content-back a {
+  text-decoration: none;
+}
+.mobile .mobile-content .mobile__content-back SPAN {
+  font-size: 3vw;
+}
+.mobile .mobile-content .mobile__content-back i {
+  color: rgb(173, 0, 0);
+  font-size: 3vw;
+}
+
+@media (max-width: 800px) {
+  .mobile {
+    visibility: visible !important;
+  }
+  .mobile-content {
+    visibility: visible !important;
+  }
+}
+
+/*# sourceMappingURL=mobile2.css.map */
