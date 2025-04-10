@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const leftArrow = document.querySelector(".arrow-left");
     const rightArrow = document.querySelector(".arrow-right");
 
-    let currentIndex = 2; // Start na środkowym
+    let currentIndex = 2; 
     let isAnimating = false;
     const totalSlides = slides.length;
 
@@ -12,16 +12,16 @@ document.addEventListener("DOMContentLoaded", function () {
         if (isAnimating) return;
         isAnimating = true;
 
-        const slideWidth = slides[0].offsetWidth + 2; // Dynamiczna szerokość
+        const slideWidth = slides[0].offsetWidth + 2; 
         let offset;
 
         if (window.innerWidth <= 1024) {
-            // Na mobile: brak przesuwania, tylko zmiana klasy
-            offset = 0; // Nie ruszamy .slider
+           
+            offset = 0; 
             slider.style.transition = instant ? "none" : "transform 0.8s ease-in-out";
             slider.style.transform = `translateX(${offset}px)`;
         } else {
-            // Na desktopie: oryginalne przesuwanie
+           
             offset = -currentIndex * slideWidth + (window.innerWidth / 2 - slideWidth / 2);
             slider.style.transition = instant ? "none" : "transform 0.8s ease-in-out";
             slider.style.transform = `translateX(${offset}px)`;
@@ -56,6 +56,6 @@ document.addEventListener("DOMContentLoaded", function () {
     leftArrow.addEventListener("click", moveLeft);
     rightArrow.addEventListener("click", moveRight);
 
-    updateSlider(true); // Początkowe ustawienie
-    window.addEventListener("resize", () => updateSlider(true)); // Reakcja na resize
+    updateSlider(true); 
+    window.addEventListener("resize", () => updateSlider(true)); 
 });

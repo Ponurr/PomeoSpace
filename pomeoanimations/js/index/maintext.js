@@ -9,7 +9,7 @@ const explodeTextObserver = new IntersectionObserver((entries) => {
                 letter.style.transitionDelay = `${index * 50}ms`;
             });
         } else {
-            // Reset animacji po wyjściu z ekranu
+            
             entry.target.classList.remove('text-anim-explode--visible');
             entry.target.querySelectorAll('.text-anim-explode__char').forEach(letter => {
                 letter.style.transitionDelay = '0ms';
@@ -25,7 +25,7 @@ document.querySelectorAll('[data-text-anim-explode]').forEach(el => {
     originalText.split('').forEach(char => {
         const span = document.createElement('span');
         span.classList.add('text-anim-explode__char');
-        span.textContent = char === ' ' ? '\u00A0' : char; // Uwzględnia spacje
+        span.textContent = char === ' ' ? '\u00A0' : char; 
         el.appendChild(span);
     });
 

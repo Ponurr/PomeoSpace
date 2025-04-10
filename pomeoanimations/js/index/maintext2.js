@@ -4,7 +4,7 @@ const explodeTextObserver2 = new IntersectionObserver((entries) => {
   
       if (entry.isIntersecting) {
         chars.forEach((char, index) => {
-          char.style.transitionDelay = `${index * 30}ms`; // opcjonalny efekt falowania
+          char.style.transitionDelay = `${index * 30}ms`;
           char.classList.add('text-anim-explode2__char--visible');
         });
       } else {
@@ -20,7 +20,7 @@ const explodeTextObserver2 = new IntersectionObserver((entries) => {
     const originalText = el.textContent.trim();
     el.innerHTML = '';
   
-    // dzielenie na słowa
+   
     originalText.split(' ').forEach((word, wordIndex) => {
       const wordSpan = document.createElement('span');
       wordSpan.classList.add('text-anim-explode2__word');
@@ -34,9 +34,9 @@ const explodeTextObserver2 = new IntersectionObserver((entries) => {
   
       el.appendChild(wordSpan);
   
-      // dodanie spacji po słowie (nie przed, żeby nie rozjechać stylu)
+      
       if (wordIndex < originalText.split(' ').length - 1) {
-        el.appendChild(document.createTextNode('\u00A0')); // niełamliwa spacja
+        el.appendChild(document.createTextNode('\u00A0'));
       }
     });
   

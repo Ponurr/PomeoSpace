@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const leftArrow = document.querySelector(".arrow-left");
     const rightArrow = document.querySelector(".arrow-right");
 
-    let currentIndex = 2; // Start na środkowym
+    let currentIndex = 2; 
     let isAnimating = false;
-    const slideWidth = slides[0].offsetWidth + 2; // Szerokość + marginesy
+    const slideWidth = slides[0].offsetWidth + 2;
     const totalSlides = slides.length;
 
     function updateSlider(instant = false) {
