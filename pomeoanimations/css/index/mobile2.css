@@ -6,7 +6,7 @@
 }
 .mobile {
   width: 102vw;
-  height: 120vw;
+  height: 10vw;
   background-color: rgba(128, 128, 128, 0.616);
   position: absolute;
   z-index: 9;
