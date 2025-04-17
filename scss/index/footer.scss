@@ -476,23 +476,22 @@
         background-position: center;
         background-size: cover;
         background-image: url(../../design/layered-waves-footer-transparent.svg);
-        height: 28vw;
+        height: 40vw;
         width: 94.3vw;
         margin-left: 2.35vw;
-        border-top-left-radius: 2vw;
-        border-top-right-radius: 2vw;
+        border-radius: 3vw !important;
         
     }
     
     .content__footer-main-logo{
     
         position: absolute;
-        margin-left: 1.5vw;
+        margin-left: 2vw;
         margin-top: -0.2vw;
         img {
     
-            height: 10.5vw;
-            width: 22vw;
+            height: 15vw;
+            width: 32vw;
         }
     }
     
@@ -501,24 +500,24 @@
     
         position: absolute;
         height: 10vw;
-        width: 32vw;
-        margin-left: 48vw;
-        margin-top: 1.6vw;
+        width: 40vw;
+        margin-left: 46vw;
+        margin-top: 4vw;
     
         p{
             
             color: black;
             font-family: 'ponur';
-            font-size: 2.3vw;
+            font-size: 2.9vw;
         }
     
         .content__footer-main-social-icons{
     
             position: absolute;
             margin-top: 0.6vw;
-            margin-left: 4.9vw;
+            margin-left: 4.2vw;
             display: flex;  
-            gap: 2.2vw;
+            gap: 3vw;
     
     
             .content__footer-main-social-icons-ig{
@@ -526,7 +525,7 @@
                 I{
     
                     color: black;
-                    font-size: 3.2vw;
+                    font-size: 5.2vw;
                     cursor: pointer;
                     margin-top: 0.8vw;
                     transition: all 0.2s;
@@ -542,8 +541,8 @@
                 I{
     
                     color: black;
-                    font-size: 2.9vw;
-                    margin-top: 0.2vw;
+                    font-size: 4.7vw;
+                    margin-top: 1.1vw !important;
                     cursor: pointer;
                     transition: all 0.2s;
                 }
@@ -558,8 +557,8 @@
                 I{
     
                     color: black;
-                    font-size: 2.65vw;
-                    margin-top: 0.25vw;
+                    font-size: 4.4vw;
+                    margin-top: 1.4vw !important;
                     cursor: pointer;
                     transition: all 0.2s;
                 }
@@ -573,9 +572,9 @@
     
                 I{  
     
-                    margin-top: 0.5vw;
+                    margin-top: 0.9vw !important;
                     color: black;
-                    font-size: 3.4vw;
+                    font-size: 5.2vw;
                     cursor: pointer;
                     transition: all 0.2s;
                 }
@@ -606,14 +605,14 @@
         position: absolute;
         height: 2vw;
         width: 90vw;
-        margin-top: 24.6vw;
-        margin-left: 1.5vw;
+        margin-top: 34vw;
+        margin-left: 3.4vw;
     
         p{
         
         font-family: 'ponur';
         color: #fff;
-        font-size: 1.7vw;
+        font-size: 2.3vw;
     
         }
     }

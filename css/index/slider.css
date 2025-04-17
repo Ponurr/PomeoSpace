@@ -502,58 +502,71 @@
 }
 @media (max-width: 480px) {
   .slider-container {
-    height: 70vw;
+    height: 91vw !important;
   }
   .slide {
-    width: 90vw;
-    height: 50vw;
+    width: 95vw !important;
+    height: 70vw !important;
   }
   .middle-slide {
     width: 90vw;
-    height: 50vw;
+    height: 90vw;
     margin-top: -25vw;
+    border-radius: 4vw !important;
+  }
+  .text-overlay {
+    margin-top: -58vw !important;
+    font-size: 3.5vw !important;
+  }
+  .text-overlay2 {
+    margin-top: -48vw !important;
+    font-size: 2.3vw !important;
   }
   .slider-container-laptop {
-    width: 52vw !important;
-    height: 44vw !important;
+    width: 80vw !important;
+    height: 62vw !important;
     margin-left: 2vw !important;
     margin-bottom: 2vw !important;
-    margin-top: -3vw !important;
+    margin-top: -6vw !important;
   }
   .slider-container-laptop-edge1 {
-    width: 52vw !important;
-    height: 44vw !important;
-    margin-top: -5vw;
+    width: 80vw !important;
+    height: 62vw !important;
+    margin-top: -8vw !important;
   }
   .slider-container-laptop-edge2 {
-    width: 52vw !important;
-    height: 44vw !important;
-    margin-left: 6vw !important;
-    margin-top: -5vw;
+    width: 80vw !important;
+    height: 62vw !important;
+    margin-left: 5vw !important;
+    margin-top: -8vw !important;
   }
   .slider-container-laptop-pomeo {
-    width: 52vw !important;
-    height: 44vw !important;
-    margin-left: 6vw !important;
-    margin-top: -5vw !important;
+    width: 80vw !important;
+    height: 62vw !important;
+    margin-left: 5vw !important;
+    margin-top: -8vw !important;
   }
   .button-portfolio {
-    width: 18vw !important;
-    height: 4.5vw !important;
-    margin-top: 16vw;
+    width: 30vw !important;
+    height: 6vw !important;
+    border-radius: 2vw !important;
+    margin-top: 29vw !important;
     border-width: 0.4vw !important;
     pointer-events: auto !important;
   }
   .button-portfolio span {
-    font-size: 3.5vw;
+    font-size: 2.8vw !important;
     font-family: "ponur";
     font-weight: 500;
   }
   .arrow {
     font-size: 5vw;
-    margin-top: -1.2vw !important;
-    width: 10vw;
+    margin-top: 9vw !important;
+    width: 11vw !important;
+    height: 11vw !important;
     padding: 2.5vw;
+    margin-left: 2vw !important;
+    margin-right: 2vw !important;
   }
 }
 

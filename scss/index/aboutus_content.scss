@@ -11,6 +11,8 @@
     font-style: normal;
   }
 
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;500&display=swap');
+
 .about_us_content{
     
 
@@ -622,7 +624,7 @@
   }
   @media (max-width: 480px) {
     .about_us_content {
-        margin-top: 4vw; 
+        margin-top: 5vw; 
         width: 90vw !important;
         margin-left: 5vw; 
         height: auto; 
@@ -638,14 +640,14 @@
         width: 100vw; 
         height: 80vw; 
         margin: 2vw 0; 
-        border-radius: 2vw; 
+        border-radius: 3vw !important; 
       }
     
       .about_us_content-container_1,
       .about_us_content-container_2,
       .about_us_content-container_3 {
-          width: 80vw !important;
-          height: 38vw !important;
+          width: 85vw !important;
+          height: 43.5vw !important;
         .about_us_content__container_1-content,
         .about_us_content__container_2-content,
         .about_us_content__container_3-content {
@@ -653,11 +655,12 @@
           height: 90vw;
     
           span {
-            font-size: 3.6vw !important; 
+            font-size: 4vw !important; 
           }
     
           p {
-            font-size: 2vw !important; 
+            font-size: 2.3vw !important; 
+            font-family: 'Montserrat', sans-serif;
           }
     
           img {
@@ -694,24 +697,24 @@
                 margin-bottom: 3.4vw !important;
     
                 &:nth-child(1) {
-                  font-size: 2.8vw;
+                  font-size: 4.2vw !important;
                   &:hover {
-                    font-size: 3.5vw; 
+                    font-size: 3.7vw; 
                   }
                 }
     
                 &:nth-child(2) {
-                  font-size: 2.6vw;
+                  font-size: 2.8vw;
                   margin-top: 0.2vw;
                   &:hover {
-                    font-size: 3.5vw;
+                    font-size: 3.7vw;
                   }
                 }
     
                 &:nth-child(3) {
-                  font-size: 3vw;
+                  font-size: 3.2vw;
                   &:hover {
-                    font-size: 3.5vw;
+                    font-size: 3.7vw;
                   }
                 }
               }

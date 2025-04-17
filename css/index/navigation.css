@@ -171,6 +171,9 @@
   }
 }
 @media (max-width: 480px) {
+  .navigation {
+    position: relative;
+  }
   .navigation-container {
     height: 10vw !important;
   }
