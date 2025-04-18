@@ -65,10 +65,8 @@ This combo makes your site both functional and gorgeous! 😍
 
 Let’s take a look at the commits to see how the project evolved! ⏳
 
-- **"walcic"** (2 months ago) 🕒  
-  An early commit—maybe the start of something big?  
-- **"final"** (5 days ago) ✅  
-  Multiple "final" commits—looks like you were polishing things up recently!  
+- **"ponur"** (5 days ago) ✅  
+  Multiple "ponur" commits—looks like you were polishing things up recently!  
 - **"metamorfaza - portfolio"** (5 days ago) 📋  
   Adding a portfolio section or project called "metamorfaza." Nice addition!  
 - **"ANCHOR ON MOBILE"** (3 days ago) 📱  
