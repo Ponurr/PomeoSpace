@@ -525,7 +525,7 @@
   .slider-container-laptop {
     width: 80vw !important;
     height: 62vw !important;
-    margin-left: 2vw !important;
+    margin-left: 1.5vw !important;
     margin-bottom: 2vw !important;
     margin-top: -6vw !important;
   }
@@ -533,17 +533,18 @@
     width: 80vw !important;
     height: 62vw !important;
     margin-top: -8vw !important;
+    margin-left: -0.5vw !important;
   }
   .slider-container-laptop-edge2 {
     width: 80vw !important;
     height: 62vw !important;
-    margin-left: 5vw !important;
+    margin-left: 5.5vw !important;
     margin-top: -8vw !important;
   }
   .slider-container-laptop-pomeo {
     width: 80vw !important;
     height: 62vw !important;
-    margin-left: 5vw !important;
+    margin-left: 5.5vw !important;
     margin-top: -8vw !important;
   }
   .button-portfolio {
